@@ -14,17 +14,13 @@ form label{
   font-weight: bold;
 }
 
-form input, form select{
-  width: 150px;
-}
-
-form input[type=text]{
+form input[type="text"]{
   border: 1px solid #CCCCCC;
   border-radius: 5px;
 }
 
-input[type="radio"] {
-  margin-right: 0;
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px;
 }
 
 fieldset{
