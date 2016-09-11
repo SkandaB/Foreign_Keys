@@ -20,15 +20,28 @@
                 <input name="lastName" type="text" />
             </div>
 
-             <div>
+            <div>
                  <label>Profession:</label>
                  <select name="profession">
                      <option value="engineer" selected>Engineer</option>
                      <option value="student">Student</option>
                      <option value="other">Other</option>
                  </select>
-             </div>
-
+            </div>
+            <div>
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="male" style="margin-right: 0" >Male<br>
+                <input type="radio" name="gender" value="female" style="margin-right: 0">Female
+            </div>
+            <div>
+                <label>Preferred Operating System</label><br>
+                <input type="checkbox" name="Linux" value="Linux">Linux<br>
+                <input type="checkbox" name="Windows" value="WinOS">Windows<br>
+                <input type="checkbox" name="Macintosh" value="MacOS">Macintosh<br>
+                <input type="checkbox" name="Android" value="Android">Android<br>
+                <input type="checkbox" name="iOS" value="iOS">iOS<br>
+                <input type="checkbox" name="Other" value="Other">Other<br>
+            </div>
             <div>
                 <input type="submit" value="Add User" class="btn btn-primary"/>
             </div>
