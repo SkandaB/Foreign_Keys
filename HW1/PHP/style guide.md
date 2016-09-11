@@ -1,5 +1,8 @@
 From: [PSR](http://www.php-fig.org/psr/psr-2/)
-Dir: [PHP project structure](http://code.tutsplus.com/tutorials/organize-your-next-php-project-the-right-way--net-5873)
+
+Directory: [PHP project structure](http://code.tutsplus.com/tutorials/organize-your-next-php-project-the-right-way--net-5873)
+
+Examples: [PHP style Guide](https://www.codeigniter.com/user_guide/general/styleguide.html)
 
 Overview
 ---------
