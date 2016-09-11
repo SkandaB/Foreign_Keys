@@ -1,4 +1,5 @@
-From: [a link](http://www.php-fig.org/psr/psr-2/)
+From: [PSR](http://www.php-fig.org/psr/psr-2/)
+Dir: [PHP project structure](http://code.tutsplus.com/tutorials/organize-your-next-php-project-the-right-way--net-5873)
 
 Overview
 ---------
