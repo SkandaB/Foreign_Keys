@@ -33,7 +33,8 @@ include_once('config.php');
                                       VALUES(?, ?, ?, ?)");
               $query->execute(array($firstName, $lastName, $profession, $gender));
               // echo 'Show table here';
-              header('Location: user_detail.html');
+              // header('Location: user_detail.html');
+              header('Location: user_detail.php');
             }
             catch(PDOException $ex) {
                 echo 'ERROR: '.$ex->getMessage();
