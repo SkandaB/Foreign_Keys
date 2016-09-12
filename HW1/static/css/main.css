@@ -1,0 +1,59 @@
+body{
+  background: #F5F5F5;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form label{
+  font-weight: bold;
+}
+
+form input[type="text"]{
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+fieldset{
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+fieldset > div{
+  margin: 15px;
+}
+
+.btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:  10px;
+  background-color: #fff;
+  text-align: center;
+  color: #222;
+  font-size: 14px;
+  border: 1px solid #4DB6AC;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary{
+    display: flex;
+    color: #fff;
+    background-color: #0097A7;
+    justify-content: center;
+}
+
+.btn-primary:hover{
+    opacity: 0.8;
+}
