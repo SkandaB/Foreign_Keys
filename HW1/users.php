@@ -15,7 +15,12 @@ include_once('config.php');
             $firstName  = filter_input(INPUT_POST, "firstName");
             $lastName   = filter_input(INPUT_POST, "lastName");
             $profession = filter_input(INPUT_POST, "profession");
+            $gender     = 'Male';
             $error      = "Something went wrong";
+
+            if (filter_input(INPUT_POST, "gender") == 'female') {
+                  $gender = 'Female';
+            }
 
             try {
              // Connect to the database.
@@ -24,10 +29,12 @@ include_once('config.php');
               $con->setAttribute(PDO::ATTR_ERRMODE,
                                  PDO::ERRMODE_EXCEPTION);
 
-              $query = $con->prepare("INSERT INTO users(first_name, last_name, profession)
-                                      VALUES(?, ?, ?)");
-              $query->execute(array($firstName, $lastName, $profession));
-              echo 'Show table here';
+              $query = $con->prepare("INSERT INTO users(first_name, last_name, profession, gender)
+                                      VALUES(?, ?, ?, ?)");
+              $query->execute(array($firstName, $lastName, $profession, $gender));
+              // echo 'Show table here';
+              // header('Location: user_detail.html');
+              header('Location: user_detail.php');
             }
             catch(PDOException $ex) {
                 echo 'ERROR: '.$ex->getMessage();

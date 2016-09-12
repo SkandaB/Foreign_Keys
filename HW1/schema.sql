@@ -31,20 +31,19 @@ CREATE TABLE `users` (
   `first_name` varchar(100) NOT NULL,
   `last_name` varchar(100) NOT NULL,
   `profession` varchar(100) DEFAULT NULL,
-  `gender` enum('Male','Female','','') NOT NULL,
-  `operating_system` varchar(1000) NOT NULL COMMENT 'Multiple values will be stored in this column'
+  `gender` enum('Male','Female') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `first_name`, `last_name`, `profession`, `Gender`, `operating_system`) VALUES
-(4, 'a', 'v', 'student', 'Male', ''),
-(6, 'a', 'v', 'other', 'Male', ''),
-(7, 'a', 'v', 'other', 'Male', ''),
-(8, 'sdf', 'sfdsdf', 'engineer', 'Male', ''),
-(9, 'SDF', 'ASDF', 'engineer', 'Male', '');
+INSERT INTO `users` (`id`, `first_name`, `last_name`, `profession`, `Gender`) VALUES
+(4, 'a', 'v', 'student', 'Male'),
+(6, 'a', 'v', 'other', 'Male'),
+(7, 'a', 'v', 'other', 'Male'),
+(8, 'sdf', 'sfdsdf', 'engineer', 'Male'),
+(9, 'SDF', 'ASDF', 'engineer', 'Male');
 
 --
 -- Indexes for dumped tables
