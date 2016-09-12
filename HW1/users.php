@@ -1,3 +1,6 @@
+<?php
+include_once('config.php');
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -9,16 +12,15 @@
     <p>
         <?php
             // Get form input.
-            $firstName     = filter_input(INPUT_POST, "firstName");
-            $lastName = filter_input(INPUT_POST, "lastName");
+            $firstName  = filter_input(INPUT_POST, "firstName");
+            $lastName   = filter_input(INPUT_POST, "lastName");
             $profession = filter_input(INPUT_POST, "profession");
-            $error     = "Something went wrong";
-
+            $error      = "Something went wrong";
 
             try {
              // Connect to the database.
-              $con = new PDO("mysql:host=localhost;dbname=foreignkeys",
-                             "foreignkeys", "nonosql");
+              $con = new PDO("mysql:host=" . $config["dbhost"] . ";dbname=" . $config["dbname"],
+                             $config["dbuser"], $config["dbpass"]);
               $con->setAttribute(PDO::ATTR_ERRMODE,
                                  PDO::ERRMODE_EXCEPTION);
 

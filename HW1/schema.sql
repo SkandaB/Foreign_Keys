@@ -31,15 +31,15 @@ CREATE TABLE `users` (
   `first_name` varchar(100) NOT NULL,
   `last_name` varchar(100) NOT NULL,
   `profession` varchar(100) DEFAULT NULL,
-  `Gender` enum('Male','Female','','') NOT NULL,
-  `Operting_System` varchar(1000) NOT NULL COMMENT 'Multiple values will be stored in this column'
+  `gender` enum('Male','Female','','') NOT NULL,
+  `operating_system` varchar(1000) NOT NULL COMMENT 'Multiple values will be stored in this column'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `first_name`, `last_name`, `profession`, `Gender`, `Operting_System`) VALUES
+INSERT INTO `users` (`id`, `first_name`, `last_name`, `profession`, `Gender`, `operating_system`) VALUES
 (4, 'a', 'v', 'student', 'Male', ''),
 (6, 'a', 'v', 'other', 'Male', ''),
 (7, 'a', 'v', 'other', 'Male', ''),
