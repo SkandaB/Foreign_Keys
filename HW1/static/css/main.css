@@ -5,13 +5,17 @@ body{
   justify-content: center;
 }
 
-form {
+form div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 form label{
+  display: flex;
+  justify-content: center;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 form input[type="text"]{
@@ -20,7 +24,16 @@ form input[type="text"]{
 }
 
 input[type="radio"], input[type="checkbox"] {
-  margin-right: 10px;
+  margin-left: 10px;
+}
+
+form .radio-options, form .checkbox-options{
+  display: flex;
+  flex-direction: row;
+}
+
+form .radio-options input{
+  margin-right: 5px;
 }
 
 fieldset{

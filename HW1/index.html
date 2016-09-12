@@ -12,16 +12,16 @@
         <fieldset>
             <legend>User form</legend>
             <div>
-                <label>First name:</label>
+                <label>First name</label>
                 <input name="firstName" type="text" />
             </div>
             <div>
-                <label>Last name:</label>
+                <label>Last name</label>
                 <input name="lastName" type="text" />
             </div>
 
             <div>
-                 <label>Profession:</label>
+                 <label>Profession</label>
                  <select name="profession">
                      <option value="engineer" selected>Engineer</option>
                      <option value="student">Student</option>
@@ -29,13 +29,17 @@
                  </select>
             </div>
             <div>
-                <label>Gender</label><br>
-                <input type="radio" name="gender" value="male">Male<br>
-                <input type="radio" name="gender" value="female">Female
+                <label>Gender</label>
+                <div class="radio-options">
+                    <input type="radio" name="gender" value="male">Male</input>
+                    <input type="radio" name="gender" value="female">Female</input>
+                </div>
             </div>
             <div>
-                <label>Confirm that you are a student in CMPE 226</label><br>
-                <input type="checkbox" name="Enrolled" value="Enrolled">Confirm<br>
+                <div class="checkbox-options">
+                    <input type="checkbox" name="Enrolled" value="Enrolled">
+                    <label>Are you a student in CMPE 226?</label>
+                </div>
             </div>
             <div>
                 <input type="submit" value="Add User" class="btn btn-primary"/>
