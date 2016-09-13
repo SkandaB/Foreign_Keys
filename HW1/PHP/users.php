@@ -16,10 +16,15 @@ include_once('config.php');
             $lastName   = filter_input(INPUT_POST, "lastName");
             $profession = filter_input(INPUT_POST, "profession");
             $gender     = 'Male';
+            $subscribe  = 'No';
             $error      = "Something went wrong";
 
             if (filter_input(INPUT_POST, "gender") == 'female') {
                   $gender = 'Female';
+            }
+
+            if (filter_input(INPUT_POST, "subscribed") == 'yes') {
+                  $subscribe = 'Yes';
             }
 
             try {
@@ -29,9 +34,9 @@ include_once('config.php');
               $con->setAttribute(PDO::ATTR_ERRMODE,
                                  PDO::ERRMODE_EXCEPTION);
 
-              $query = $con->prepare("INSERT INTO users(first_name, last_name, profession, gender)
-                                      VALUES(?, ?, ?, ?)");
-              $query->execute(array($firstName, $lastName, $profession, $gender));
+              $query = $con->prepare("INSERT INTO users(first_name, last_name, profession, gender, subscribe)
+                                      VALUES(?, ?, ?, ?, ?)");
+              $query->execute(array($firstName, $lastName, $profession, $gender, $subscribe));
               // echo 'Show table here';
               // header('Location: user_detail.html');
               header('Location: user_detail.php');

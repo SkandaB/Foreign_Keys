@@ -26,6 +26,7 @@ function build_table(){
             $html .= '<td>'.$v['last_name'].'</td>';
             $html .= '<td>'.$v['profession'].'</td>';
             $html .= '<td>'.$v['gender'].'</td>';
+            $html .= '<td>'.$v['subscribe'].'</td>';
             $html .= '</tr>';
         }        
     }
@@ -40,7 +41,7 @@ $html .= '<html lang="en-US">';
 $html .= '<head>';
 $html .= '    <meta charset="UTF-8">';
 $html .= '    <title>Foreign Keys - HW1 - User Detail</title>';
-$html .= '    <link href="static/css/main.css" rel="stylesheet" type="text/css">';
+$html .= '    <link href="../static/css/main.css" rel="stylesheet" type="text/css">';
 $html .= '</head>';
 $html .= '<body>';
 $html .= '    <table>';
@@ -49,6 +50,7 @@ $html .= '            <th>First Name</th>';
 $html .= '            <th>Last Name</th>';
 $html .= '            <th>Profession</th>';
 $html .= '            <th>Gender</th>';
+$html .= '            <th>Subscribed</th>';
 $html .= '        </tr>';
 $html .= build_table();
 $html .= '    </table>';
