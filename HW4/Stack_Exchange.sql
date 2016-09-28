@@ -53,17 +53,16 @@ DROP TABLE IF EXISTS `comment`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `comment` (
-  `number` int(11) NOT NULL,
+  `number` int(11) NOT NULL AUTO_INCREMENT,
   `post_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `body` varchar(50) NOT NULL,
-  `id` int(11) NOT NULL,
-  PRIMARY KEY (`number`,`id`),
+  PRIMARY KEY (`number`,`post_id`),
   KEY `post_id` (`post_id`),
   KEY `user_id` (`user_id`),
   CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`post_id`) REFERENCES `post` (`id`),
   CONSTRAINT `comment_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -72,7 +71,7 @@ CREATE TABLE `comment` (
 
 LOCK TABLES `comment` WRITE;
 /*!40000 ALTER TABLE `comment` DISABLE KEYS */;
-INSERT INTO `comment` VALUES (1,1,3,'Dude you should know this',1),(1,1,4,'That\'s like basic man',2),(1,2,1,'Use Google bro',3),(1,2,2,'Refer the official documentation',4),(1,2,5,'This is a duplicate question',5);
+INSERT INTO `comment` VALUES (1,1,3,'Dude you should know this'),(2,1,4,'That\'s like basic man'),(3,2,1,'Use Google bro'),(4,2,2,'Refer the official documentation'),(5,2,5,'This is a duplicate question'),(6,3,1,'I know this one');
 /*!40000 ALTER TABLE `comment` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -273,4 +272,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-09-27 16:31:21
+-- Dump completed on 2016-09-27 21:31:20
