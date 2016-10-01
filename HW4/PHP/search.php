@@ -23,9 +23,10 @@ function  build_table(){
            $stmt->setFetchMode(PDO::FETCH_ASSOC);// set the resulting array to associative
            $results = array();
 
+           $html .=  '<tr><th>Content</th><th>Creation Time</th></tr>';
            foreach(new RecursiveArrayIterator($stmt->fetchAll()) as $k=>$v) {
                array_push($results, $v);
-               $html .= '<tr><td>'.$v['body'].'</td><td>'.$v['body'].'</td></tr>';
+               $html .= '<tr><td>'.$v['body'].'</td><td>'.$v['created_timestamp'].'</td></tr>';
            }
 
          } else if ( isset($_POST['topCommentors']) )   {
@@ -38,6 +39,7 @@ function  build_table(){
            $stmt->setFetchMode(PDO::FETCH_ASSOC);// set the resulting array to associative
            $results = array();
 
+           $html .=  '<tr><th>Name</th><th>Comment Count</th></tr>';
            foreach(new RecursiveArrayIterator($stmt->fetchAll()) as $k=>$v) {
                array_push($results, $v);
                $html .= '<tr><td>'.$v['full_name'].'</td><td>'.$v['comment_count'].'</td></tr>';
@@ -62,10 +64,6 @@ function  build_table(){
 
 <body>
   <table>
-    <tr>
-      <th>User Name</th>
-      <th>Question</th>
-    </tr>
      <?php build_table() ?>
    </table>
 </body>
