@@ -1,6 +1,6 @@
 -- MySQL dump 10.16  Distrib 10.1.17-MariaDB, for Win64 (AMD64)
 --
--- Host: localhost    Database: stack_exchange
+-- Host: localhost    Database: foreignkeys
 -- ------------------------------------------------------
 -- Server version	10.1.17-MariaDB
 
@@ -235,6 +235,33 @@ INSERT INTO `user_email` VALUES ('apoorv.patel@sjsu.edu',1),('john.smith@sjsu.ed
 UNLOCK TABLES;
 
 --
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(100) NOT NULL,
+  `last_name` varchar(100) NOT NULL,
+  `profession` varchar(100) DEFAULT NULL,
+  `gender` enum('Male','Female') NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (4,'a','v','student','Male'),(6,'a','v','other','Male'),(7,'a','v','other','Male'),(8,'sdf','sfdsdf','engineer','Male'),(9,'SDF','ASDF','engineer','Male'),(10,'Apoorv','Patel','engineer','Male'),(11,'Apoorva','Patel','student','Male'),(12,'Amita','Patel','student','Female'),(13,'Anita','patel','engineer','Female'),(14,'harsh','Patel','student','Male'),(15,'Apoorv','Patel','engineer','Male'),(16,'Apoorv','Patel','engineer','Male');
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `vote`
 --
 
@@ -259,7 +286,7 @@ CREATE TABLE `vote` (
 
 LOCK TABLES `vote` WRITE;
 /*!40000 ALTER TABLE `vote` DISABLE KEYS */;
-INSERT INTO `vote` VALUES (1,1,6),(2,1,8),(3,1,9),(4,1,10),(5,2,7);
+INSERT INTO `vote` VALUES (1,1,6),(2,1,8),(3,1,9),(4,1,10),(5,2,7),(6,2,6),(7,2,7),(8,3,8),(9,3,6);
 /*!40000 ALTER TABLE `vote` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -272,4 +299,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-09-27 21:31:20
+-- Dump completed on 2016-10-04 14:05:25
