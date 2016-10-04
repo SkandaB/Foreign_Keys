@@ -31,24 +31,6 @@ include_once('PHP/tags.php');
             <input type="submit" name="topCommentors" value="See Top Commentors" class="btn btn-primary"/>
           </div>
         </fieldset>
-        <h4>Vote Count for Each Post</h4>
-        <fieldset>
-          <div>
-            <input type="submit" name="voteCountByPost" value="Post Count" class="btn btn-primary"/>
-          </div>
-        </fieldset>
-        <h4>Questions without any comments?</h4>
-        <fieldset>
-          <div>
-            <input type="submit" name="questionNoComment" value="Questions No Comments" class="btn btn-primary"/>
-          </div>
-        </fieldset>
-        <h4>Highest Voted posted Tag wise in Descending Order</h4>
-        <fieldset>
-          <div>
-            <input type="submit" name="postByVotePerTag" value="Good answers Tag wise" class="btn btn-primary"/>
-          </div>
-        </fieldset>
     </form>
 
 </body>

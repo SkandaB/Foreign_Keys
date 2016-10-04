@@ -34,6 +34,7 @@ function  build_table(){
                                    FROM comment c INNER JOIN user u
                                    ON c.user_id=u.id
                                    GROUP BY c.user_id
+                                   HAVING count(*) > 1
                                    order by count(*) desc");
            $stmt->execute();
            $stmt->setFetchMode(PDO::FETCH_ASSOC);// set the resulting array to associative
@@ -44,8 +45,57 @@ function  build_table(){
                array_push($results, $v);
                $html .= '<tr><td>'.$v['full_name'].'</td><td>'.$v['comment_count'].'</td></tr>';
            }
-         }
+         } else if ( isset($_POST['voteCountByPost']) )   {
+           $stmt = $con->prepare(" SELECT p.body, COUNT(v.post_id) AS vote_count
+                                   FROM vote v INNER JOIN post p
+                                   ON v.post_id=p.id
+                                   GROUP BY v.post_id
+                                   order by count(*) desc");
+           $stmt->execute();
+           $stmt->setFetchMode(PDO::FETCH_ASSOC);// set the resulting array to associative
+           $results = array();
 
+           $html .=  '<tr><th>Post</th><th>Vote Count</th></tr>';
+           foreach(new RecursiveArrayIterator($stmt->fetchAll()) as $k=>$v) {
+               array_push($results, $v);
+               $html .= '<tr><td>'.$v['body'].'</td><td>'.$v['vote_count'].'</td></tr>';
+           }
+         } else if ( isset($_POST['questionNoComment']) )   {
+           $stmt = $con->prepare(" SELECT p.body
+                                   FROM question q INNER JOIN post p
+                                   ON q.post_id=p.id
+                                   LEFT JOIN comment c
+                                   ON p.id=c.post_id
+                                   WHERE c.post_id is NULL
+                                   GROUP BY p.id");
+           $stmt->execute();
+           $stmt->setFetchMode(PDO::FETCH_ASSOC);// set the resulting array to associative
+           $results = array();
+
+           $html .=  '<tr><th>Post</th></tr>';
+           foreach(new RecursiveArrayIterator($stmt->fetchAll()) as $k=>$v) {
+               array_push($results, $v);
+               $html .= '<tr><td>'.$v['body'].'</td></tr>';
+           }
+         } else if ( isset($_POST['postByVotePerTag']) )   {
+           $stmt = $con->prepare(" SELECT p.body, a.post_id, a.question_id, qt.tag_id, t.name, COUNT(v.post_id) AS vote_count
+                                   FROM post p
+                                   INNER JOIN answer a ON p.id=a.post_id
+                                   INNER JOIN question_tag qt ON qt.question_id=a.question_id
+                                   INNER JOIN tag t ON t.id=qt.tag_id
+                                   INNER JOIN vote v ON v.post_id=a.post_id
+                                   GROUP BY t.name
+                                   ORDER BY COUNT(*) desc");
+           $stmt->execute();
+           $stmt->setFetchMode(PDO::FETCH_ASSOC);// set the resulting array to associative
+           $results = array();
+
+           $html .=  '<tr><th>Tag</th><th>Post</th><th>Vote Count</th></tr>';
+           foreach(new RecursiveArrayIterator($stmt->fetchAll()) as $k=>$v) {
+               array_push($results, $v);
+               $html .= '<tr><td>'.$v['name'].'</td><td>'.$v['body'].'</td><td>'.$v['vote_count'].'</td></tr>';
+           }
+         }
     }
     catch(PDOException $ex) {
         echo 'ERROR: '.$ex->getMessage();
