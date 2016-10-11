@@ -1,5 +1,21 @@
 <?php
 //include_once('PHP/config.php');
+
+class Commenter
+{
+    private $userId;
+    private $fullName;
+    private $commentCount;
+
+    public function getUserId()     { return $this->userId; }
+    public function getFullName()   { return $this->fullName; }
+    public function getCommentCount()   { return $this->commentCount; }
+}
+
+function getTopCommentersRowHTML(Commenter $commenter) {
+    return '<tr><td>'.$commenter->getFullName().'</td><td>'.$commenter->getCommentCount().'</td></tr>';
+}
+
 function  build_table(){
   include_once('config.php');
 
@@ -30,21 +46,19 @@ function  build_table(){
            }
 
          } else if ( isset($_POST['topCommentors']) )   {
-           $stmt = $con->prepare(" SELECT u.full_name, COUNT(c.user_id) AS comment_count
+           $stmt = $con->prepare(" SELECT u.full_name as fullName, c.user_id as userId, COUNT(c.user_id) as commentCount
                                    FROM comment c INNER JOIN user u
                                    ON c.user_id=u.id
                                    GROUP BY c.user_id
                                    HAVING count(*) > 1
                                    order by count(*) desc");
            $stmt->execute();
-           $stmt->setFetchMode(PDO::FETCH_ASSOC);// set the resulting array to associative
-           $results = array();
+           $stmt->setFetchMode(PDO::FETCH_CLASS, "Commenter");
 
            $html .=  '<tr><th>Name</th><th>Comment Count</th></tr>';
-           foreach(new RecursiveArrayIterator($stmt->fetchAll()) as $k=>$v) {
-               array_push($results, $v);
-               $html .= '<tr><td>'.$v['full_name'].'</td><td>'.$v['comment_count'].'</td></tr>';
-           }
+	   while ($commenter = $stmt->fetch()) {
+                $html .= getTopCommentersRowHTML($commenter);
+	   }
          } else if ( isset($_POST['voteCountByPost']) )   {
            $stmt = $con->prepare(" SELECT p.body, COUNT(v.post_id) AS vote_count
                                    FROM vote v INNER JOIN post p
