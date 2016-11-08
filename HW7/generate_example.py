@@ -40,5 +40,28 @@ for i in range(10, 101):
         db.commit()
     except:
        db.rollback()
+        
+#Calendar table
+def daterange(start_date, end_date):
+    for n in range(int ((end_date - start_date).days)):
+        yield start_date + timedelta(n)
+
+#Calendar table
+start_date = date(2015, 1, 2)
+end_date = date(2016, 10, 30)
+for single_date in daterange(start_date, end_date):
+    try:
+        fulldate = single_date.strftime("%Y-%m-%d")
+        day_of_week = calendar.day_name[single_date.weekday()]
+        month = calendar.month_name[single_date.weekday()]
+        year = single_date.year
+        day_of_month =  single_date.day
+        quarter = 'Q' + str((single_date.month-1)//3 + 1)
+        cur.execute('''INSERT into calendar (fulldate, month, year, day_of_month, day_of_week, quarter)
+                      values ( %s, %s, %s, %s, %s, %s)''',
+                      (fulldate, month, year, day_of_month, day_of_week, quarter))
+        db.commit()
+    except:
+        db.rollback()
 
 db.close()
