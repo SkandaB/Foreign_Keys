@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block body %}
+  <p>
+    {{q}}
+  </p>
+  <h2> Question </h2>
+  <div class="row question">
+    {{ question[0] }}
+  </div>
+  <div class="row tags">
+    {% for tag in tags %}
+      <span class="tag">
+        {{tag[0]}}
+      </span>
+    {% endfor %}
+  </div>
+  <h2> Answers </h2>
+  {% for a in answers %}
+    <div class="row answer
+    {% if  a[0] == 1 %}
+      correct
+    {% endif %}
+    ">
+
+      {{ a[1] }}
+    </div>
+  {% endfor %}
+{% endblock %}

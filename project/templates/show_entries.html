@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    <form action="{{ url_for('add_entry') }}" method="post" class="add-entry">
+      <dl>
+        <dt>Title:
+        <dd><input type="text" size="30" name="title">
+        <dt>Text:
+        <dd><textarea name="text" rows="5" cols="40"></textarea>
+        <dd><input type="submit" value="Share">
+      </dl>
+    </form>
+  {% endif %}
+  <div class="questions">
+  {% for entry in entries %}
+    <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[0]) }}">
+      <div class="row">
+        <input type="submit" value="{{ entry[1] }}"></button>
+      </div>
+    </form>
+  {% else %}
+    <div><em>Unbelievable.  No entries here so far</em></div>
+  {% endfor %}
+
+    <!-- <ul class="pagination">
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+    </ul> -->
+  </div>
+{% endblock %}
