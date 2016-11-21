@@ -20,7 +20,7 @@ def get_questions():
         select
             question.id as id, question.id as _id, post_id, accepted_answer_id, user_id, body, created_timestamp
         from question, post
-        where question.post_id = post.id limit 10
+        where question.post_id = post.id
     """)
     res = cursor.fetchone()
     while res:
