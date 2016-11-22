@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="concert.xsd">
+
+    <concert title="Madrid Rush">
+        <country>Spain</country>
+        <month>April</month>
+    </concert>
+    <concert title="Tomorrowland">
+        <country>Belgium</country>
+        <month>July</month>
+    </concert>
+    <concert title="Adele">
+        <country>USA</country>
+        <month>September</month>
+    </concert>
+</catalog>

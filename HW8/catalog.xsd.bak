@@ -10,7 +10,7 @@
         <xs:attribute name="country" type="xs:string"/>
     </xs:complexType>
     <xs:element name="artist" type="artist_type"/>
-
+    
     <xs:complexType name="album_type">
         <xs:sequence>
             <xs:element ref="song" minOccurs="1" maxOccurs="200"/>
@@ -19,7 +19,7 @@
         <xs:attribute name="releasedate" type="xs:date"/>
     </xs:complexType>
     <xs:element name="album" type="album_type"/>
-
+    
     <xs:complexType name="song_type">
         <xs:sequence>
             <xs:element name="title" type="xs:string"/>
@@ -27,7 +27,7 @@
         </xs:sequence>
     </xs:complexType>
     <xs:element name="song" type="song_type"/>
-
+    
 
     <xs:complexType name="catalog_type">
         <xs:sequence>
