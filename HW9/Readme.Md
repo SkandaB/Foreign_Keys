@@ -10,7 +10,7 @@ Make one query that does aggregation using map-reduce.
 #### Import the database into PhpMyAdmin.
 Use import button of PhpMyAdmin.
 #### Install MongoDB, and start the MongoDB server.
-Command: /usr/local/mongodb/3.2.10/bin/mongod
+Command: /usr/local/Cellar/mongodb/3.2.11/bin/mongod
 #### Run the Python script to import data from MySQL into MongoDB.
 Command: python mongo.py
 
