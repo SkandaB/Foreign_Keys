@@ -15,11 +15,11 @@ Command: /usr/local/Cellar/mongodb/3.2.11/bin/mongod
 Command: python mongo.py
 
 ## Motivation
-Create a MongoDB database.
-Create two collections for the database and insert sample documents into each collection.
+##### Create a MongoDB database.
+##### Create two collections for the database and insert sample documents into each collection.
 
 ### For each collection:
-Pretty-print the contents of all its documents.
-Make three queries with various search criteria and sorting options.
-Make one query that does “pipeline” aggregation.
-Make one query that does aggregation using map-reduce.
+#####  Pretty-print the contents of all its documents.
+##### Make three queries with various search criteria and sorting options.
+##### Make one query that does “pipeline” aggregation.
+##### Make one query that does aggregation using map-reduce.
