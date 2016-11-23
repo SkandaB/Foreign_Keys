@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="artist_type">
+        <xs:sequence>
+            <xs:element ref="album" minOccurs="0" maxOccurs="100"/>
+        </xs:sequence>
+        <xs:attribute name="genre" type="xs:string"/>
+        <xs:attribute name="title" type="xs:string"/>
+        <xs:attribute name="country" type="xs:string"/>
+    </xs:complexType>
+    <xs:element name="artist" type="artist_type"/>
+
+    <xs:complexType name="album_type">
+        <xs:sequence>
+            <xs:element ref="song" minOccurs="1" maxOccurs="200"/>
+        </xs:sequence>
+        <xs:attribute name="title" type="xs:string"/>
+        <xs:attribute name="releasedate" type="xs:date"/>
+    </xs:complexType>
+    <xs:element name="album" type="album_type"/>
+
+    <xs:complexType name="song_type">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="length" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="song" type="song_type"/>
+
+
+    <xs:complexType name="catalog_type">
+        <xs:sequence>
+            <xs:element ref="artist" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="catalog" type="catalog_type"/>
+</xs:schema>

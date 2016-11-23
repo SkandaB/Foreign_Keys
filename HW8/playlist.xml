@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="playlist.xsd">
+    
+    <playlist name="Rock">
+        <creator name="Pink">
+            <song>
+                <title>Around the World</title>
+                <length>200</length>
+            </song>
+            <song>
+                <title>Dosed</title>
+                <length>203</length>
+            </song>
+            <song>
+                <title>Depak Ine</title>
+                <length>185</length>
+            </song>
+        </creator>
+    </playlist>
+    
+    <playlist name="EDM">
+        <creator name="DJ.AVB">
+            <song>
+                <title>Estiu</title>
+                <length>210</length>
+            </song>
+            <song>
+                <title>Dosed</title>
+                <length>203</length>
+            </song>
+            <song>
+                <title>Cabron</title>
+                <length>233</length>
+            </song>
+        </creator>
+    </playlist>
+    
+</catalog>

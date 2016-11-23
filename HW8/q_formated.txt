@@ -1,0 +1,10 @@
+List all artists                             /catalog/artist/@title
+All Indie albums                             /catalog/artist[@genre='Indie']/album/@title
+All songs in the album, by the way           /catalog/artist/album[@title='By the Way']/song/title
+All songs by artist                          //artist[@title='Red Hot Chili Peppers']//song/title
+Total play time of album- "By the way"       sum(/catalog/artist/album[@title='By the Way']/song/length)
+All albums for an artist                      /catalog/artist[@title='Red Hot Chili Peppers']/album/@title
+All artists from USA                         /catalog/artist[@country='USA']/@title
+Albums released in 1999                      //album[substring(@releasedate, 1, 4) = '1999']
+Albums from artists in US                    //album[ancestor::artist//@country = 'USA']
+Albums that run for more than 1300 seconds   //album[sum(song/length/number()) >1300]

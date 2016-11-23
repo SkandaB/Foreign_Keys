@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="catalog.xsd">
+
+    <artist title="Red Hot Chili Peppers" country="USA" genre="Alternative Rock">
+        <album title="Californication" releasedate="1999-10-10">
+            <song>
+                <title>Otherside</title>
+                <length>170</length>
+            </song>
+            <song>
+                <title>Scar Tissue</title>
+                <length>180</length>
+            </song>
+            <song>
+                <title>Around the World</title>
+                <length>200</length>
+            </song>
+        </album>
+
+        <album title="By the Way" releasedate="2003-03-04">
+            <song>
+                <title>Can't Stop</title>
+                <length>220</length>
+            </song>
+            <song>
+                <title>Midnight</title>
+                <length>183</length>
+            </song>
+            <song>
+                <title>Dosed</title>
+                <length>203</length>
+            </song>
+            <song>
+                <title>Cabron</title>
+                <length>233</length>
+            </song>
+            <song>
+                <title>This Is the Place</title>
+                <length>209</length>
+            </song>
+            <song>
+                <title>Throw Away Your Television</title>
+                <length>253</length>
+            </song>
+        </album>
+    </artist>
+
+    <artist title="John Talabot" country="Spain" genre="Electronic">
+        <album title="Fin" releasedate="2015-07-08">
+            <song>
+                <title>El Oeste</title>
+                <length>175</length>
+            </song>
+            <song>
+                <title>Depak Ine</title>
+                <length>185</length>
+            </song>
+            <song>
+                <title>Missing You</title>
+                <length>210</length>
+            </song>
+            <song>
+                <title>Last Land</title>
+                <length>240</length>
+            </song>
+            <song>
+                <title>Estiu</title>
+                <length>210</length>
+            </song>
+        </album>
+    </artist>
+
+    <artist title="Beach House" country="USA" genre="Indie">
+        <album title="Bloom" releasedate="2012-02-03">
+            <song>
+                <title>Myth</title>
+                <length>165</length>
+            </song>
+            <song>
+                <title>Wild</title>
+                <length>185</length>
+            </song>
+            <song>
+                <title>Lazuli</title>
+                <length>210</length>
+            </song>
+            <song>
+                <title>The Hours</title>
+                <length>242</length>
+            </song>
+            <song>
+                <title>On the Sea</title>
+                <length>218</length>
+            </song>
+            <song>
+                <title>Irene</title>
+                <length>236</length>
+            </song>
+            <song>
+                <title>Troublemaker</title>
+                <length>209</length>
+            </song>
+        </album>
+    </artist>
+
+</catalog>
