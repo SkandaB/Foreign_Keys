@@ -1,21 +1,11 @@
 {% extends "layout.html" %}
 {% block body %}
   {% if session.logged_in %}
-    <form action="{{ url_for('add_entry') }}" method="post" class="add-entry">
-      <dl>
-        <dt>Title:
-        <dd><input type="text" size="30" name="title">
-        <dt>Tag:
-        <dd><input type="text" size="30" name="tag">
-        <dt>Text:
-        <dd><textarea name="text" rows="5" cols="40"></textarea>
-        <dd><input type="submit" value="Share">
-      </dl>
-    </form>
+    {% include "forms/question_form.html" %}
   {% endif %}
   <div class="questions">
   {% for entry in entries %}
-    <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[0]) }}">
+    <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[2]) }}">
       <div class="row">
         <input type="submit" value="{{ entry[1] }}"></button>
       </div>

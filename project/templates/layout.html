@@ -1,9 +1,11 @@
 <!doctype html>
 <title>CMPE 226 Final Project</title>
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.min.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap-select.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 
-<div class="page col-md-6 col-md-offset-3">
+<div class="page col-md-8 col-md-offset-2">
   <h1>CMPE 226 Final Project</h1>
   <div class="metanav">
   {% if not session.logged_in %}
@@ -16,7 +18,10 @@
     <div class="flash">{{ message }}</div>
   {% endfor %}
   {% block body %}{% endblock %}
-  <script type=text/javascript src="{{url_for('static', filename='jquery-3.1.1.min.js') }}"></script>
-  <script type=text/javascript src="{{url_for('static', filename='main.js') }}"></script>
+  <script type=text/javascript src="{{url_for('static', filename='js/jquery-3.1.1.min.js') }}"></script>
+  <script type=text/javascript src="{{url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  <script type=text/javascript src="{{url_for('static', filename='js/bootstrap-select.min.js') }}"></script>
+  <script type=text/javascript src="{{url_for('static', filename='js/helper.js') }}"></script>
+  <script type=text/javascript src="{{url_for('static', filename='js/main.js') }}"></script>
 
 </div>
