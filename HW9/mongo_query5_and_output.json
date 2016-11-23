@@ -1,0 +1,13 @@
+{ "_id" : NumberLong(65), "username" : "john-hiott", "name" : "John Hiott", "location" : "NULL" }
+{ "_id" : NumberLong(87), "username" : "dwjohnston", "name" : "dwjohnston", "location" : "NULL" }
+{ "_id" : NumberLong(116), "username" : "johnp", "name" : "JohnP", "location" : "Arizona" }
+{ "_id" : NumberLong(801), "username" : "john-batdorf", "name" : "John Batdorf", "location" : "Portland, OR" }
+{ "_id" : NumberLong(803), "username" : "johnz", "name" : "JohnZ", "location" : "NULL" }
+{ "_id" : NumberLong(804), "username" : "owen-johnson", "name" : "Owen Johnson", "location" : "Iowa" }
+{ "_id" : NumberLong(2648), "username" : "john-m", "name" : "John M", "location" : "NYC" }
+{ "_id" : NumberLong(4497), "username" : "john", "name" : "John", "location" : "NULL" }
+{ "_id" : NumberLong(4501), "username" : "john", "name" : "John", "location" : "NULL" }
+{ "_id" : NumberLong(4826), "username" : "john", "name" : "John", "location" : "NULL" }
+{ "_id" : NumberLong(4891), "username" : "john", "name" : "John", "location" : "NULL" }
+{ "_id" : NumberLong(5247), "username" : "john-mallett", "name" : "John Mallett", "location" : "NULL" }
+{ "_id" : NumberLong(5817), "username" : "john-feltz", "name" : "John Feltz", "location" : "Ann Arbor, MI" }

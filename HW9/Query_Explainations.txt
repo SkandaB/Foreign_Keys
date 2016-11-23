@@ -1,0 +1,11 @@
+Query 1 - All questions that have the tag belgian-beers
+
+Query 2 - questions with more than 2 answers
+
+Query 3 - All questions that have no accepted answers sorted by timestamp
+
+Query 4 - username with length less than 4
+
+Query 5 - users that have john in their name
+
+Query 6 - users that are from India 

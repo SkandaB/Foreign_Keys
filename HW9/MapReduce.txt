@@ -8,3 +8,16 @@ db.users.mapReduce(
         out: "location_count"
     }
 )
+
+// Query to return all postIDs which are not answered
+
+db.questions.mapReduce(
+    function() {
+    if(this.accepted_answer_id == null)
+    emit(this.id, 1);
+    },
+    function(key,values) { return Array.sum(values)},
+    {
+        out: "unanswered_question_count"
+    }
+)
