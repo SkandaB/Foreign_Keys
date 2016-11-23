@@ -1,0 +1,761 @@
+## All questions that have no accepted answers sorted by timestamp
+
+> db.getCollection('questions').find( { accepted_answer_id: null } ).sort({'created_timestamp': -1}).pretty()
+{
+	"_id" : NumberLong(674),
+	"body" : "<p>I do not have much options in beer variety and therefore I need some good cocktail of beer with vodka/tequila or some other good choice to make it good for a party.</p>\n\n<p>Is there any way to mix things up?   </p>\n",
+	"user_id" : NumberLong(5860),
+	"tags" : [
+		"beer-cocktails",
+		"recommendations",
+		"vodka"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6268),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5816),
+			"comments" : [
+				{
+					"body" : "In the UK, during the 1970's & 80's, consumption and domination of traditional beer was dented by the slow but inexorable rise in popularity of lager. It became fashionable, particularly among the ladies, to drink a lager & lime (cordial), a quasi-beer cocktail. The men followed suit to a certain extent if only because the middling quality of lager available in this era benefited from a good dash of lime cordial. The popularity of a lager & lime has waned but the consumption of straight lager has burgeoned in the last 30 years, quite possibly matching or overtaking that of beer in the UK.",
+					"post_id" : NumberLong(6270),
+					"created_timestamp" : ISODate("2016-09-01T03:35:00Z"),
+					"user_id" : NumberLong(5816),
+					"id" : NumberLong(1651)
+				},
+				{
+					"body" : "In support of my claim that lager consumption has matched or overtaken traditional beer in UK sales, I cite The Daily Telegraph, \"How the UK became a nation of lager drinkers\", online edition, 28 Nov 2014.",
+					"post_id" : NumberLong(6270),
+					"created_timestamp" : ISODate("2016-09-01T04:04:13Z"),
+					"user_id" : NumberLong(5816),
+					"id" : NumberLong(1652)
+				}
+			],
+			"post_id" : NumberLong(6270),
+			"created_timestamp" : ISODate("2016-09-01T02:49:40Z"),
+			"_id" : NumberLong(1321),
+			"id" : NumberLong(1321),
+			"question_id" : NumberLong(674)
+		}
+	],
+	"created_timestamp" : ISODate("2016-08-31T12:02:53Z"),
+	"id" : NumberLong(674),
+	"comments" : [
+		{
+			"body" : "Possible duplicate of [Mixing vodka with beer?](http://alcohol.stackexchange.com/questions/4675/mixing-vodka-with-beer)",
+			"post_id" : NumberLong(6268),
+			"created_timestamp" : ISODate("2016-08-31T13:24:52Z"),
+			"user_id" : NumberLong(5817),
+			"id" : NumberLong(1650)
+		}
+	]
+}
+{
+	"_id" : NumberLong(673),
+	"body" : "<p>I've successfully made a black raspberry liqueur, and am doing a similar process now with fresh figs. Has anybody done that? What have your experiences been?</p>\n\n<p>Recipe:</p>\n\n<ul>\n<li>1.5 cups vodka (I'm using Tito's)</li>\n<li>1.5 - 2 cups fig puree</li>\n</ul>\n\n<p>Combine figs and vodka, shake well, store in refrigerator. Shake daily, after 2-3 weeks strain well, and add simple syrup to taste.</p>\n",
+	"user_id" : NumberLong(5817),
+	"tags" : [
+		"liquor",
+		"spirits"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6266),
+	"answers" : [ ],
+	"created_timestamp" : ISODate("2016-08-30T17:52:55Z"),
+	"id" : NumberLong(673),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(671),
+	"body" : "<p>Guinness, absinthe, and ouzo have never given me a hangover even after those rare nights of extreme consumption... Now, I do usually consume absinthe in the traditional way (with equal parts water) but, I've been truly amazed to wake up with no hangover after doing the, again extreme, things that I've done to my body with the stuff previously.</p>\n\n<p>What beverages have you consumed to the same end? And, why do you think they're \"hangover-proof,\" if there is such a thing?</p>\n",
+	"user_id" : NumberLong(5847),
+	"tags" : [
+		"hangover"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6262),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5822),
+			"comments" : [ ],
+			"post_id" : NumberLong(6271),
+			"created_timestamp" : ISODate("2016-09-02T06:14:00Z"),
+			"_id" : NumberLong(1322),
+			"id" : NumberLong(1322),
+			"question_id" : NumberLong(671)
+		},
+		{
+			"user_id" : NumberLong(5654),
+			"comments" : [ ],
+			"post_id" : NumberLong(6272),
+			"created_timestamp" : ISODate("2016-09-02T12:08:54Z"),
+			"_id" : NumberLong(1323),
+			"id" : NumberLong(1323),
+			"question_id" : NumberLong(671)
+		}
+	],
+	"created_timestamp" : ISODate("2016-08-29T23:04:16Z"),
+	"id" : NumberLong(671),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(670),
+	"body" : "<p><a href=\"https://en.wikipedia.org/wiki/Bitters\" rel=\"nofollow\">Bitters</a> are known to have medicinal qualities.</p>\n\n<p>I've never used them beyond making killer cocktails... But, I've noticed that orange bitters, in particular, will imbue me with an added vigor or gusto, at times. I've heard certain bitters can be consumed for stomach and headaches but, I've never been able to replicate the affect.</p>\n\n<p>What added physiological or psychological sensations have any of you noticed when consuming bitters? Which bitters have you consumed for what particular ailment(s)?</p>\n",
+	"user_id" : NumberLong(5847),
+	"tags" : [
+		"history",
+		"health",
+		"spirits"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6261),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5817),
+			"comments" : [
+				{
+					"body" : "Do you recall what bitters this patron would request?",
+					"post_id" : NumberLong(6263),
+					"created_timestamp" : ISODate("2016-08-30T16:15:11Z"),
+					"user_id" : NumberLong(5847),
+					"id" : NumberLong(1645)
+				},
+				{
+					"body" : "@Super Query Lad She wasn't particular.  Pretty sure we just had Angostura.",
+					"post_id" : NumberLong(6263),
+					"created_timestamp" : ISODate("2016-08-30T16:15:47Z"),
+					"user_id" : NumberLong(5817),
+					"id" : NumberLong(1646)
+				}
+			],
+			"post_id" : NumberLong(6263),
+			"created_timestamp" : ISODate("2016-08-30T01:04:42Z"),
+			"_id" : NumberLong(1317),
+			"id" : NumberLong(1317),
+			"question_id" : NumberLong(670)
+		},
+		{
+			"user_id" : NumberLong(5862),
+			"comments" : [ ],
+			"post_id" : NumberLong(6269),
+			"created_timestamp" : ISODate("2016-08-31T20:40:13Z"),
+			"_id" : NumberLong(1320),
+			"id" : NumberLong(1320),
+			"question_id" : NumberLong(670)
+		}
+	],
+	"created_timestamp" : ISODate("2016-08-29T21:43:50Z"),
+	"id" : NumberLong(670),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(669),
+	"body" : "<p>Some regions around Frankfurt are famous for their wines. When I was in Frankfurt last time, I tried their Apple wine and simply loved it. This time, I will be in Frankfurt for a longer period and would like to try some more of their famous wines. I have not tried any special wines before and most probably will not spend a lot on wines. So please suggest something for a beginner within budget that is available in Frankfurt main city area.</p>\n",
+	"user_id" : NumberLong(5836),
+	"tags" : [
+		"germany",
+		"recommendations",
+		"wine"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6259),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5817),
+			"comments" : [ ],
+			"post_id" : NumberLong(6260),
+			"created_timestamp" : ISODate("2016-08-29T17:55:20Z"),
+			"_id" : NumberLong(1316),
+			"id" : NumberLong(1316),
+			"question_id" : NumberLong(669)
+		}
+	],
+	"created_timestamp" : ISODate("2016-08-27T14:31:12Z"),
+	"id" : NumberLong(669),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(667),
+	"body" : "<p>Mead is an ancient beverage that consists of honey and water fermented to create an alcoholic beverage.  There are many sub-categories of mead that can be defined by what additions are made to the fermentation.</p>\n\n<ul>\n<li>Traditional - Water and Honey in different ratios to produce a dry to sweet beverage.</li>\n<li>Melomel - Fruit juice and Honey.  Specialty categories are:\n\n<ul>\n<li>Cyser - apple juice and honey</li>\n<li>Pyment - grape juice and honey</li>\n</ul></li>\n<li>Metheglin - Water, spices, and honey.</li>\n<li>Braggot - Barley sugars and honey.</li>\n</ul>\n",
+	"user_id" : NumberLong(4637),
+	"tags" : [ ],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6250),
+	"answers" : [ ],
+	"created_timestamp" : ISODate("2016-08-24T03:38:36Z"),
+	"id" : NumberLong(667),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(668),
+	"body" : "Pertaining to the fermenting of honey or where honey is the primary sugar in the alcoholic beverage.",
+	"user_id" : NumberLong(4637),
+	"tags" : [ ],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6251),
+	"answers" : [ ],
+	"created_timestamp" : ISODate("2016-08-24T03:38:36Z"),
+	"id" : NumberLong(668),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(665),
+	"body" : "<p>A lot of Iranians would gladly push away their teetotal laws, and it's evident from the latest alcohol craze which makes me realize there are probably more and more Iranian rummers present in our society, doing God's job, or lack thereof.</p>\n\n<p>I want to know what sort of yeast do you use? I want to brew myself some mead. In a large barrel. What should be the ratio of water and honey, and also, what yeast should I use? Where can I get brewer's yeast?</p>\n\n<p>Thanks a lot.</p>\n",
+	"user_id" : NumberLong(5788),
+	"tags" : [
+		"yeast",
+		"mead"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6241),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5160),
+			"comments" : [ ],
+			"post_id" : NumberLong(6264),
+			"created_timestamp" : ISODate("2016-08-30T01:10:24Z"),
+			"_id" : NumberLong(1318),
+			"id" : NumberLong(1318),
+			"question_id" : NumberLong(665)
+		}
+	],
+	"created_timestamp" : ISODate("2016-08-19T01:00:56Z"),
+	"id" : NumberLong(665),
+	"comments" : [
+		{
+			"body" : "Can you add a link to the particular product you are interested in?",
+			"post_id" : NumberLong(6241),
+			"created_timestamp" : ISODate("2016-08-27T13:41:14Z"),
+			"user_id" : NumberLong(5064),
+			"id" : NumberLong(1643)
+		},
+		{
+			"body" : "@KenGraham: You mean mead? Or brewer's yeast? I'm interested in any sort of brewer's yeast. Or any yest that does the job.",
+			"post_id" : NumberLong(6241),
+			"created_timestamp" : ISODate("2016-08-29T13:24:12Z"),
+			"user_id" : NumberLong(5788),
+			"id" : NumberLong(1644)
+		}
+	]
+}
+{
+	"_id" : NumberLong(661),
+	"body" : "<p>I'm learning about the basics of red wine making from <a href=\"https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwj1yJT9wa7OAhVK2IMKHSXICUwQFggrMAA&amp;url=http%3A%2F%2Fmorewinemaking.com%2Fpublic%2Fpdf%2Fwredw.pdf&amp;usg=AFQjCNFQXwAKPweHTa9drpNLVZsXUhIYbg&amp;bvm=bv.129391328,d.cGc\" rel=\"nofollow\">this guide</a>.  I have campden tablets (potassium metabisulfate), but I'm really hoping to avoid using sulfites at all.</p>\n\n<p>Because I'm doing a very small batch for myself, I can afford to put in a little extra effort.  Will <strong>boiling</strong> my must right after destemming/crushing in a big pot suffice to <strong>sanitize the must in place of using sulfites?</strong></p>\n",
+	"user_id" : NumberLong(5744),
+	"tags" : [
+		"red-wine"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(6226),
+	"answers" : [ ],
+	"created_timestamp" : ISODate("2016-08-07T05:01:26Z"),
+	"id" : NumberLong(661),
+	"comments" : [
+		{
+			"body" : "Hello and welcome to Beer, Wine, & Spirits!  We have another site that's all about homebrewing, so I'll migrate this there.  (The community consensus is that those questions are off-topic here but can be moved there.)  Good luck with your sulfites problem.",
+			"post_id" : NumberLong(6226),
+			"created_timestamp" : ISODate("2016-08-24T03:32:24Z"),
+			"user_id" : NumberLong(43),
+			"id" : NumberLong(1638)
+		}
+	]
+}
+{
+	"_id" : NumberLong(660),
+	"body" : "<p>Ultimately, I would love to know how the folks over at\n<a href=\"https://www.seedlipdrinks.com/\" rel=\"nofollow\">Seedlip</a> have managed to make a distilled beverage with no alcohol. What would the process roughly consist of if sugar isn't used?</p>\n\n<p>Any insight would be greatly appreciated.</p>\n",
+	"user_id" : NumberLong(5718),
+	"tags" : [
+		"non-alcoholic"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5222),
+	"answers" : [
+		{
+			"user_id" : NumberLong(4903),
+			"comments" : [ ],
+			"post_id" : NumberLong(5223),
+			"created_timestamp" : ISODate("2016-08-01T07:04:10Z"),
+			"_id" : NumberLong(1292),
+			"id" : NumberLong(1292),
+			"question_id" : NumberLong(660)
+		}
+	],
+	"created_timestamp" : ISODate("2016-08-01T00:58:55Z"),
+	"id" : NumberLong(660),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(659),
+	"body" : "<p>I am trying to think of what US brewed beer tastes most similar to a Weihenstephaner Hefeweissbier...</p>\n",
+	"user_id" : NumberLong(5691),
+	"tags" : [
+		"brewing",
+		"taste",
+		"german-beers",
+		"foam",
+		"recommendations"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5213),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5706),
+			"comments" : [ ],
+			"post_id" : NumberLong(5220),
+			"created_timestamp" : ISODate("2016-07-26T17:03:23Z"),
+			"_id" : NumberLong(1291),
+			"id" : NumberLong(1291),
+			"question_id" : NumberLong(659)
+		},
+		{
+			"user_id" : NumberLong(5822),
+			"comments" : [ ],
+			"post_id" : NumberLong(6252),
+			"created_timestamp" : ISODate("2016-08-24T12:38:59Z"),
+			"_id" : NumberLong(1311),
+			"id" : NumberLong(1311),
+			"question_id" : NumberLong(659)
+		}
+	],
+	"created_timestamp" : ISODate("2016-07-23T01:46:52Z"),
+	"id" : NumberLong(659),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(655),
+	"body" : "<p>On <em><a href=\"http://www.cellartracker.com/Default.asp\" rel=\"nofollow\">www.cellartracker.com</a></em> you can declare which wines you have purchased and their vintage, etc. There is also a \"drinkability\"/\"drinking window\" field where you can recommend when a particaular wine should be opened. This is a valuable feature for vintage wines but for non-vintage it is completely useless unless specifying which year the wine was bottled/cellared.</p>\n\n<p><strong>What is the recommendation when adding NV wines to my cellar?</strong>\nIs to create a new wine (based on the existing NV wine) and add the designation (Mise en Cave 20xx)? Has this been discussed?</p>\n",
+	"user_id" : NumberLong(5643),
+	"tags" : [
+		"cellaring"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5194),
+	"answers" : [ ],
+	"created_timestamp" : ISODate("2016-07-08T10:44:21Z"),
+	"id" : NumberLong(655),
+	"comments" : [
+		{
+			"body" : "Are you asking how to list things on Cellartracker, or are you asking about deciding when to drink your NV wines?  Thanks.",
+			"post_id" : NumberLong(5194),
+			"created_timestamp" : ISODate("2016-07-08T20:19:22Z"),
+			"user_id" : NumberLong(43),
+			"id" : NumberLong(1603)
+		}
+	]
+}
+{
+	"_id" : NumberLong(654),
+	"body" : "<p>I have a simple question. If you taste or read about wine, you encounter all kinds of flavours: butter, cherry, thyme etc. etc. But the grapes have never been in touch with butter, for example. Where does the variety of tastes come from? How can the grapes develop so many different flavours that remind real world stuff?</p>\n\n<p>Thanks!</p>\n",
+	"user_id" : NumberLong(5623),
+	"tags" : [
+		"fermentation",
+		"red-wine",
+		"wine"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5186),
+	"answers" : [
+		{
+			"user_id" : NumberLong(4903),
+			"comments" : [ ],
+			"post_id" : NumberLong(5187),
+			"created_timestamp" : ISODate("2016-07-03T04:26:38Z"),
+			"_id" : NumberLong(1266),
+			"id" : NumberLong(1266),
+			"question_id" : NumberLong(654)
+		},
+		{
+			"user_id" : NumberLong(5817),
+			"comments" : [ ],
+			"post_id" : NumberLong(6249),
+			"created_timestamp" : ISODate("2016-08-23T19:42:46Z"),
+			"_id" : NumberLong(1310),
+			"id" : NumberLong(1310),
+			"question_id" : NumberLong(654)
+		}
+	],
+	"created_timestamp" : ISODate("2016-07-02T19:35:09Z"),
+	"id" : NumberLong(654),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(653),
+	"body" : "<p>This beer used to be available from the LCBO but now outside of Kegs or going to a bar it doesn't seem that I can get it anymore. Does anyone know the best way I could get a hold of it?</p>\n",
+	"user_id" : NumberLong(5575),
+	"tags" : [
+		"distribution"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5182),
+	"answers" : [
+		{
+			"user_id" : NumberLong(125),
+			"comments" : [ ],
+			"post_id" : NumberLong(5183),
+			"created_timestamp" : ISODate("2016-07-01T12:46:18Z"),
+			"_id" : NumberLong(1263),
+			"id" : NumberLong(1263),
+			"question_id" : NumberLong(653)
+		}
+	],
+	"created_timestamp" : ISODate("2016-07-01T00:31:27Z"),
+	"id" : NumberLong(653),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(652),
+	"body" : "<p>I found a case of Scottish beer / bitter that I had forgotten about , it is out of date by 7 months , which normally would not stop me but it tastes watery , my question is can I re ferment it or add something to resurrect it ? </p>\n",
+	"user_id" : NumberLong(5616),
+	"tags" : [
+		"ingredients"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5181),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5679),
+			"comments" : [ ],
+			"post_id" : NumberLong(5209),
+			"created_timestamp" : ISODate("2016-07-20T08:49:43Z"),
+			"_id" : NumberLong(1283),
+			"id" : NumberLong(1283),
+			"question_id" : NumberLong(652)
+		},
+		{
+			"user_id" : NumberLong(4540),
+			"comments" : [
+				{
+					"body" : "Hi newGuy, can you please expand your answer to include more detail?  If the link becomes invalid, there will be no context to understand what you're suggesting.",
+					"post_id" : NumberLong(5217),
+					"created_timestamp" : ISODate("2016-08-03T15:22:10Z"),
+					"user_id" : NumberLong(37),
+					"id" : NumberLong(1620)
+				}
+			],
+			"post_id" : NumberLong(5217),
+			"created_timestamp" : ISODate("2016-07-25T19:18:39Z"),
+			"_id" : NumberLong(1288),
+			"id" : NumberLong(1288),
+			"question_id" : NumberLong(652)
+		},
+		{
+			"user_id" : NumberLong(5705),
+			"comments" : [ ],
+			"post_id" : NumberLong(5219),
+			"created_timestamp" : ISODate("2016-07-26T15:44:16Z"),
+			"_id" : NumberLong(1290),
+			"id" : NumberLong(1290),
+			"question_id" : NumberLong(652)
+		}
+	],
+	"created_timestamp" : ISODate("2016-06-30T22:15:29Z"),
+	"id" : NumberLong(652),
+	"comments" : [
+		{
+			"body" : "Do you mean that it doesn't have any carbonation? Could you list the beer so I/the community knows more of what the beer should taste like?",
+			"post_id" : NumberLong(5181),
+			"created_timestamp" : ISODate("2016-07-05T13:04:29Z"),
+			"user_id" : NumberLong(22),
+			"id" : NumberLong(1600)
+		}
+	]
+}
+{
+	"_id" : NumberLong(650),
+	"body" : "<p>Mercifully, brewers label their beers with the style - lager, IPA, Hefeweisse, etc. But for whatever reason, the makers of hard ciders don't share the sentiment, and every single bottle will just call itself \"cider\" or if you're lucky \"apple cider.\" </p>\n\n<p>This is something of an issue because I really like sweet ciders, and can't stand sour ones. But as far as I can tell, the bottle never reveals what type the cider is, and I have to open it and take a drink before I know if I will like it or not.</p>\n\n<p>So what are the styles of cider, and how can I recognize them (and avoid the ones I don't like)?</p>\n",
+	"user_id" : NumberLong(5328),
+	"tags" : [
+		"cider"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5178),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5165),
+			"comments" : [
+				{
+					"body" : "Great find! However, aside from ice cider and cider with other fruits, I've never seen _any_ style labels on bottles, even from less \"macro\" producers than Angry Orchard, Ace, etc.",
+					"post_id" : NumberLong(5184),
+					"created_timestamp" : ISODate("2016-07-01T16:09:17Z"),
+					"user_id" : NumberLong(5328),
+					"id" : NumberLong(1597)
+				},
+				{
+					"body" : "Good point. I've seen the odd America 750ml bottle in specialty stores that specify a French style or something similar. Most European ciders I've seen specify area of production, which roughly maps to cider style.",
+					"post_id" : NumberLong(5184),
+					"created_timestamp" : ISODate("2016-07-02T17:52:02Z"),
+					"user_id" : NumberLong(5165),
+					"id" : NumberLong(1599)
+				},
+				{
+					"body" : "This must be an American thing. In Europe most ciders tell you exactly what fruits it was made from, and in many cases they list the process as well.",
+					"post_id" : NumberLong(5184),
+					"created_timestamp" : ISODate("2016-07-14T14:54:42Z"),
+					"user_id" : NumberLong(187),
+					"id" : NumberLong(1608)
+				}
+			],
+			"post_id" : NumberLong(5184),
+			"created_timestamp" : ISODate("2016-07-01T15:26:34Z"),
+			"_id" : NumberLong(1264),
+			"id" : NumberLong(1264),
+			"question_id" : NumberLong(650)
+		}
+	],
+	"created_timestamp" : ISODate("2016-06-29T17:11:15Z"),
+	"id" : NumberLong(650),
+	"comments" : [
+		{
+			"body" : "Interesting question. Not a cider drinker myself, but it might be something you have to do some manual Google searching for to find brands you'll like. AFAIK, the cider industry is relatively young and growing, so you might be out of luck.",
+			"post_id" : NumberLong(5178),
+			"created_timestamp" : ISODate("2016-07-02T16:37:27Z"),
+			"user_id" : NumberLong(938),
+			"id" : NumberLong(1598)
+		}
+	]
+}
+{
+	"_id" : NumberLong(648),
+	"body" : "<p>Is it okay to eat raw oysters and drink alcohol at the same time? I have heard different stories as to whether it is truly a good idea to do this. Some people say that it is not bad, others say that the alcohol can be dangerous with the bacterium (Vibrio vulnificus) contained in shellfish, while some people have told me that the alcohol can actually kill the bacterium contained in shellfish.</p>\n\n<p>Is it safe to drink alcohol and eat raw oysters? If it is okay what drinks go well with oysters?</p>\n",
+	"user_id" : NumberLong(5064),
+	"tags" : [
+		"health",
+		"pairing"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5171),
+	"answers" : [
+		{
+			"user_id" : NumberLong(909),
+			"comments" : [
+				{
+					"body" : "Not so much safe as essential",
+					"post_id" : NumberLong(5172),
+					"created_timestamp" : ISODate("2016-06-25T19:30:46Z"),
+					"user_id" : NumberLong(4394),
+					"id" : NumberLong(1585)
+				}
+			],
+			"post_id" : NumberLong(5172),
+			"created_timestamp" : ISODate("2016-06-25T17:24:52Z"),
+			"_id" : NumberLong(1259),
+			"id" : NumberLong(1259),
+			"question_id" : NumberLong(648)
+		},
+		{
+			"user_id" : NumberLong(5637),
+			"comments" : [ ],
+			"post_id" : NumberLong(5192),
+			"created_timestamp" : ISODate("2016-07-06T18:45:42Z"),
+			"_id" : NumberLong(1271),
+			"id" : NumberLong(1271),
+			"question_id" : NumberLong(648)
+		},
+		{
+			"user_id" : NumberLong(3744),
+			"comments" : [ ],
+			"post_id" : NumberLong(5203),
+			"created_timestamp" : ISODate("2016-07-14T15:19:40Z"),
+			"_id" : NumberLong(1277),
+			"id" : NumberLong(1277),
+			"question_id" : NumberLong(648)
+		}
+	],
+	"created_timestamp" : ISODate("2016-06-25T16:31:52Z"),
+	"id" : NumberLong(648),
+	"comments" : [
+		{
+			"body" : "@Paparazzi  [\"As a matter of fact, most bacteria are not harmful and many are beneficial or even essential to our wellbeing.\"](http://www.chicken.org.au/foodsafety/page.php?id=8)",
+			"post_id" : NumberLong(5171),
+			"created_timestamp" : ISODate("2016-06-25T21:58:03Z"),
+			"user_id" : NumberLong(5064),
+			"id" : NumberLong(1586)
+		},
+		{
+			"body" : "Convenienet change of word  http://www.merriam-webster.com/dictionary/bacterium",
+			"post_id" : NumberLong(5171),
+			"created_timestamp" : ISODate("2016-06-26T01:02:03Z"),
+			"user_id" : NumberLong(4903),
+			"id" : NumberLong(1587)
+		},
+		{
+			"body" : "I don't get the down-votes... seems like a reasonable, though perhaps uninformed, question.  But then, if everyone was informed, we wouldn't need Stack Exchange, amiright?",
+			"post_id" : NumberLong(5171),
+			"created_timestamp" : ISODate("2016-06-30T15:50:38Z"),
+			"user_id" : NumberLong(3905),
+			"id" : NumberLong(1594)
+		}
+	]
+}
+{
+	"_id" : NumberLong(647),
+	"body" : "<p>This is more of a hypothetical question!</p>\n\n<p>Disclaimer: I have no intention of doing home distillation in any form whatsoever.</p>\n\n<p>In most countries home distillation of any alcohol products is illegal.</p>\n\n<blockquote>\n  <p>It is only legal in New Zealand. Some European countries turn a blind eye to it, but elsewhere it is illegal, with punishment ranging from fines to imprisonment or floggings. </p>\n  \n  <p>Australians - You can possess a still of &lt;5L capacity, but not produce spirits from it.</p>\n  \n  <p>[In Bulgaria,] you can take your fermented fruits to a special facility and distill them without paying any tax if you are registered as home producer. Registration is free. The only limitation is that you can distill up to 1000l of fermented fruits and of course you need to pay for the time you are using the still (it can take about 200 litres at a time). - <a href=\"http://homedistiller.org/intro/legal\" rel=\"nofollow\">Home Distillation of Alcohol.</a> </p>\n</blockquote>\n\n<p>That said, how can one make a homemade still for making spirits at home safely? </p>\n",
+	"user_id" : NumberLong(5064),
+	"tags" : [
+		"distillation"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5168),
+	"answers" : [
+		{
+			"user_id" : NumberLong(5593),
+			"comments" : [
+				{
+					"body" : "I think explosion of your pressure vessel or ignition of vapour can be an even bigger risk :-)",
+					"post_id" : NumberLong(5169),
+					"created_timestamp" : ISODate("2016-06-24T20:19:53Z"),
+					"user_id" : NumberLong(187),
+					"id" : NumberLong(1579)
+				}
+			],
+			"post_id" : NumberLong(5169),
+			"created_timestamp" : ISODate("2016-06-24T20:13:46Z"),
+			"_id" : NumberLong(1257),
+			"id" : NumberLong(1257),
+			"question_id" : NumberLong(647)
+		},
+		{
+			"user_id" : NumberLong(4903),
+			"comments" : [
+				{
+					"body" : "I have seen a mobile still unit in at a farmers residence when I was in France. I cannot recall clearly how it was set up, but I believe he had it rigged onto a  metal framed trailer, thus being able to move it around with a truck or whatever .",
+					"post_id" : NumberLong(5170),
+					"created_timestamp" : ISODate("2016-06-25T11:22:52Z"),
+					"user_id" : NumberLong(5064),
+					"id" : NumberLong(1580)
+				},
+				{
+					"body" : "@KenGraham OK you have seen one on a trailer.  Did I answer your question?",
+					"post_id" : NumberLong(5170),
+					"created_timestamp" : ISODate("2016-06-25T11:49:17Z"),
+					"user_id" : NumberLong(4903),
+					"id" : NumberLong(1581)
+				}
+			],
+			"post_id" : NumberLong(5170),
+			"created_timestamp" : ISODate("2016-06-25T04:35:16Z"),
+			"_id" : NumberLong(1258),
+			"id" : NumberLong(1258),
+			"question_id" : NumberLong(647)
+		},
+		{
+			"user_id" : NumberLong(5508),
+			"comments" : [ ],
+			"post_id" : NumberLong(5193),
+			"created_timestamp" : ISODate("2016-07-07T00:25:00Z"),
+			"_id" : NumberLong(1272),
+			"id" : NumberLong(1272),
+			"question_id" : NumberLong(647)
+		}
+	],
+	"created_timestamp" : ISODate("2016-06-24T12:45:59Z"),
+	"id" : NumberLong(647),
+	"comments" : [ ]
+}
+{
+	"_id" : NumberLong(646),
+	"body" : "<p>Unfortunately I dont have a basement or a different room where its between 10-15 degrees. Since it summer, the temperature in the house is between 20 and 25 degrees. All of my beers are stored in a closet where it is 23 degrees at the moment. I have 3 year old Orvals, Barleywines, ipas and some other beers. Is this going to damage the beer? Or shouldn't I worry about it? </p>\n\n<p>Thanks</p>\n",
+	"user_id" : NumberLong(5587),
+	"tags" : [
+		"storage"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5165),
+	"answers" : [
+		{
+			"user_id" : NumberLong(4903),
+			"comments" : [
+				{
+					"body" : "Thanks for your answer. I also contacted a brewery and they suggested to always store IPA's in the fridge. But he told me that the temperature for the barleywines isn't a big problem if it doesnt exceed 24 degrees celsius. it isn't the most ideal temperature though.",
+					"post_id" : NumberLong(5166),
+					"created_timestamp" : ISODate("2016-06-22T18:35:16Z"),
+					"user_id" : NumberLong(5587),
+					"id" : NumberLong(1574)
+				},
+				{
+					"body" : "@Bas Cool.  Beer is not wine - it is not meant to be held.  Buy beer - drink beer.   Buy more beer - drink more beer.",
+					"post_id" : NumberLong(5166),
+					"created_timestamp" : ISODate("2016-06-22T19:00:29Z"),
+					"user_id" : NumberLong(4903),
+					"id" : NumberLong(1575)
+				},
+				{
+					"body" : "true, except for some beers. Barleywines for example, they can be aged for years and achieve a better taste.",
+					"post_id" : NumberLong(5166),
+					"created_timestamp" : ISODate("2016-06-22T19:48:53Z"),
+					"user_id" : NumberLong(5587),
+					"id" : NumberLong(1576)
+				}
+			],
+			"post_id" : NumberLong(5166),
+			"created_timestamp" : ISODate("2016-06-22T16:43:01Z"),
+			"_id" : NumberLong(1255),
+			"id" : NumberLong(1255),
+			"question_id" : NumberLong(646)
+		}
+	],
+	"created_timestamp" : ISODate("2016-06-22T14:27:08Z"),
+	"id" : NumberLong(646),
+	"comments" : [
+		{
+			"body" : "For sure it is a problem if they are not pasturized",
+			"post_id" : NumberLong(5165),
+			"created_timestamp" : ISODate("2016-06-22T16:10:20Z"),
+			"user_id" : NumberLong(4903),
+			"id" : NumberLong(1570)
+		},
+		{
+			"body" : "@Papparazzi I know for sure that all of the IPA's aren't pasteurized, not sure about the other beers. Also I can't store all of them in my fridge, because I have around 25 beers at the moment.",
+			"post_id" : NumberLong(5165),
+			"created_timestamp" : ISODate("2016-06-22T16:32:04Z"),
+			"user_id" : NumberLong(5587),
+			"id" : NumberLong(1571)
+		},
+		{
+			"body" : "If I was sure I would post an answer but I think you have a problem.",
+			"post_id" : NumberLong(5165),
+			"created_timestamp" : ISODate("2016-06-22T16:33:45Z"),
+			"user_id" : NumberLong(4903),
+			"id" : NumberLong(1572)
+		},
+		{
+			"body" : "@Paparazzi I might pick up a wine cooler and use it for my beers. That will resolve the problem. But im still interested if these temperatures will damage or make the beer go bad.",
+			"post_id" : NumberLong(5165),
+			"created_timestamp" : ISODate("2016-06-22T16:40:56Z"),
+			"user_id" : NumberLong(5587),
+			"id" : NumberLong(1573)
+		}
+	]
+}
+{
+	"_id" : NumberLong(645),
+	"body" : "<p>I thought this would make for an interesting question because Westvleteren 12 has now earned a mythic ethos. They've given their product a mystique that's driven up demand to a huge degree, and caused people to go to great lengths to get their hands on it.</p>\n\n<p>That said, after having a few of them, and then comparing to the plentiful Rochefort 10 that I can find in most liquor stores around my city, I don't see a heck of a lot of difference between the two beers. <strong>So what I wonder is what features of Westvleteren 12 actually distinguish it from a Rochefort 10?</strong> Not necessarily why it's better, but in what ways and to what degree they are actually different beers.</p>\n\n<p>Some leading questions:</p>\n\n<ol>\n<li>Does the brewing process differ?</li>\n<li>Do ingredients differ?</li>\n<li>Anything else?</li>\n</ol>\n",
+	"user_id" : NumberLong(938),
+	"tags" : [
+		"trappist"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(5164),
+	"answers" : [
+		{
+			"user_id" : NumberLong(22),
+			"comments" : [
+				{
+					"body" : "Side note: BLAM = Brew Like A Monk (kind of like the go-to resource for Abbey/Trappist/Belgian beers)",
+					"post_id" : NumberLong(5188),
+					"created_timestamp" : ISODate("2016-07-05T17:14:09Z"),
+					"user_id" : NumberLong(22),
+					"id" : NumberLong(1601)
+				}
+			],
+			"post_id" : NumberLong(5188),
+			"created_timestamp" : ISODate("2016-07-05T17:12:44Z"),
+			"_id" : NumberLong(1267),
+			"id" : NumberLong(1267),
+			"question_id" : NumberLong(645)
+		}
+	],
+	"created_timestamp" : ISODate("2016-06-22T13:57:19Z"),
+	"id" : NumberLong(645),
+	"comments" : [ ]
+}
