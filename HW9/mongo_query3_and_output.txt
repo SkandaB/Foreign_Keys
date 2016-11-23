@@ -1,0 +1,73 @@
+## All questions that have the tag belgian-beers
+
+> db.getCollection('questions').find( { tags: "belgian-beers" } ).pretty()
+{
+	"_id" : NumberLong(382),
+	"body" : "<p>Can someone suggest me a beer with similar taste like Grimbergen Blanche ?</p>\n\n<p>Grimbergen is the brand name of a variety of Belgian abbey beers. Originally made by Norbertine monks in the Belgian town of Grimbergen, it is now brewed by two different breweries in Belgium and France.</p>\n\n<p>Thanks</p>\n",
+	"user_id" : NumberLong(3703),
+	"tags" : [
+		"style",
+		"recommendations",
+		"belgian-beers"
+	],
+	"accepted_answer_id" : null,
+	"post_id" : NumberLong(3207),
+	"answers" : [
+		{
+			"user_id" : NumberLong(3760),
+			"comments" : [ ],
+			"post_id" : NumberLong(3242),
+			"created_timestamp" : ISODate("2015-02-05T19:07:50Z"),
+			"_id" : NumberLong(759),
+			"id" : NumberLong(759),
+			"question_id" : NumberLong(382)
+		},
+		{
+			"user_id" : NumberLong(1525),
+			"comments" : [
+				{
+					"body" : "`Hoegaarden speciale` is real smooth and slight hint of fruity, love it!!",
+					"post_id" : NumberLong(3247),
+					"created_timestamp" : ISODate("2015-03-13T11:48:08Z"),
+					"user_id" : NumberLong(123),
+					"id" : NumberLong(1117)
+				}
+			],
+			"post_id" : NumberLong(3247),
+			"created_timestamp" : ISODate("2015-02-09T10:29:31Z"),
+			"_id" : NumberLong(761),
+			"id" : NumberLong(761),
+			"question_id" : NumberLong(382)
+		},
+		{
+			"user_id" : NumberLong(3836),
+			"comments" : [ ],
+			"post_id" : NumberLong(3268),
+			"created_timestamp" : ISODate("2015-02-26T15:10:22Z"),
+			"_id" : NumberLong(778),
+			"id" : NumberLong(778),
+			"question_id" : NumberLong(382)
+		},
+		{
+			"user_id" : NumberLong(5568),
+			"comments" : [ ],
+			"post_id" : NumberLong(5112),
+			"created_timestamp" : ISODate("2016-06-16T15:00:12Z"),
+			"_id" : NumberLong(1247),
+			"id" : NumberLong(1247),
+			"question_id" : NumberLong(382)
+		},
+		{
+			"user_id" : NumberLong(5572),
+			"comments" : [ ],
+			"post_id" : NumberLong(5126),
+			"created_timestamp" : ISODate("2016-06-17T12:48:22Z"),
+			"_id" : NumberLong(1249),
+			"id" : NumberLong(1249),
+			"question_id" : NumberLong(382)
+		}
+	],
+	"created_timestamp" : ISODate("2015-01-19T23:12:56Z"),
+	"id" : NumberLong(382),
+	"comments" : [ ]
+}
