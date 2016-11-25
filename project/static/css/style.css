@@ -26,7 +26,7 @@ h2 {
   padding: 0;
 }
 
-.questions .row, .answer, h2, .question, .tags, .button-row{
+.questions .row, .answer, h2, .question, .tags, .button-row, .btn-pager{
   margin: 8px;
 }
 .questions .row input{
@@ -75,6 +75,22 @@ h2 {
 .add-answer, .add-question{
   display: none;
   float: none;
+}
+
+.form-pager {
+  display: inline-block;
+}
+
+.form-pager.next-page{
+  float:right;
+}
+
+.form-pager button{
+  width: 150px;
+}
+
+.dspNone{
+  display: none;
 }
 
 .add-entry dl   { font-weight: bold; }

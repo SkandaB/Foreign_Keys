@@ -36,19 +36,23 @@ def close_db(error):
     if hasattr(g, 'sqlite_db'):
         g.mysql_db.close()
 
-
-@app.route('/')
-def show_question_list():
+@app.route('/', defaults={'page': 0}, methods=['GET', 'POST'])
+@app.route('/<page>', methods=['GET', 'POST'])
+def show_question_list(page):
+    page = int(page)
+    limit = page * 15
     db = get_db()
     cur = db.cursor()
-    cur.execute('''select post.user_id, post.body, question.id
+    cur.execute('''select post.user_id, post.body, question.id, post.id
                    from post, question
-                   where question.post_id = post.id order by question.id DESC''')
+                   where question.post_id = post.id order by question.id DESC LIMIT %s, 15'''
+                   , (int(limit)))
     questions = cur.fetchall()
 
     cur.execute('select tag.id, tag.name from tag order by tag.name')
     tags = cur.fetchall()
-    return render_template('show_entries.html', entries=questions, tags=tags)
+    return render_template('show_entries.html', entries=questions, tags=tags, page=page)
+
 
 @app.route('/question/<question_id>')
 def show_question(question_id):

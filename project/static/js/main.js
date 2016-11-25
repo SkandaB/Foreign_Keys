@@ -6,6 +6,7 @@ $( document ).ready(function() {
       $(this)[0].style.display = 'block';
     });
 
+    //Toggle text area for question and answer
     $('#toggle-answer-area').click(function(){
       $('.add-answer').toggle();
     });
@@ -13,4 +14,5 @@ $( document ).ready(function() {
     $('#toggle-question-area').click(function(){
       $('.add-question').toggle();
     });
+
 });
