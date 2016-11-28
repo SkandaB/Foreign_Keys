@@ -16,6 +16,7 @@ app.config['MYSQL_DATABASE_USER'] = 'foreignkeys'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'nonosql'
 app.config['MYSQL_DATABASE_DB'] = 'filedb'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+
 mysql.init_app(app)
 
 def connect_db():
@@ -29,35 +30,60 @@ def get_db():
         g.mysql_db = connect_db()
     return g.mysql_db
 
-
 @app.teardown_appcontext
 def close_db(error):
     """Closes the database again at the end of the request."""
     if hasattr(g, 'sqlite_db'):
         g.mysql_db.close()
 
+def get_tags(cursor):
+    cursor.execute('select tag.id, tag.name from tag order by tag.name')
+    return cursor.fetchall()
+
+def get_questions(cursor, tag, limit, sort_type):
+    if(tag is None):
+        cursor.execute('''select post.user_id, post.body, question.id, post.id
+                       from post, question
+                       where question.post_id = post.id order by question.id '''+ sort_type +''' LIMIT %s, 15'''
+                       , (int(limit)))
+    else:
+        cursor.execute('''select post.user_id, post.body, question.id, post.id
+                       from post, question, question_tag
+                       where question.post_id = post.id
+                       and question_tag.question_id = question.id
+                       and question_tag.tag_id = %s order by question.id '''+ sort_type +''' LIMIT %s, 15'''
+                       , (tag, int(limit)))
+    return cursor.fetchall()
+
+
 @app.route('/', defaults={'page': 0}, methods=['GET', 'POST'])
-@app.route('/<page>', methods=['GET', 'POST'])
+@app.route('/page/<page>', methods=['GET', 'POST'])
 def show_question_list(page):
+    tag = None
     page = int(page)
+    sort_type = 'DESC'
+
+    if request.method == 'POST':
+        if 'tag_id' in request.form:
+            tag = int(request.form['tag_id'])
+            page = 0
+        if 'sort_type' in request.form:
+            sort_type = request.form['sort_type']
+            page = 0
+
     limit = page * 15
     db = get_db()
     cur = db.cursor()
-    cur.execute('''select post.user_id, post.body, question.id, post.id
-                   from post, question
-                   where question.post_id = post.id order by question.id DESC LIMIT %s, 15'''
-                   , (int(limit)))
-    questions = cur.fetchall()
 
-    cur.execute('select tag.id, tag.name from tag order by tag.name')
-    tags = cur.fetchall()
-    return render_template('show_entries.html', entries=questions, tags=tags, page=page)
+    questions = get_questions(cur, tag, limit, sort_type)
+
+    tags = get_tags(cur);
+    return render_template('show_entries.html', entries=questions, tags=tags, page=page, tag_id=tag, sort_type=sort_type)
 
 
 @app.route('/question/<question_id>')
 def show_question(question_id):
     db = get_db()
-    print question_id
     cur = db.cursor()
     cur.execute('''select answer.id, post.body from question, answer, post
                    where question.id = %s and

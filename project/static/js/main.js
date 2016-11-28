@@ -15,4 +15,14 @@ $( document ).ready(function() {
       $('.add-question').toggle();
     });
 
+    //Set tag filter dropdown value after select
+    var filter_tag_id = $('#filter-tag-picker').data("id");
+    $('#filter-tag-picker').selectpicker('val', filter_tag_id);
+
+    //Set sort filter value
+    // var $radios = $('input:radio[name=sort_type]');
+    // if($radios.is(':checked') === false) {
+    //     $radios.filter('[value=Male]').prop('checked', true);
+    // }
+
 });
