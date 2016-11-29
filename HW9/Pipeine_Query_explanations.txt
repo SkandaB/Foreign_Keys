@@ -1,0 +1,2 @@
+Groups questions with tag “brewing” by year and question count. - Questions “pipeline” aggregation.
+Groups users in California by city name and  user count. - Users “pipeline” aggregation.

@@ -1,0 +1,4118 @@
+[
+	{
+		"_id" : NumberLong(-1),
+		"username" : "community",
+		"name" : "Community",
+		"location" : "on the server farm"
+	},
+	{
+		"_id" : NumberLong(2),
+		"username" : "kasra-rahjerdi",
+		"name" : "Kasra Rahjerdi",
+		"location" : "New York, United States"
+	},
+	{
+		"_id" : NumberLong(4),
+		"username" : "arie-litovsky",
+		"name" : "Arie Litovsky",
+		"location" : "USA"
+	},
+	{
+		"_id" : NumberLong(5),
+		"username" : "brian-nickel",
+		"name" : "Brian Nickel",
+		"location" : "Phoenix, AZ"
+	},
+	{
+		"_id" : NumberLong(7),
+		"username" : "tom-medley",
+		"name" : "Tom Medley",
+		"location" : "Cambridge, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(8),
+		"username" : "lesspop-morefizz",
+		"name" : "LessPop_MoreFizz",
+		"location" : "Europa, the Moon of Jupiter."
+	},
+	{
+		"_id" : NumberLong(10),
+		"username" : "dagardner",
+		"name" : "DaGardner",
+		"location" : "Hamburg, Germany"
+	},
+	{
+		"_id" : NumberLong(12),
+		"username" : "nhaarman",
+		"name" : "nhaarman",
+		"location" : "Netherlands"
+	},
+	{
+		"_id" : NumberLong(17),
+		"username" : "jon-ericson",
+		"name" : "Jon Ericson",
+		"location" : "Downtown Burbank"
+	},
+	{
+		"_id" : NumberLong(20),
+		"username" : "adam-rackis",
+		"name" : "Adam Rackis",
+		"location" : "Edmond OK"
+	},
+	{
+		"_id" : NumberLong(21),
+		"username" : "danubian-sailor",
+		"name" : "Danubian Sailor",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(22),
+		"username" : "grohlier",
+		"name" : "Grohlier",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(23),
+		"username" : "bryan-cain",
+		"name" : "Bryan Cain",
+		"location" : "Richmond, VA"
+	},
+	{
+		"_id" : NumberLong(25),
+		"username" : "brandonscript",
+		"name" : "brandonscript",
+		"location" : "Victoria, BC"
+	},
+	{
+		"_id" : NumberLong(26),
+		"username" : "phoebus",
+		"name" : "phoebus",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(27),
+		"username" : "object88",
+		"name" : "object88",
+		"location" : "Oakland, CA"
+	},
+	{
+		"_id" : NumberLong(28),
+		"username" : "bill-rawlinson",
+		"name" : "Bill Rawlinson",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(29),
+		"username" : "savage-henry",
+		"name" : "Savage Henry",
+		"location" : "Pittsburgh, PA"
+	},
+	{
+		"_id" : NumberLong(31),
+		"username" : "audifanatic",
+		"name" : "audiFanatic",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(32),
+		"username" : "drop-table-users",
+		"name" : "DROP TABLE users",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(36),
+		"username" : "crownjewel82",
+		"name" : "crownjewel82",
+		"location" : "Tallahassee, FL"
+	},
+	{
+		"_id" : NumberLong(37),
+		"username" : "xander",
+		"name" : "Xander",
+		"location" : "Charlotte, NC"
+	},
+	{
+		"_id" : NumberLong(38),
+		"username" : "jaydles",
+		"name" : "Jaydles",
+		"location" : "New York, NY"
+	},
+	{
+		"_id" : NumberLong(39),
+		"username" : "wax-eagle",
+		"name" : "wax eagle",
+		"location" : "Lookout Mountain, GA"
+	},
+	{
+		"_id" : NumberLong(42),
+		"username" : "sam-whited",
+		"name" : "Sam Whited",
+		"location" : "Austin, TX"
+	},
+	{
+		"_id" : NumberLong(43),
+		"username" : "monica-cellio",
+		"name" : "Monica Cellio",
+		"location" : "Pittsburgh PA"
+	},
+	{
+		"_id" : NumberLong(48),
+		"username" : "mat-evans",
+		"name" : "Mat Evans",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(49),
+		"username" : "warren",
+		"name" : "warren",
+		"location" : "Lexington, KY"
+	},
+	{
+		"_id" : NumberLong(50),
+		"username" : "ghosttoast",
+		"name" : "GhostToast",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(52),
+		"username" : "daniel-hedberg",
+		"name" : "Daniel Hedberg",
+		"location" : "Sweden"
+	},
+	{
+		"_id" : NumberLong(53),
+		"username" : "lars-kotthoff",
+		"name" : "Lars Kotthoff",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(54),
+		"username" : "andrew-jones",
+		"name" : "Andrew Jones",
+		"location" : "New York, NY"
+	},
+	{
+		"_id" : NumberLong(55),
+		"username" : "bandy",
+		"name" : "bandy",
+		"location" : "Atlanta, GA"
+	},
+	{
+		"_id" : NumberLong(56),
+		"username" : "steve-d",
+		"name" : "Steve D",
+		"location" : "Stony Brook, NY"
+	},
+	{
+		"_id" : NumberLong(57),
+		"username" : "dean",
+		"name" : "Dean",
+		"location" : "Kidderminster, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(60),
+		"username" : "robert-cartaino",
+		"name" : "Robert Cartaino",
+		"location" : "Palm Bay, FL"
+	},
+	{
+		"_id" : NumberLong(63),
+		"username" : "danalog",
+		"name" : "Danalog",
+		"location" : "Seattle, WA"
+	},
+	{
+		"_id" : NumberLong(65),
+		"username" : "john-hiott",
+		"name" : "John Hiott",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(66),
+		"username" : "pops",
+		"name" : "Pops",
+		"location" : "Eastern United States"
+	},
+	{
+		"_id" : NumberLong(68),
+		"username" : "hunse",
+		"name" : "hunse",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(69),
+		"username" : "slybloty",
+		"name" : "slybloty",
+		"location" : "127.0.0.1"
+	},
+	{
+		"_id" : NumberLong(73),
+		"username" : "andrew-cheong",
+		"name" : "Andrew Cheong",
+		"location" : "San Diego, CA"
+	},
+	{
+		"_id" : NumberLong(75),
+		"username" : "tanner-faulkner",
+		"name" : "Tanner Faulkner",
+		"location" : "Wenatchee, WA"
+	},
+	{
+		"_id" : NumberLong(76),
+		"username" : "jamesakadamingo",
+		"name" : "jamesakadamingo",
+		"location" : "England, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(77),
+		"username" : "javacake",
+		"name" : "JavaCake",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(80),
+		"username" : "fishtoaster",
+		"name" : "Fishtoaster",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(81),
+		"username" : "fallenangel",
+		"name" : "FallenAngel",
+		"location" : "Izmir, Turkey"
+	},
+	{
+		"_id" : NumberLong(83),
+		"username" : "akaykay",
+		"name" : "akaykay",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(84),
+		"username" : "abv8",
+		"name" : "abv8",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(85),
+		"username" : "anthony-arnold",
+		"name" : "Anthony Arnold",
+		"location" : "Brisbane, Australia"
+	},
+	{
+		"_id" : NumberLong(86),
+		"username" : "jandjorgensen",
+		"name" : "jandjorgensen",
+		"location" : "Phoenix, AZ"
+	},
+	{
+		"_id" : NumberLong(87),
+		"username" : "dwjohnston",
+		"name" : "dwjohnston",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(90),
+		"username" : "jeffrey-lin",
+		"name" : "Jeffrey Lin",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(92),
+		"username" : "tom-anderson",
+		"name" : "Tom Anderson",
+		"location" : "London, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(94),
+		"username" : "paul",
+		"name" : "paul",
+		"location" : "Brooklyn, NY"
+	},
+	{
+		"_id" : NumberLong(95),
+		"username" : "user-241-007",
+		"name" : "User 241.007",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(98),
+		"username" : "matthew-blair",
+		"name" : "Matthew Blair",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(101),
+		"username" : "cam-jackson",
+		"name" : "Cam Jackson",
+		"location" : "Melbourne, Australia"
+	},
+	{
+		"_id" : NumberLong(112),
+		"username" : "mdma",
+		"name" : "mdma",
+		"location" : "Norway"
+	},
+	{
+		"_id" : NumberLong(113),
+		"username" : "mikey",
+		"name" : "mikeY",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(116),
+		"username" : "johnp",
+		"name" : "JohnP",
+		"location" : "Arizona"
+	},
+	{
+		"_id" : NumberLong(117),
+		"username" : "chris-travers",
+		"name" : "Chris Travers",
+		"location" : "Jakarta, Indonesia"
+	},
+	{
+		"_id" : NumberLong(121),
+		"username" : "jonsca",
+		"name" : "jonsca",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(122),
+		"username" : "ankit-sharma",
+		"name" : "Ankit Sharma",
+		"location" : "Bangalore, India"
+	},
+	{
+		"_id" : NumberLong(123),
+		"username" : "alvas",
+		"name" : "alvas",
+		"location" : "Singapore"
+	},
+	{
+		"_id" : NumberLong(125),
+		"username" : "joe-taras",
+		"name" : "Joe Taras",
+		"location" : "Taranto, Italy"
+	},
+	{
+		"_id" : NumberLong(127),
+		"username" : "ibg",
+		"name" : "IBG",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(129),
+		"username" : "maxsc",
+		"name" : "MaxSC",
+		"location" : "Nantes, France"
+	},
+	{
+		"_id" : NumberLong(130),
+		"username" : "sf",
+		"name" : "SF.",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(138),
+		"username" : "lucas-kauffman",
+		"name" : "Lucas Kauffman",
+		"location" : "Singapore"
+	},
+	{
+		"_id" : NumberLong(141),
+		"username" : "richyguitar",
+		"name" : "RichyGuitar",
+		"location" : "Chemnitz, Germany"
+	},
+	{
+		"_id" : NumberLong(143),
+		"username" : "yaakov-ellis",
+		"name" : "Yaakov Ellis",
+		"location" : "Israel"
+	},
+	{
+		"_id" : NumberLong(148),
+		"username" : "greg",
+		"name" : "Greg",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(149),
+		"username" : "meat-trademark",
+		"name" : "Meat Trademark",
+		"location" : "St. Louis, MO"
+	},
+	{
+		"_id" : NumberLong(154),
+		"username" : "bill-the-lizard",
+		"name" : "Bill the Lizard",
+		"location" : "Charlotte, NC"
+	},
+	{
+		"_id" : NumberLong(157),
+		"username" : "tom-w",
+		"name" : "Tom W",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(162),
+		"username" : "user162",
+		"name" : "user162",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(165),
+		"username" : "pabouk",
+		"name" : "pabouk",
+		"location" : "Czech Republic"
+	},
+	{
+		"_id" : NumberLong(166),
+		"username" : "jdb",
+		"name" : "JDB",
+		"location" : "Chattanooga, TN"
+	},
+	{
+		"_id" : NumberLong(170),
+		"username" : "james-henstridge",
+		"name" : "James Henstridge",
+		"location" : "Perth, Australia"
+	},
+	{
+		"_id" : NumberLong(171),
+		"username" : "marvin-emil-brach",
+		"name" : "Marvin Emil Brach",
+		"location" : "Saarland, Germany"
+	},
+	{
+		"_id" : NumberLong(172),
+		"username" : "deadlyjesus",
+		"name" : "DeadlyJesus",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(181),
+		"username" : "user2845306",
+		"name" : "user2845306",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(182),
+		"username" : "user182",
+		"name" : "user182",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(187),
+		"username" : "rory-alsop",
+		"name" : "Rory Alsop",
+		"location" : "Scotland, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(189),
+		"username" : "nullpoiiteia",
+		"name" : "NullPoiиteя",
+		"location" : "The Moon"
+	},
+	{
+		"_id" : NumberLong(192),
+		"username" : "ryan-kinal",
+		"name" : "Ryan Kinal",
+		"location" : "Warren, PA"
+	},
+	{
+		"_id" : NumberLong(195),
+		"username" : "robin-sheat",
+		"name" : "Robin Sheat",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(200),
+		"username" : "c-p",
+		"name" : "c.p.",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(203),
+		"username" : "ricardo-simas",
+		"name" : "Ricardo Simas",
+		"location" : "Florianopolis, Brazil"
+	},
+	{
+		"_id" : NumberLong(212),
+		"username" : "darwhen",
+		"name" : "darwhen",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(215),
+		"username" : "hugo-dozois",
+		"name" : "Hugo Dozois",
+		"location" : "San Francisco, CA, United States"
+	},
+	{
+		"_id" : NumberLong(217),
+		"username" : "hakan-fahlstedt",
+		"name" : "Håkan Fahlstedt",
+		"location" : "Sweden"
+	},
+	{
+		"_id" : NumberLong(222),
+		"username" : "schleis",
+		"name" : "Schleis",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(224),
+		"username" : "couchand",
+		"name" : "couchand",
+		"location" : "Woodside"
+	},
+	{
+		"_id" : NumberLong(226),
+		"username" : "freiheit",
+		"name" : "freiheit",
+		"location" : "Santa Rosa, CA"
+	},
+	{
+		"_id" : NumberLong(229),
+		"username" : "michael-k",
+		"name" : "Michael K",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(233),
+		"username" : "jlott",
+		"name" : "JLott",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(241),
+		"username" : "josh-g",
+		"name" : "Josh G",
+		"location" : "Bellevue, WA"
+	},
+	{
+		"_id" : NumberLong(263),
+		"username" : "itsme-timd",
+		"name" : "itsme_timd",
+		"location" : "Woodstock, GA"
+	},
+	{
+		"_id" : NumberLong(268),
+		"username" : "sloloem",
+		"name" : "Sloloem",
+		"location" : "Massachusetts"
+	},
+	{
+		"_id" : NumberLong(269),
+		"username" : "sathiya-kumar",
+		"name" : "Sathiya Kumar",
+		"location" : "Chennai, India"
+	},
+	{
+		"_id" : NumberLong(276),
+		"username" : "squirtle",
+		"name" : "Squirtle",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(286),
+		"username" : "jeromy-french",
+		"name" : "Jeromy French",
+		"location" : "Falls Church, VA"
+	},
+	{
+		"_id" : NumberLong(288),
+		"username" : "user505255",
+		"name" : "user505255",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(301),
+		"username" : "anderzubi",
+		"name" : "anderZubi",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(303),
+		"username" : "travis-j",
+		"name" : "Travis J",
+		"location" : "California"
+	},
+	{
+		"_id" : NumberLong(330),
+		"username" : "theguest",
+		"name" : "theGuest",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(334),
+		"username" : "joe",
+		"name" : "Joe",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(341),
+		"username" : "brother-hawkins",
+		"name" : "Brother Hawkins",
+		"location" : "Fredericksburg, VA"
+	},
+	{
+		"_id" : NumberLong(352),
+		"username" : "cdspace",
+		"name" : "CDspace",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(353),
+		"username" : "mutmatt",
+		"name" : "Mutmatt",
+		"location" : "Saint Paul, MN"
+	},
+	{
+		"_id" : NumberLong(359),
+		"username" : "westcoastbrewer",
+		"name" : "WestCoastBrewer",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(368),
+		"username" : "metasequoia",
+		"name" : "metasequoia",
+		"location" : "Rockland, ME"
+	},
+	{
+		"_id" : NumberLong(380),
+		"username" : "jmk",
+		"name" : "JMK",
+		"location" : "Belfast, Northern Ireland"
+	},
+	{
+		"_id" : NumberLong(381),
+		"username" : "jalynn2",
+		"name" : "jalynn2",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(389),
+		"username" : "plasmahh",
+		"name" : "PlasmaHH",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(396),
+		"username" : "kurt-glastetter",
+		"name" : "Kurt Glastetter",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(401),
+		"username" : "seanb",
+		"name" : "SeanB",
+		"location" : "Seattle, WA, United States"
+	},
+	{
+		"_id" : NumberLong(403),
+		"username" : "matt-b",
+		"name" : "Matt B",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(408),
+		"username" : "martin-james",
+		"name" : "Martin James",
+		"location" : "United Kingdom"
+	},
+	{
+		"_id" : NumberLong(410),
+		"username" : "waitkus",
+		"name" : "Waitkus",
+		"location" : "Atlanta"
+	},
+	{
+		"_id" : NumberLong(412),
+		"username" : "jeroen",
+		"name" : "Jeroen",
+		"location" : "Netherlands"
+	},
+	{
+		"_id" : NumberLong(418),
+		"username" : "reginab22",
+		"name" : "reginab22",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(427),
+		"username" : "peteris",
+		"name" : "Peteris",
+		"location" : "Riga, Republic of Latvia"
+	},
+	{
+		"_id" : NumberLong(428),
+		"username" : "wyrmwood",
+		"name" : "Wyrmwood",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(443),
+		"username" : "unclemeat",
+		"name" : "unclemeat",
+		"location" : "Australian Capital Territory"
+	},
+	{
+		"_id" : NumberLong(444),
+		"username" : "erik",
+		"name" : "Erik",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(445),
+		"username" : "richard-terrett",
+		"name" : "Richard Terrett",
+		"location" : "Australia"
+	},
+	{
+		"_id" : NumberLong(453),
+		"username" : "user453",
+		"name" : "user453",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(457),
+		"username" : "terdon",
+		"name" : "terdon",
+		"location" : "Athens, Greece"
+	},
+	{
+		"_id" : NumberLong(467),
+		"username" : "jeff-wurz",
+		"name" : "Jeff Wurz",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(471),
+		"username" : "eewanco",
+		"name" : "eewanco",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(476),
+		"username" : "user476",
+		"name" : "user476",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(479),
+		"username" : "decency",
+		"name" : "Decency",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(497),
+		"username" : "brianfeucht",
+		"name" : "brianfeucht",
+		"location" : "Seattle, WA"
+	},
+	{
+		"_id" : NumberLong(500),
+		"username" : "dennis",
+		"name" : "Dennis",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(510),
+		"username" : "ithinkaboutbeer",
+		"name" : "ithinkaboutbeer",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(529),
+		"username" : "wayne-in-yak",
+		"name" : "Wayne In Yak",
+		"location" : "Yakima, WA"
+	},
+	{
+		"_id" : NumberLong(530),
+		"username" : "45th-percentile",
+		"name" : "45th Percentile",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(541),
+		"username" : "steven-jeuris",
+		"name" : "Steven Jeuris",
+		"location" : "Belgium"
+	},
+	{
+		"_id" : NumberLong(544),
+		"username" : "dave-baghdanov",
+		"name" : "Dave Baghdanov",
+		"location" : "Portland, OR"
+	},
+	{
+		"_id" : NumberLong(554),
+		"username" : "vinicius-dos-santos",
+		"name" : "Vinicius dos Santos",
+		"location" : "Brazil"
+	},
+	{
+		"_id" : NumberLong(566),
+		"username" : "markus",
+		"name" : "markus",
+		"location" : "Tallinn, Estonia"
+	},
+	{
+		"_id" : NumberLong(595),
+		"username" : "will-wp",
+		"name" : "Will WP",
+		"location" : "United Kingdom"
+	},
+	{
+		"_id" : NumberLong(608),
+		"username" : "slugmandrew",
+		"name" : "slugmandrew",
+		"location" : "London, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(618),
+		"username" : "timlymington",
+		"name" : "TimLymington",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(621),
+		"username" : "laurensp",
+		"name" : "LaurensP",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(642),
+		"username" : "user642",
+		"name" : "user642",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(647),
+		"username" : "cameron",
+		"name" : "Cameron",
+		"location" : "Vancouver, Canada"
+	},
+	{
+		"_id" : NumberLong(656),
+		"username" : "blundin",
+		"name" : "blundin",
+		"location" : "Austin, TX"
+	},
+	{
+		"_id" : NumberLong(662),
+		"username" : "valentin-gregoire",
+		"name" : "Valentin Grégoire",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(669),
+		"username" : "jutschge",
+		"name" : "Jutschge",
+		"location" : "Switzerland"
+	},
+	{
+		"_id" : NumberLong(672),
+		"username" : "peshir",
+		"name" : "peSHIr",
+		"location" : "Vleuten, Netherlands"
+	},
+	{
+		"_id" : NumberLong(673),
+		"username" : "zak",
+		"name" : "Zak",
+		"location" : "London, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(674),
+		"username" : "user3299408",
+		"name" : "user3299408",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(676),
+		"username" : "dave",
+		"name" : "Dave",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(685),
+		"username" : "primo",
+		"name" : "primo",
+		"location" : "Bangkok, Thailand"
+	},
+	{
+		"_id" : NumberLong(689),
+		"username" : "serpyre",
+		"name" : "Serpyre",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(707),
+		"username" : "dlbran",
+		"name" : "dlbran",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(718),
+		"username" : "jwiley",
+		"name" : "JWiley",
+		"location" : "North Carolina"
+	},
+	{
+		"_id" : NumberLong(720),
+		"username" : "doc",
+		"name" : "doc",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(723),
+		"username" : "rickhg12hs",
+		"name" : "rickhg12hs",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(725),
+		"username" : "matt-thalman",
+		"name" : "Matt Thalman",
+		"location" : "Fort Collins, CO"
+	},
+	{
+		"_id" : NumberLong(736),
+		"username" : "judge-zeppelin",
+		"name" : "Judge Zeppelin",
+		"location" : "East Riding of Yorkshire, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(738),
+		"username" : "riot",
+		"name" : "Riot",
+		"location" : "Manchester, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(740),
+		"username" : "mike",
+		"name" : "mike",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(743),
+		"username" : "chris-desjardins",
+		"name" : "Chris Desjardins",
+		"location" : "Amsterdam, Netherlands"
+	},
+	{
+		"_id" : NumberLong(758),
+		"username" : "darren-drapkin",
+		"name" : "Darren Drapkin",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(761),
+		"username" : "phil-steele",
+		"name" : "Phil Steele",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(764),
+		"username" : "what",
+		"name" : "what",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(765),
+		"username" : "aidan-quinn",
+		"name" : "Aidan Quinn",
+		"location" : "South Africa"
+	},
+	{
+		"_id" : NumberLong(778),
+		"username" : "matthew-peters",
+		"name" : "Matthew Peters",
+		"location" : "Florida"
+	},
+	{
+		"_id" : NumberLong(791),
+		"username" : "wa-homebrewer",
+		"name" : "WA_Homebrewer",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(793),
+		"username" : "ernir",
+		"name" : "Ernir",
+		"location" : "Reykjavik, Iceland"
+	},
+	{
+		"_id" : NumberLong(798),
+		"username" : "ckrug",
+		"name" : "CKrug",
+		"location" : "Pittsburgh, PA"
+	},
+	{
+		"_id" : NumberLong(800),
+		"username" : "ama",
+		"name" : "AMA",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(801),
+		"username" : "john-batdorf",
+		"name" : "John Batdorf",
+		"location" : "Portland, OR"
+	},
+	{
+		"_id" : NumberLong(802),
+		"username" : "chris-marasti-georg",
+		"name" : "Chris Marasti-Georg",
+		"location" : "Pittsburgh, PA"
+	},
+	{
+		"_id" : NumberLong(803),
+		"username" : "johnz",
+		"name" : "JohnZ",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(804),
+		"username" : "owen-johnson",
+		"name" : "Owen Johnson",
+		"location" : "Iowa"
+	},
+	{
+		"_id" : NumberLong(840),
+		"username" : "trialanderror",
+		"name" : "TrialAndError",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(842),
+		"username" : "the-answer",
+		"name" : "The Answer",
+		"location" : "New York, United States"
+	},
+	{
+		"_id" : NumberLong(843),
+		"username" : "pjd",
+		"name" : "pjd",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(847),
+		"username" : "boris-the-spider",
+		"name" : "Boris the Spider",
+		"location" : "London, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(860),
+		"username" : "charliehorse",
+		"name" : "CharlieHorse",
+		"location" : "Washington, DC"
+	},
+	{
+		"_id" : NumberLong(861),
+		"username" : "ottprime",
+		"name" : "OttPrime",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(866),
+		"username" : "nickjamesuk",
+		"name" : "nickjamesuk",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(869),
+		"username" : "cryptic",
+		"name" : "Cryptic",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(887),
+		"username" : "alex-a",
+		"name" : "Alex A.",
+		"location" : "Seattle, WA"
+	},
+	{
+		"_id" : NumberLong(892),
+		"username" : "andy-tinkham",
+		"name" : "Andy Tinkham",
+		"location" : "Shoreview, MN"
+	},
+	{
+		"_id" : NumberLong(896),
+		"username" : "120minuteman",
+		"name" : "120MinuteMan",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(898),
+		"username" : "bbbblaine",
+		"name" : "BBBBlaine",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(902),
+		"username" : "stuffe",
+		"name" : "stuffe",
+		"location" : "Derbyshire, UK"
+	},
+	{
+		"_id" : NumberLong(905),
+		"username" : "robetto",
+		"name" : "Robetto",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(909),
+		"username" : "md-tech",
+		"name" : "MD-Tech",
+		"location" : "London, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(911),
+		"username" : "hourofthebeast",
+		"name" : "HourOfTheBeast",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(920),
+		"username" : "jerry2144",
+		"name" : "jerry2144",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(923),
+		"username" : "markjwill",
+		"name" : "markjwill",
+		"location" : "Minnesota"
+	},
+	{
+		"_id" : NumberLong(928),
+		"username" : "uberpwnd",
+		"name" : "UberPwnd",
+		"location" : "(Cornfields outside of )Chicago,IL"
+	},
+	{
+		"_id" : NumberLong(929),
+		"username" : "edward-lu",
+		"name" : "edward-lu",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(931),
+		"username" : "gastrograph",
+		"name" : "Gastrograph",
+		"location" : "State College, PA"
+	},
+	{
+		"_id" : NumberLong(935),
+		"username" : "rgdayo",
+		"name" : "rgdayo",
+		"location" : "West Des Moines, IA"
+	},
+	{
+		"_id" : NumberLong(938),
+		"username" : "canadian-coder",
+		"name" : "Canadian Coder",
+		"location" : "Ontario, Canad"
+	},
+	{
+		"_id" : NumberLong(944),
+		"username" : "joe",
+		"name" : "Joe",
+		"location" : "San Francisco, CA"
+	},
+	{
+		"_id" : NumberLong(952),
+		"username" : "tom-newton",
+		"name" : "Tom Newton",
+		"location" : "Leeds, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(953),
+		"username" : "maxb",
+		"name" : "MaxB",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(955),
+		"username" : "gchavez",
+		"name" : "Gchavez",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(957),
+		"username" : "user3702601",
+		"name" : "user3702601",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(960),
+		"username" : "duncan",
+		"name" : "Duncan",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(961),
+		"username" : "derq",
+		"name" : "DerQ",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(963),
+		"username" : "bemed",
+		"name" : "bemed",
+		"location" : "Liverpool, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(966),
+		"username" : "user27897",
+		"name" : "user27897",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(974),
+		"username" : "james",
+		"name" : "James",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(975),
+		"username" : "kubarium",
+		"name" : "kubarium",
+		"location" : "Toronto, Canada"
+	},
+	{
+		"_id" : NumberLong(984),
+		"username" : "atron-seige",
+		"name" : "Atron Seige",
+		"location" : "Gauteng, South Africa"
+	},
+	{
+		"_id" : NumberLong(985),
+		"username" : "kyle",
+		"name" : "kyle",
+		"location" : "Denver, CO"
+	},
+	{
+		"_id" : NumberLong(991),
+		"username" : "jpsuominen",
+		"name" : "jpsuominen",
+		"location" : "Finland"
+	},
+	{
+		"_id" : NumberLong(995),
+		"username" : "user3677751",
+		"name" : "user3677751",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(996),
+		"username" : "fancypanda",
+		"name" : "FancyPanda",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1000),
+		"username" : "oopala",
+		"name" : "Oopala",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1002),
+		"username" : "biertrinker01",
+		"name" : "Biertrinker01",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1005),
+		"username" : "eranda",
+		"name" : "Eranda",
+		"location" : "SriLanka"
+	},
+	{
+		"_id" : NumberLong(1008),
+		"username" : "hek2mgl",
+		"name" : "hek2mgl",
+		"location" : "Berlin"
+	},
+	{
+		"_id" : NumberLong(1025),
+		"username" : "userx",
+		"name" : "USERX",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1031),
+		"username" : "chitowndev",
+		"name" : "ChitownDev",
+		"location" : "Chicago, IL"
+	},
+	{
+		"_id" : NumberLong(1039),
+		"username" : "toddward",
+		"name" : "toddward",
+		"location" : "Manassas, VA"
+	},
+	{
+		"_id" : NumberLong(1041),
+		"username" : "falsenames",
+		"name" : "Falsenames",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1043),
+		"username" : "charo",
+		"name" : "Charo",
+		"location" : "Barcelona, Spain"
+	},
+	{
+		"_id" : NumberLong(1047),
+		"username" : "dionisio-franca",
+		"name" : "Dionisio Franca",
+		"location" : "Tokyo"
+	},
+	{
+		"_id" : NumberLong(1062),
+		"username" : "jason-mclaughlin",
+		"name" : "Jason McLaughlin",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1066),
+		"username" : "tmenx",
+		"name" : "tmenx",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1070),
+		"username" : "david-eldridge",
+		"name" : "David Eldridge",
+		"location" : "Chicago, IL and Evanston, IL"
+	},
+	{
+		"_id" : NumberLong(1072),
+		"username" : "armin",
+		"name" : "Armin",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(1075),
+		"username" : "merrily",
+		"name" : "Merrily",
+		"location" : "San Diego, CA"
+	},
+	{
+		"_id" : NumberLong(1077),
+		"username" : "wogsland",
+		"name" : "wogsland",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1079),
+		"username" : "oliver",
+		"name" : "Oliver",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1080),
+		"username" : "healthmeup-com",
+		"name" : "HealthMeUp.com",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1092),
+		"username" : "tinypriest",
+		"name" : "tinypriest",
+		"location" : "Canada"
+	},
+	{
+		"_id" : NumberLong(1098),
+		"username" : "othya",
+		"name" : "Othya",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1103),
+		"username" : "gutsmania",
+		"name" : "gutsmania",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1104),
+		"username" : "abarb",
+		"name" : "ABarb",
+		"location" : "Virginia"
+	},
+	{
+		"_id" : NumberLong(1108),
+		"username" : "marfis",
+		"name" : "marfis",
+		"location" : "Stuttgart, Germany"
+	},
+	{
+		"_id" : NumberLong(1112),
+		"username" : "jim-w",
+		"name" : "Jim W",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1114),
+		"username" : "luisgc",
+		"name" : "LuisGC",
+		"location" : "Madrid, Spain"
+	},
+	{
+		"_id" : NumberLong(1118),
+		"username" : "cornbeetle",
+		"name" : "Cornbeetle",
+		"location" : "Dallas"
+	},
+	{
+		"_id" : NumberLong(1120),
+		"username" : "krezyle",
+		"name" : "Krezyle",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1122),
+		"username" : "caleb",
+		"name" : "Caleb",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1125),
+		"username" : "lars-marius-garshol",
+		"name" : "Lars Marius Garshol",
+		"location" : "Oslo, Norway"
+	},
+	{
+		"_id" : NumberLong(1126),
+		"username" : "user1126",
+		"name" : "user1126",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1128),
+		"username" : "d-dillner",
+		"name" : "D Dillner",
+		"location" : "Middle America"
+	},
+	{
+		"_id" : NumberLong(1129),
+		"username" : "hoorhay",
+		"name" : "Hoorhay",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1160),
+		"username" : "gerald-bauer",
+		"name" : "Gerald Bauer",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1167),
+		"username" : "can-can",
+		"name" : "Can-can",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1168),
+		"username" : "raczo",
+		"name" : "RacZo",
+		"location" : "A pale blue dot called Earth."
+	},
+	{
+		"_id" : NumberLong(1183),
+		"username" : "neves",
+		"name" : "neves",
+		"location" : "Rio de Janeiro, Brazil"
+	},
+	{
+		"_id" : NumberLong(1184),
+		"username" : "harry-siebert",
+		"name" : "Harry Siebert",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(1195),
+		"username" : "user978548",
+		"name" : "user978548",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1197),
+		"username" : "keith",
+		"name" : "Keith",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1199),
+		"username" : "user1199",
+		"name" : "user1199",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1200),
+		"username" : "shuashock",
+		"name" : "shuashock",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1209),
+		"username" : "ptuckley",
+		"name" : "PTuckley",
+		"location" : "Bristol, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(1214),
+		"username" : "matthias-m",
+		"name" : "Matthias M",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1219),
+		"username" : "user10473",
+		"name" : "user10473",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1220),
+		"username" : "pippin",
+		"name" : "Pippin",
+		"location" : "Lawrence, KS"
+	},
+	{
+		"_id" : NumberLong(1221),
+		"username" : "tony-verbert",
+		"name" : "Tony Verbert",
+		"location" : "Belgium"
+	},
+	{
+		"_id" : NumberLong(1222),
+		"username" : "pedro-bastos",
+		"name" : "Pedro Bastos",
+		"location" : "Portugal"
+	},
+	{
+		"_id" : NumberLong(1226),
+		"username" : "kenorb",
+		"name" : "kenorb",
+		"location" : "London, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(1228),
+		"username" : "air",
+		"name" : "Air",
+		"location" : "California"
+	},
+	{
+		"_id" : NumberLong(1236),
+		"username" : "jens",
+		"name" : "Jens",
+		"location" : "Terneuzen"
+	},
+	{
+		"_id" : NumberLong(1240),
+		"username" : "czobrisky",
+		"name" : "czobrisky",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1251),
+		"username" : "tim",
+		"name" : "Tim",
+		"location" : "Cambridge, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(1265),
+		"username" : "sidd",
+		"name" : "Sidd",
+		"location" : "Blois (FR)"
+	},
+	{
+		"_id" : NumberLong(1275),
+		"username" : "hnjslater",
+		"name" : "HNJSlater",
+		"location" : "United Kingdom"
+	},
+	{
+		"_id" : NumberLong(1281),
+		"username" : "absherr",
+		"name" : "Absherr",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1289),
+		"username" : "pepi",
+		"name" : "Pepi",
+		"location" : "Chengdu, China"
+	},
+	{
+		"_id" : NumberLong(1290),
+		"username" : "wolfger",
+		"name" : "Wolfger",
+		"location" : "Michigan"
+	},
+	{
+		"_id" : NumberLong(1295),
+		"username" : "hollie",
+		"name" : "Hollie",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1303),
+		"username" : "marty-kane",
+		"name" : "Marty Kane",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1306),
+		"username" : "beerest",
+		"name" : "Beerest",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1309),
+		"username" : "lucas65",
+		"name" : "Lucas65",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1310),
+		"username" : "bryandamage",
+		"name" : "bryandamage",
+		"location" : "Australia"
+	},
+	{
+		"_id" : NumberLong(1312),
+		"username" : "lenny",
+		"name" : "Lenny",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1317),
+		"username" : "patability",
+		"name" : "Patability",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1321),
+		"username" : "ashwith-ullal",
+		"name" : "Ashwith Ullal",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1323),
+		"username" : "kudla69",
+		"name" : "Kudla69",
+		"location" : "Detroit, MI, United States"
+	},
+	{
+		"_id" : NumberLong(1328),
+		"username" : "jl-ann",
+		"name" : "JL Ann",
+		"location" : "Los angeles"
+	},
+	{
+		"_id" : NumberLong(1338),
+		"username" : "yiggyb",
+		"name" : "yiggyb",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1346),
+		"username" : "potatrick",
+		"name" : "Potatrick",
+		"location" : "New Jersey"
+	},
+	{
+		"_id" : NumberLong(1352),
+		"username" : "ninj0r",
+		"name" : "Ninj0r",
+		"location" : "Japan"
+	},
+	{
+		"_id" : NumberLong(1355),
+		"username" : "jag",
+		"name" : "Jag",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1358),
+		"username" : "dan-dougherty",
+		"name" : "Dan Dougherty",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1374),
+		"username" : "kadir-ardic",
+		"name" : "Kadir Ardıç",
+		"location" : "Istanbul/Turkey"
+	},
+	{
+		"_id" : NumberLong(1385),
+		"username" : "r-wlodarski",
+		"name" : "R. Wlodarski",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1388),
+		"username" : "valross-nu",
+		"name" : "Valross.nu",
+		"location" : "Sweden"
+	},
+	{
+		"_id" : NumberLong(1398),
+		"username" : "series0ne",
+		"name" : "series0ne",
+		"location" : "United Kingdom"
+	},
+	{
+		"_id" : NumberLong(1404),
+		"username" : "mortal",
+		"name" : "mortal",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1410),
+		"username" : "vasshu",
+		"name" : "vasshu",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1412),
+		"username" : "jay-pea",
+		"name" : "Jay Pea",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1413),
+		"username" : "sue",
+		"name" : "Sue",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1426),
+		"username" : "st3",
+		"name" : "ST3",
+		"location" : "Lithuania"
+	},
+	{
+		"_id" : NumberLong(1429),
+		"username" : "frank-d",
+		"name" : "Frank D",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1431),
+		"username" : "shawn",
+		"name" : "Shawn",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1445),
+		"username" : "daniel-wolfe",
+		"name" : "Daniel Wolfe",
+		"location" : "Denver, CO"
+	},
+	{
+		"_id" : NumberLong(1452),
+		"username" : "marco",
+		"name" : "Marco",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1454),
+		"username" : "mchid",
+		"name" : "mchid",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(1457),
+		"username" : "marc-schwartz",
+		"name" : "Marc Schwartz",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1459),
+		"username" : "user1459",
+		"name" : "user1459",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1462),
+		"username" : "alan-h",
+		"name" : "Alan H.",
+		"location" : "Pennsylvania, USA"
+	},
+	{
+		"_id" : NumberLong(1469),
+		"username" : "martin-peters",
+		"name" : "Martin Peters",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1471),
+		"username" : "dog",
+		"name" : "Dog",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1475),
+		"username" : "nate-bunney",
+		"name" : "Nate Bunney",
+		"location" : "Modesto, CA"
+	},
+	{
+		"_id" : NumberLong(1482),
+		"username" : "david-wilkins",
+		"name" : "David Wilkins",
+		"location" : "Maine"
+	},
+	{
+		"_id" : NumberLong(1491),
+		"username" : "mattsolar",
+		"name" : "mattsolar",
+		"location" : "Massachusetts"
+	},
+	{
+		"_id" : NumberLong(1493),
+		"username" : "htellez",
+		"name" : "htellez",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1501),
+		"username" : "michael-martinez",
+		"name" : "Michael Martinez",
+		"location" : "Silicon Valley"
+	},
+	{
+		"_id" : NumberLong(1506),
+		"username" : "im1dermike",
+		"name" : "im1dermike",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1507),
+		"username" : "steve",
+		"name" : "Steve",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1508),
+		"username" : "dowlers",
+		"name" : "Dowlers",
+		"location" : "San Diego, CA"
+	},
+	{
+		"_id" : NumberLong(1509),
+		"username" : "ebrious",
+		"name" : "ebrious",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1519),
+		"username" : "dheeraj-bathija",
+		"name" : "Dheeraj Bathija",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1525),
+		"username" : "stef",
+		"name" : "stef",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1531),
+		"username" : "ric",
+		"name" : "Ric",
+		"location" : "New Delhi, India"
+	},
+	{
+		"_id" : NumberLong(1533),
+		"username" : "bibaswann-bandyopadhyay",
+		"name" : "Bibaswann Bandyopadhyay",
+		"location" : "Kolkata, India"
+	},
+	{
+		"_id" : NumberLong(1539),
+		"username" : "centaurus",
+		"name" : "Centaurus",
+		"location" : "Rio de Janeiro, Brazil"
+	},
+	{
+		"_id" : NumberLong(1541),
+		"username" : "maurice",
+		"name" : "Maurice",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1545),
+		"username" : "sai-raghavendran",
+		"name" : "Sai Raghavendran",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1546),
+		"username" : "martin-ritchie",
+		"name" : "Martin Ritchie",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1547),
+		"username" : "r-arriaga",
+		"name" : "R Arriaga",
+		"location" : "North Carolina"
+	},
+	{
+		"_id" : NumberLong(1553),
+		"username" : "rod",
+		"name" : "rod",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1558),
+		"username" : "rotajota",
+		"name" : "RotaJota",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1563),
+		"username" : "drew-beaupre",
+		"name" : "Drew Beaupre",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1569),
+		"username" : "tom-brendlinger",
+		"name" : "Tom Brendlinger",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(1572),
+		"username" : "tpbt",
+		"name" : "TPBT",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2574),
+		"username" : "zax",
+		"name" : "Zax",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2585),
+		"username" : "aubrey",
+		"name" : "Aubrey",
+		"location" : "Italy"
+	},
+	{
+		"_id" : NumberLong(2600),
+		"username" : "nathan-scott",
+		"name" : "Nathan Scott",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2603),
+		"username" : "timbucktieu",
+		"name" : "timbucktieu",
+		"location" : "San Francisco, CA"
+	},
+	{
+		"_id" : NumberLong(2604),
+		"username" : "jonnsmith",
+		"name" : "JonnSmith",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2605),
+		"username" : "user2605",
+		"name" : "user2605",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2607),
+		"username" : "greggle138",
+		"name" : "greggle138",
+		"location" : "New York City"
+	},
+	{
+		"_id" : NumberLong(2608),
+		"username" : "hdizzle",
+		"name" : "hdizzle",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2609),
+		"username" : "gmauch",
+		"name" : "gmauch",
+		"location" : "South Brazil"
+	},
+	{
+		"_id" : NumberLong(2632),
+		"username" : "chris-cirefice",
+		"name" : "Chris Cirefice",
+		"location" : "Grand Rapids, MI (United States)"
+	},
+	{
+		"_id" : NumberLong(2633),
+		"username" : "shiv",
+		"name" : "Shiv",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2635),
+		"username" : "abhishekkharwar",
+		"name" : "abhishekkharwar",
+		"location" : "New Delhi, India"
+	},
+	{
+		"_id" : NumberLong(2639),
+		"username" : "lightswitch05",
+		"name" : "lightswitch05",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2640),
+		"username" : "user193673",
+		"name" : "user193673",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2644),
+		"username" : "jim-g",
+		"name" : "Jim G.",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2647),
+		"username" : "beerfreezer",
+		"name" : "BeerFreezer",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(2648),
+		"username" : "john-m",
+		"name" : "John M",
+		"location" : "NYC"
+	},
+	{
+		"_id" : NumberLong(2649),
+		"username" : "griff-lopez",
+		"name" : "Griff Lopez",
+		"location" : "USA"
+	},
+	{
+		"_id" : NumberLong(2659),
+		"username" : "christoph-weber",
+		"name" : "Christoph Weber",
+		"location" : "Vienna, Austria"
+	},
+	{
+		"_id" : NumberLong(2660),
+		"username" : "tobias-simmel",
+		"name" : "Tobias Simmel",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(3667),
+		"username" : "joan-lopez-graupera",
+		"name" : "Joan Lopez Graupera",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3671),
+		"username" : "nyarasha",
+		"name" : "nyarasha",
+		"location" : "Massachusetts"
+	},
+	{
+		"_id" : NumberLong(3675),
+		"username" : "grafton-c",
+		"name" : "Grafton C.",
+		"location" : "Lexington, KY"
+	},
+	{
+		"_id" : NumberLong(3676),
+		"username" : "garrulinae",
+		"name" : "Garrulinae",
+		"location" : "Australia"
+	},
+	{
+		"_id" : NumberLong(3678),
+		"username" : "dave45",
+		"name" : "Dave45",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3690),
+		"username" : "joseph-montanaro",
+		"name" : "Joseph Montanaro",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3693),
+		"username" : "y-g",
+		"name" : "Y.G.",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3697),
+		"username" : "dominique-meeus",
+		"name" : "Dominique Meeùs",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3703),
+		"username" : "ewan-terry",
+		"name" : "Ewan Terry",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3704),
+		"username" : "darvel",
+		"name" : "DarveL",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3707),
+		"username" : "afp",
+		"name" : "afp",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3713),
+		"username" : "apex-assassin",
+		"name" : "Apex Assassin",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3717),
+		"username" : "deep",
+		"name" : "Deep",
+		"location" : "Birmingham, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(3722),
+		"username" : "mukhammad-schwannedgard",
+		"name" : "mukhammad schwannedgard",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3726),
+		"username" : "swetank",
+		"name" : "Swetank",
+		"location" : "Kolkata, India"
+	},
+	{
+		"_id" : NumberLong(3731),
+		"username" : "martin-k",
+		"name" : "martin k.",
+		"location" : "Czech Republic"
+	},
+	{
+		"_id" : NumberLong(3735),
+		"username" : "kyle",
+		"name" : "Kyle",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3744),
+		"username" : "jason-k",
+		"name" : "Jason K",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3755),
+		"username" : "jurgemaister",
+		"name" : "jurgemaister",
+		"location" : "Norway"
+	},
+	{
+		"_id" : NumberLong(3759),
+		"username" : "cemre-uludag",
+		"name" : "Cemre Uludag",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3760),
+		"username" : "gwg",
+		"name" : "GWG",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3772),
+		"username" : "wayneera",
+		"name" : "WayneEra",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3775),
+		"username" : "quentinuk",
+		"name" : "QuentinUK",
+		"location" : "United Kingdom"
+	},
+	{
+		"_id" : NumberLong(3780),
+		"username" : "boileau",
+		"name" : "boileau",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3783),
+		"username" : "yukyuk",
+		"name" : "YuKYuK",
+		"location" : "Europe"
+	},
+	{
+		"_id" : NumberLong(3789),
+		"username" : "nawar-khoury",
+		"name" : "Nawar Khoury",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3791),
+		"username" : "oliver-gibson",
+		"name" : "Oliver Gibson",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3803),
+		"username" : "matt-clark",
+		"name" : "Matt Clark",
+		"location" : "MA || RI || CT"
+	},
+	{
+		"_id" : NumberLong(3807),
+		"username" : "kasper-jorgensen",
+		"name" : "Kasper Jorgensen",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3813),
+		"username" : "polizz",
+		"name" : "polizz",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3820),
+		"username" : "mark",
+		"name" : "Mark",
+		"location" : "belgium"
+	},
+	{
+		"_id" : NumberLong(3825),
+		"username" : "jason-hall",
+		"name" : "Jason Hall",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3827),
+		"username" : "marshallbartist",
+		"name" : "marshallbartist",
+		"location" : "Houston"
+	},
+	{
+		"_id" : NumberLong(3836),
+		"username" : "williglimes",
+		"name" : "Williglimes",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3840),
+		"username" : "boddah",
+		"name" : "Boddah",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3844),
+		"username" : "acadie",
+		"name" : "acadie",
+		"location" : "Canada"
+	},
+	{
+		"_id" : NumberLong(3855),
+		"username" : "daanrio",
+		"name" : "DaanRio",
+		"location" : "Netherlands"
+	},
+	{
+		"_id" : NumberLong(3858),
+		"username" : "guy",
+		"name" : "Guy",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3859),
+		"username" : "jorge-casariego",
+		"name" : "Jorge Casariego",
+		"location" : "Asuncion, Paraguay"
+	},
+	{
+		"_id" : NumberLong(3861),
+		"username" : "zeljko",
+		"name" : "Zeljko",
+		"location" : "Belgrade, Serbia"
+	},
+	{
+		"_id" : NumberLong(3863),
+		"username" : "matt-cooper",
+		"name" : "Matt Cooper",
+		"location" : "Issaquah, WA"
+	},
+	{
+		"_id" : NumberLong(3864),
+		"username" : "luke",
+		"name" : "Luke",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3872),
+		"username" : "coffeebean",
+		"name" : "CoffeeBean",
+		"location" : "San Diego, CA"
+	},
+	{
+		"_id" : NumberLong(3873),
+		"username" : "aaron-iggy-sutter",
+		"name" : "Aaron Iggy Sutter",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3874),
+		"username" : "fozefy",
+		"name" : "Fozefy",
+		"location" : "Canada"
+	},
+	{
+		"_id" : NumberLong(3876),
+		"username" : "mattegener",
+		"name" : "mattegener",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3879),
+		"username" : "cal-wes",
+		"name" : "Cal_Wes",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(3885),
+		"username" : "code",
+		"name" : "Code",
+		"location" : "Millcreek"
+	},
+	{
+		"_id" : NumberLong(3886),
+		"username" : "jordan-elpern-waxman",
+		"name" : "Jordan Elpern-Waxman",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3890),
+		"username" : "aurys",
+		"name" : "Aurys",
+		"location" : "Vilnius, Lithuania"
+	},
+	{
+		"_id" : NumberLong(3901),
+		"username" : "bolnad",
+		"name" : "bolnad",
+		"location" : "Katonah, NY"
+	},
+	{
+		"_id" : NumberLong(3905),
+		"username" : "chris-steele",
+		"name" : "Chris Steele",
+		"location" : "Southern California"
+	},
+	{
+		"_id" : NumberLong(3909),
+		"username" : "zuiq-pazu",
+		"name" : "Zuiq Pazu",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3917),
+		"username" : "prabodhmeshram",
+		"name" : "prabodhmeshram",
+		"location" : "Pune, India"
+	},
+	{
+		"_id" : NumberLong(3920),
+		"username" : "sheryl-ann-miller",
+		"name" : "Sheryl Ann Miller",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3921),
+		"username" : "cole",
+		"name" : "Cole",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3926),
+		"username" : "smashy",
+		"name" : "smashy",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3933),
+		"username" : "user3933",
+		"name" : "user3933",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(3954),
+		"username" : "bbs",
+		"name" : "BBS",
+		"location" : "Vermont"
+	},
+	{
+		"_id" : NumberLong(3972),
+		"username" : "jon-a",
+		"name" : "Jon A",
+		"location" : "New York, NY"
+	},
+	{
+		"_id" : NumberLong(3988),
+		"username" : "ray",
+		"name" : "Ray",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4023),
+		"username" : "edocsyl",
+		"name" : "Edocsyl",
+		"location" : "Switzerland"
+	},
+	{
+		"_id" : NumberLong(4024),
+		"username" : "jabolotai",
+		"name" : "jabolotai",
+		"location" : "Australia"
+	},
+	{
+		"_id" : NumberLong(4028),
+		"username" : "victor-bellon",
+		"name" : "Victor Bellon",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4033),
+		"username" : "evil-genius",
+		"name" : "Evil Genius",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4034),
+		"username" : "dominic-scanlan",
+		"name" : "Dominic Scanlan",
+		"location" : "UK"
+	},
+	{
+		"_id" : NumberLong(4036),
+		"username" : "peter",
+		"name" : "peter",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4041),
+		"username" : "singasong",
+		"name" : "singasong",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4044),
+		"username" : "alex-quiterio",
+		"name" : "Alex Quiterio",
+		"location" : "Lisbon, Portugal"
+	},
+	{
+		"_id" : NumberLong(4045),
+		"username" : "elias-zamaria",
+		"name" : "Elias Zamaria",
+		"location" : "San Francisco, CA"
+	},
+	{
+		"_id" : NumberLong(4056),
+		"username" : "geryan",
+		"name" : "geryan",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4062),
+		"username" : "steadybox",
+		"name" : "Steadybox",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4070),
+		"username" : "mlegge",
+		"name" : "mlegge",
+		"location" : "Chicago, IL"
+	},
+	{
+		"_id" : NumberLong(4071),
+		"username" : "man-of-beer-man",
+		"name" : "Man Of Beer Man",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4080),
+		"username" : "user4080",
+		"name" : "user4080",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4087),
+		"username" : "logicianwithahat",
+		"name" : "LogicianWithAHat",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4090),
+		"username" : "james",
+		"name" : "James",
+		"location" : "United Kingdom"
+	},
+	{
+		"_id" : NumberLong(4101),
+		"username" : "lalo-garcia",
+		"name" : "Lalo Garcia",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4106),
+		"username" : "alex-hough",
+		"name" : "Alex Hough",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4109),
+		"username" : "florian-neiss",
+		"name" : "Florian Neiss",
+		"location" : "Berlin"
+	},
+	{
+		"_id" : NumberLong(4111),
+		"username" : "antonio-garcia",
+		"name" : "Antonio Garcia",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4116),
+		"username" : "inthebeerandnow",
+		"name" : "InTheBeerAndNow ",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4136),
+		"username" : "mwhale",
+		"name" : "MWhale",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4144),
+		"username" : "scott-deerwester",
+		"name" : "Scott Deerwester",
+		"location" : "Rossville, IN"
+	},
+	{
+		"_id" : NumberLong(4154),
+		"username" : "m-horse",
+		"name" : "M Horse",
+		"location" : "London, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(4167),
+		"username" : "bart-friederichs",
+		"name" : "Bart Friederichs",
+		"location" : "Netherlands"
+	},
+	{
+		"_id" : NumberLong(4170),
+		"username" : "hemadeus",
+		"name" : "Hemadeus",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4175),
+		"username" : "bweber",
+		"name" : "bweber",
+		"location" : "London"
+	},
+	{
+		"_id" : NumberLong(4176),
+		"username" : "steve",
+		"name" : "Steve",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4181),
+		"username" : "chris-cummings",
+		"name" : "Chris Cummings",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4188),
+		"username" : "reverseapachemaster",
+		"name" : "reverseapachemaster",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4197),
+		"username" : "anton",
+		"name" : "Anton",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4204),
+		"username" : "marek-minecki",
+		"name" : "Marek Minecki",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4219),
+		"username" : "nathan-harper",
+		"name" : "Nathan Harper",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4224),
+		"username" : "bruce-p-squirrel",
+		"name" : "Bruce P. Squirrel",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4238),
+		"username" : "jaken-herman",
+		"name" : "Jaken Herman",
+		"location" : "Huntsville, Texas"
+	},
+	{
+		"_id" : NumberLong(4240),
+		"username" : "beerman",
+		"name" : "Beerman",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4241),
+		"username" : "xonatron",
+		"name" : "Xonatron",
+		"location" : "Yarmouth, Nova Scotia, Canada"
+	},
+	{
+		"_id" : NumberLong(4245),
+		"username" : "valerie",
+		"name" : "Valerie",
+		"location" : "New York, United States"
+	},
+	{
+		"_id" : NumberLong(4254),
+		"username" : "cerberus",
+		"name" : "Cerberus",
+		"location" : "Eindhoven, Netherlands"
+	},
+	{
+		"_id" : NumberLong(4258),
+		"username" : "daievs",
+		"name" : "DaiEvs",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4266),
+		"username" : "cameron-w",
+		"name" : "Cameron W",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4269),
+		"username" : "user4269",
+		"name" : "user4269",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4270),
+		"username" : "firelynx",
+		"name" : "firelynx",
+		"location" : "Berlin, Germany"
+	},
+	{
+		"_id" : NumberLong(4272),
+		"username" : "matt-mccabe",
+		"name" : "Matt McCabe",
+		"location" : "Cardiff"
+	},
+	{
+		"_id" : NumberLong(4276),
+		"username" : "muschkopp",
+		"name" : "Muschkopp",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4277),
+		"username" : "anvd",
+		"name" : "anvd",
+		"location" : "Portugal"
+	},
+	{
+		"_id" : NumberLong(4278),
+		"username" : "steve-o",
+		"name" : "Steve O",
+		"location" : "Austin, TX"
+	},
+	{
+		"_id" : NumberLong(4279),
+		"username" : "champlasonic",
+		"name" : "champlasonic",
+		"location" : "Kawagoe-shi, Japan"
+	},
+	{
+		"_id" : NumberLong(4281),
+		"username" : "gabrielhidasy",
+		"name" : "gabrielhidasy",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4303),
+		"username" : "t0rn",
+		"name" : "t0rn",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4306),
+		"username" : "ptilton",
+		"name" : "ptilton",
+		"location" : "San Diego, CA"
+	},
+	{
+		"_id" : NumberLong(4308),
+		"username" : "willyd",
+		"name" : "WillyD",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4309),
+		"username" : "greg-trevellick",
+		"name" : "Greg Trevellick",
+		"location" : ".Netland"
+	},
+	{
+		"_id" : NumberLong(4314),
+		"username" : "swimon",
+		"name" : "swimon",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4322),
+		"username" : "chow",
+		"name" : "chow",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4326),
+		"username" : "dave",
+		"name" : "Dave",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4327),
+		"username" : "natrium",
+		"name" : "Natrium",
+		"location" : "Europe"
+	},
+	{
+		"_id" : NumberLong(4337),
+		"username" : "philipp",
+		"name" : "Philipp",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(4338),
+		"username" : "edson-marquezani-filho",
+		"name" : "Edson Marquezani Filho",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4345),
+		"username" : "norm-ross",
+		"name" : "Norm Ross",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4348),
+		"username" : "woodchuck",
+		"name" : "woodchuck",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4350),
+		"username" : "charlemange",
+		"name" : "Charlemange",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4353),
+		"username" : "brsmover",
+		"name" : "BRsmover",
+		"location" : "Switzerland"
+	},
+	{
+		"_id" : NumberLong(4358),
+		"username" : "beerlover616",
+		"name" : "Beerlover616",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4359),
+		"username" : "user4359",
+		"name" : "user4359",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4374),
+		"username" : "edouard",
+		"name" : "Édouard",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4383),
+		"username" : "alexei-shulga",
+		"name" : "alexei.shulga",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4392),
+		"username" : "danilov",
+		"name" : "DaniloV",
+		"location" : "Southampton, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(4393),
+		"username" : "user1681389",
+		"name" : "user1681389",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4394),
+		"username" : "user23614",
+		"name" : "user23614",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4397),
+		"username" : "chad-bernier",
+		"name" : "Chad Bernier",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4402),
+		"username" : "apfil",
+		"name" : "Apfil",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4406),
+		"username" : "reginald-ret",
+		"name" : "Reginald Ret",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4411),
+		"username" : "chase-gilliam",
+		"name" : "Chase Gilliam",
+		"location" : "Baltimore, MD"
+	},
+	{
+		"_id" : NumberLong(4423),
+		"username" : "jordi-castilla",
+		"name" : "Jordi Castilla",
+		"location" : "Barcelona"
+	},
+	{
+		"_id" : NumberLong(4434),
+		"username" : "user4434",
+		"name" : "user4434",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4437),
+		"username" : "janezane",
+		"name" : "JaneZane",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4439),
+		"username" : "apaul34208",
+		"name" : "apaul34208",
+		"location" : "Florida"
+	},
+	{
+		"_id" : NumberLong(4447),
+		"username" : "dhaesejan",
+		"name" : "dhaesejan",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4466),
+		"username" : "graham",
+		"name" : "Graham",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4476),
+		"username" : "frank",
+		"name" : "Frank",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4480),
+		"username" : "dave",
+		"name" : "DAVE",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4481),
+		"username" : "jambob",
+		"name" : "Jambob",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4488),
+		"username" : "alex",
+		"name" : "Alex",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4497),
+		"username" : "john",
+		"name" : "John",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4501),
+		"username" : "john",
+		"name" : "John",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4505),
+		"username" : "timmy",
+		"name" : "Timmy",
+		"location" : "Ohio"
+	},
+	{
+		"_id" : NumberLong(4514),
+		"username" : "marcelo-machado",
+		"name" : "Marcelo Machado",
+		"location" : "#SOreadytohelp"
+	},
+	{
+		"_id" : NumberLong(4518),
+		"username" : "leo",
+		"name" : "Leo",
+		"location" : "Iceland"
+	},
+	{
+		"_id" : NumberLong(4526),
+		"username" : "josliber",
+		"name" : "josliber",
+		"location" : "Boston, MA"
+	},
+	{
+		"_id" : NumberLong(4530),
+		"username" : "darkstar",
+		"name" : "darkstar",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4535),
+		"username" : "gareth",
+		"name" : "Gareth",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4538),
+		"username" : "jaco-jan-prinsloo",
+		"name" : "Jaco-Jan Prinsloo",
+		"location" : "Potchefstroom, South Africa"
+	},
+	{
+		"_id" : NumberLong(4540),
+		"username" : "newguy",
+		"name" : "newGuy",
+		"location" : "Newlands, NC"
+	},
+	{
+		"_id" : NumberLong(4545),
+		"username" : "josua-marcel-chrisano",
+		"name" : "Josua Marcel Chrisano",
+		"location" : "Bandung, ID"
+	},
+	{
+		"_id" : NumberLong(4550),
+		"username" : "beerhunter",
+		"name" : "Beerhunter",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4557),
+		"username" : "brewmaster-bob",
+		"name" : "Brewmaster Bob",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4564),
+		"username" : "tom-sawyer",
+		"name" : "Tom Sawyer",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4572),
+		"username" : "user4572",
+		"name" : "user4572",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4575),
+		"username" : "zoleas",
+		"name" : "Zoleas",
+		"location" : "Paris, France"
+	},
+	{
+		"_id" : NumberLong(4576),
+		"username" : "jayhal",
+		"name" : "Jayhal",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4605),
+		"username" : "muralidhar",
+		"name" : "Muralidhar",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4615),
+		"username" : "pdmoore",
+		"name" : "pdmoore",
+		"location" : "SoCal"
+	},
+	{
+		"_id" : NumberLong(4626),
+		"username" : "skypanther",
+		"name" : "skypanther",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4631),
+		"username" : "defactodarling",
+		"name" : "deFactoDARLING",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4632),
+		"username" : "mskensington",
+		"name" : "MsKensington",
+		"location" : "Wisconsin"
+	},
+	{
+		"_id" : NumberLong(4637),
+		"username" : "rube",
+		"name" : "Rube",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4638),
+		"username" : "neil-meyer",
+		"name" : "Neil Meyer",
+		"location" : "Centurion, South Africa"
+	},
+	{
+		"_id" : NumberLong(4646),
+		"username" : "drjim",
+		"name" : "DrJim",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4649),
+		"username" : "dashambles",
+		"name" : "dashambles",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(4650),
+		"username" : "mark",
+		"name" : "mark",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4655),
+		"username" : "michel-viegas",
+		"name" : "Michel Viegas",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4659),
+		"username" : "poco",
+		"name" : "Poco",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4660),
+		"username" : "aim",
+		"name" : "AIM",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4669),
+		"username" : "gstestso",
+		"name" : "Gstestso",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4691),
+		"username" : "preston-fitzgerald",
+		"name" : "Preston Fitzgerald",
+		"location" : "On the road"
+	},
+	{
+		"_id" : NumberLong(4701),
+		"username" : "thedubiousdubber",
+		"name" : "TheDubiousDubber",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4713),
+		"username" : "touiquette",
+		"name" : "touiquette",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4725),
+		"username" : "dave",
+		"name" : "Dave",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4742),
+		"username" : "alex-s",
+		"name" : "Alex.S",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4767),
+		"username" : "eric-deloak",
+		"name" : "Eric Deloak",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4770),
+		"username" : "darwin-von-corax",
+		"name" : "Darwin von Corax",
+		"location" : "London, Canada"
+	},
+	{
+		"_id" : NumberLong(4774),
+		"username" : "steve",
+		"name" : "steve",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4777),
+		"username" : "vaasha",
+		"name" : "Vaasha",
+		"location" : "Czech Republic"
+	},
+	{
+		"_id" : NumberLong(4784),
+		"username" : "james-smith",
+		"name" : "James Smith",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4785),
+		"username" : "skyler-nakashima",
+		"name" : "Skyler Nakashima",
+		"location" : "Seattle"
+	},
+	{
+		"_id" : NumberLong(4793),
+		"username" : "padroni",
+		"name" : "Padroni",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4805),
+		"username" : "steven-linn",
+		"name" : "Steven Linn",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4819),
+		"username" : "dkatri",
+		"name" : "DKatri",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4826),
+		"username" : "john",
+		"name" : "John",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4859),
+		"username" : "domacs",
+		"name" : "domacs",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4880),
+		"username" : "victor-trejo",
+		"name" : "Victor Trejo",
+		"location" : "Los Angeles"
+	},
+	{
+		"_id" : NumberLong(4881),
+		"username" : "greg-louis",
+		"name" : "greg louis",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4890),
+		"username" : "andras-virag",
+		"name" : "András Virág",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4891),
+		"username" : "john",
+		"name" : "John",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4895),
+		"username" : "dave-hamrix",
+		"name" : "Dave Hamrix",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4896),
+		"username" : "dave-hamrix",
+		"name" : "Dave Hamrix",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4903),
+		"username" : "paparazzi",
+		"name" : "Paparazzi",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(4908),
+		"username" : "akash-pandey",
+		"name" : "Akash Pandey",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4910),
+		"username" : "ben",
+		"name" : "Ben",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4917),
+		"username" : "age",
+		"name" : "AGE",
+		"location" : "Rutherford, NJ"
+	},
+	{
+		"_id" : NumberLong(4921),
+		"username" : "tycho",
+		"name" : "Tycho",
+		"location" : "Netherlands"
+	},
+	{
+		"_id" : NumberLong(4935),
+		"username" : "thesquaregroot",
+		"name" : "thesquaregroot",
+		"location" : "Columbus, OH"
+	},
+	{
+		"_id" : NumberLong(4938),
+		"username" : "arthur-d",
+		"name" : "Arthur D",
+		"location" : "Leuven, Belgium"
+	},
+	{
+		"_id" : NumberLong(4947),
+		"username" : "marv",
+		"name" : "Marv",
+		"location" : "(one hour away from) Munich, Germany"
+	},
+	{
+		"_id" : NumberLong(4962),
+		"username" : "sqb",
+		"name" : "SQB",
+		"location" : "Yurp"
+	},
+	{
+		"_id" : NumberLong(4974),
+		"username" : "t-k",
+		"name" : "T.K.",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4976),
+		"username" : "andre-bruno-ivan-garcia",
+		"name" : "André Bruno Ivan Garcia",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4979),
+		"username" : "ben-ronan",
+		"name" : "Ben Ronan",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4993),
+		"username" : "sickopsycho",
+		"name" : "SickoPsycho",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(4998),
+		"username" : "ross",
+		"name" : "Ross",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5024),
+		"username" : "user5024",
+		"name" : "user5024",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5036),
+		"username" : "shdynasty",
+		"name" : "Sh'dynasty",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5046),
+		"username" : "robbe-dillen",
+		"name" : "Robbe Dillen",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5049),
+		"username" : "djhellduck",
+		"name" : "DJHellduck",
+		"location" : "Oslo"
+	},
+	{
+		"_id" : NumberLong(5050),
+		"username" : "pole",
+		"name" : "Pole",
+		"location" : "Finland"
+	},
+	{
+		"_id" : NumberLong(5051),
+		"username" : "nehal",
+		"name" : "Nehal",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5063),
+		"username" : "dualcells",
+		"name" : "dualcells",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5064),
+		"username" : "ken-graham",
+		"name" : "Ken Graham",
+		"location" : "British Columbia"
+	},
+	{
+		"_id" : NumberLong(5066),
+		"username" : "marius",
+		"name" : "Marius",
+		"location" : "Norway"
+	},
+	{
+		"_id" : NumberLong(5078),
+		"username" : "jamie-eltringham",
+		"name" : "Jamie Eltringham",
+		"location" : "Newcastle upon Tyne, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(5083),
+		"username" : "demongolem",
+		"name" : "demongolem",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(5086),
+		"username" : "ryan-stevens-34",
+		"name" : "Ryan-Stevens-34",
+		"location" : "Weirton, WV, United States"
+	},
+	{
+		"_id" : NumberLong(5107),
+		"username" : "maxwelldeux",
+		"name" : "maxwelldeux",
+		"location" : "Snohomish, WA, United States"
+	},
+	{
+		"_id" : NumberLong(5113),
+		"username" : "tripwire1000",
+		"name" : "tripwire1000",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5114),
+		"username" : "aviad",
+		"name" : "aviad",
+		"location" : "Earth"
+	},
+	{
+		"_id" : NumberLong(5121),
+		"username" : "user5121",
+		"name" : "user5121",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5122),
+		"username" : "faye123",
+		"name" : "Faye123",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5138),
+		"username" : "ndl",
+		"name" : "ndl",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5141),
+		"username" : "stan-hart",
+		"name" : "Stan Hart",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5142),
+		"username" : "richard-zak",
+		"name" : "Richard Żak",
+		"location" : "United States"
+	},
+	{
+		"_id" : NumberLong(5144),
+		"username" : "just-do-it",
+		"name" : "Just Do It",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5145),
+		"username" : "joel",
+		"name" : "Joel",
+		"location" : "Milwaukee, WI"
+	},
+	{
+		"_id" : NumberLong(5147),
+		"username" : "phil",
+		"name" : "Phil",
+		"location" : "United Kingdom"
+	},
+	{
+		"_id" : NumberLong(5150),
+		"username" : "rufus",
+		"name" : "Rufus",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5160),
+		"username" : "kingsley",
+		"name" : "Kingsley",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5165),
+		"username" : "bob0the0mighty",
+		"name" : "bob0the0mighty",
+		"location" : "Virginia"
+	},
+	{
+		"_id" : NumberLong(5178),
+		"username" : "valerii",
+		"name" : "Валерий",
+		"location" : "Московская область, Россия"
+	},
+	{
+		"_id" : NumberLong(5187),
+		"username" : "mrshl",
+		"name" : "mrshl",
+		"location" : "Austin, TX"
+	},
+	{
+		"_id" : NumberLong(5193),
+		"username" : "zdravko-danev",
+		"name" : "Zdravko Danev",
+		"location" : "Orange County, CA"
+	},
+	{
+		"_id" : NumberLong(5232),
+		"username" : "wythagoras",
+		"name" : "wythagoras",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5247),
+		"username" : "john-mallett",
+		"name" : "John Mallett",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5268),
+		"username" : "traveler",
+		"name" : "Traveler",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5272),
+		"username" : "walle",
+		"name" : "Walle",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5278),
+		"username" : "desirae-martinez",
+		"name" : "Desirae Martinez",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5280),
+		"username" : "eric-bailey",
+		"name" : "Eric Bailey",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5282),
+		"username" : "mr-hons",
+		"name" : "Mr Hons",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5294),
+		"username" : "ian-sosa",
+		"name" : "Ian Sosa",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5296),
+		"username" : "rory-mccune",
+		"name" : "Rоry McCune",
+		"location" : "Scotland, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(5297),
+		"username" : "pau1",
+		"name" : "pau1",
+		"location" : "Edmonton, Canada"
+	},
+	{
+		"_id" : NumberLong(5306),
+		"username" : "matt-zarro",
+		"name" : "matt_zarro",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5328),
+		"username" : "spavel",
+		"name" : "SPavel",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5345),
+		"username" : "gannolloy",
+		"name" : "gannolloy",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5350),
+		"username" : "s-cow",
+		"name" : "S. Cow",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5364),
+		"username" : "miner-glitch",
+		"name" : "Miner_Glitch",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5431),
+		"username" : "nicola-miotto",
+		"name" : "Nicola Miotto",
+		"location" : "Berlin, Germany"
+	},
+	{
+		"_id" : NumberLong(5433),
+		"username" : "edward-winkle",
+		"name" : "Edward Winkle",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5437),
+		"username" : "jason-huebel",
+		"name" : "Jason Huebel",
+		"location" : "Orange, TX, United States"
+	},
+	{
+		"_id" : NumberLong(5439),
+		"username" : "posipiet",
+		"name" : "posipiet",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5457),
+		"username" : "jimmyjames",
+		"name" : "JimmyJames",
+		"location" : "Buffalo, NY"
+	},
+	{
+		"_id" : NumberLong(5460),
+		"username" : "christian-rau",
+		"name" : "Christian Rau",
+		"location" : "Chemnitz, Germany"
+	},
+	{
+		"_id" : NumberLong(5467),
+		"username" : "mazura",
+		"name" : "Mazura",
+		"location" : "Chicago"
+	},
+	{
+		"_id" : NumberLong(5468),
+		"username" : "devendra-singh",
+		"name" : "Devendra singh",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5478),
+		"username" : "andrew",
+		"name" : "Andrew",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5481),
+		"username" : "charl-e",
+		"name" : "Charl E",
+		"location" : "Oxford, United Kingdom"
+	},
+	{
+		"_id" : NumberLong(5482),
+		"username" : "macsmith",
+		"name" : "macsmith",
+		"location" : "Toronto, Canada"
+	},
+	{
+		"_id" : NumberLong(5483),
+		"username" : "william-kappler",
+		"name" : "William Kappler",
+		"location" : "Raleigh, NC"
+	},
+	{
+		"_id" : NumberLong(5486),
+		"username" : "lysander",
+		"name" : "Lysander",
+		"location" : "Free America"
+	},
+	{
+		"_id" : NumberLong(5502),
+		"username" : "damon",
+		"name" : "Damon",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5503),
+		"username" : "jhn",
+		"name" : "JHN",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5505),
+		"username" : "user8348",
+		"name" : "user8348",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5506),
+		"username" : "jjjjj",
+		"name" : "jjjjj",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5508),
+		"username" : "theirf",
+		"name" : "theIRF",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5523),
+		"username" : "user5523",
+		"name" : "user5523",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5529),
+		"username" : "heather-phillips",
+		"name" : "Heather Phillips",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5530),
+		"username" : "mcsell",
+		"name" : "MCSell",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(5538),
+		"username" : "phil-d",
+		"name" : "Phil D.",
+		"location" : "Melbourne, Australia"
+	},
+	{
+		"_id" : NumberLong(5539),
+		"username" : "joshua-aslan-smith",
+		"name" : "Joshua Aslan Smith",
+		"location" : "Philadelphia, PA"
+	},
+	{
+		"_id" : NumberLong(5545),
+		"username" : "louise",
+		"name" : "Louise",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5548),
+		"username" : "mestika",
+		"name" : "Mestika",
+		"location" : "Copenhagen, Denmark"
+	},
+	{
+		"_id" : NumberLong(5561),
+		"username" : "rojaun",
+		"name" : "Rojaun",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5568),
+		"username" : "user5568",
+		"name" : "user5568",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5570),
+		"username" : "rjbush",
+		"name" : "rjbush",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5571),
+		"username" : "blacksquaretaco",
+		"name" : "BlackSquareTaco",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5572),
+		"username" : "ailurus",
+		"name" : "ailurus",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5575),
+		"username" : "ben-hare",
+		"name" : "Ben Hare",
+		"location" : "Toronto, Canada"
+	},
+	{
+		"_id" : NumberLong(5576),
+		"username" : "god",
+		"name" : "god",
+		"location" : "Earth"
+	},
+	{
+		"_id" : NumberLong(5582),
+		"username" : "bronski-stenberg",
+		"name" : "Bronski Stenberg",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5587),
+		"username" : "bas",
+		"name" : "Bas",
+		"location" : "Netherlands, Nijmegen"
+	},
+	{
+		"_id" : NumberLong(5593),
+		"username" : "user349062",
+		"name" : "user349062",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5599),
+		"username" : "airspeed",
+		"name" : "Airspeed",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5612),
+		"username" : "cmmoutes13",
+		"name" : "cmmoutes13",
+		"location" : "Akron, OH, United States"
+	},
+	{
+		"_id" : NumberLong(5616),
+		"username" : "wilb6302",
+		"name" : "wilb6302",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5622),
+		"username" : "threebills",
+		"name" : "threebills",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5623),
+		"username" : "tal-segal",
+		"name" : "Tal Segal",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5637),
+		"username" : "user5637",
+		"name" : "user5637",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5643),
+		"username" : "user5643",
+		"name" : "user5643",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5648),
+		"username" : "liquorbeforebeerneverfear",
+		"name" : "Liquorbeforebeerneverfear",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5651),
+		"username" : "dwesthoff",
+		"name" : "DWesthoff",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5654),
+		"username" : "comicurus",
+		"name" : "comicurus",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5662),
+		"username" : "hank",
+		"name" : "Hank",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5667),
+		"username" : "hemant-k-singh",
+		"name" : "Hemant K Singh",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5676),
+		"username" : "clint-compton",
+		"name" : "Clint Compton",
+		"location" : "Dallas, TX, United States"
+	},
+	{
+		"_id" : NumberLong(5679),
+		"username" : "eirik-m",
+		"name" : "Eirik M",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5688),
+		"username" : "tberg",
+		"name" : "tberg",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5691),
+		"username" : "isaac",
+		"name" : "Isaac",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5698),
+		"username" : "frewper",
+		"name" : "frewper",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5705),
+		"username" : "bert-heymans",
+		"name" : "Bert Heymans",
+		"location" : "Belgium"
+	},
+	{
+		"_id" : NumberLong(5706),
+		"username" : "danielhadar",
+		"name" : "danielhadar",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5718),
+		"username" : "nobosity",
+		"name" : "nobosity",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5734),
+		"username" : "min-hundje",
+		"name" : "min hundje",
+		"location" : "Germany"
+	},
+	{
+		"_id" : NumberLong(5743),
+		"username" : "genaro-delarosa",
+		"name" : "Genaro Delarosa",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5744),
+		"username" : "tarabyte",
+		"name" : "tarabyte",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5764),
+		"username" : "user5764",
+		"name" : "user5764",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5768),
+		"username" : "sam",
+		"name" : "Sam",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5771),
+		"username" : "avik-mohan",
+		"name" : "Avik Mohan",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5778),
+		"username" : "multi10ant",
+		"name" : "multi10ant",
+		"location" : "India"
+	},
+	{
+		"_id" : NumberLong(5779),
+		"username" : "ntdls",
+		"name" : "NTDLS",
+		"location" : "North Carolina"
+	},
+	{
+		"_id" : NumberLong(5788),
+		"username" : "codesinthevalley",
+		"name" : "CodesInTheValley",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5796),
+		"username" : "ironwilliamcash",
+		"name" : "IronWilliamCash",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5807),
+		"username" : "trist",
+		"name" : "TrisT",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5808),
+		"username" : "bill-raybourne",
+		"name" : "Bill Raybourne",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5816),
+		"username" : "peter-point",
+		"name" : "Peter Point",
+		"location" : "Bangkok Thailand"
+	},
+	{
+		"_id" : NumberLong(5817),
+		"username" : "john-feltz",
+		"name" : "John Feltz",
+		"location" : "Ann Arbor, MI"
+	},
+	{
+		"_id" : NumberLong(5822),
+		"username" : "lying-dog",
+		"name" : "Lying Dog",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5824),
+		"username" : "jonathan-willcock",
+		"name" : "Jonathan Willcock",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5835),
+		"username" : "kimball",
+		"name" : "Kimball",
+		"location" : "New Hampshire"
+	},
+	{
+		"_id" : NumberLong(5836),
+		"username" : "ishan",
+		"name" : "ishan",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5847),
+		"username" : "super-query-lad",
+		"name" : "Super Query Lad",
+		"location" : "Madison, VA"
+	},
+	{
+		"_id" : NumberLong(5860),
+		"username" : "helloworld",
+		"name" : "HelloWorld",
+		"location" : "NULL"
+	},
+	{
+		"_id" : NumberLong(5862),
+		"username" : "user1959712",
+		"name" : "user1959712",
+		"location" : "NULL"
+	}
+]
