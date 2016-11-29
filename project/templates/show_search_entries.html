@@ -1,0 +1,18 @@
+{% extends "search.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    {% include "forms/question_form.html" %}
+  {% endif %}
+  <div class="questions">
+  {% for entry in entries %}
+    <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[2]) }}">
+      <div class="row">
+        <input type="submit" value="{{ entry[1] }}"></button>
+      </div>
+    </form>
+  {% else %}
+    <div><em>Unbelievable.  No entries here so far</em></div>
+  {% endfor %}
+  {% include "forms/search_pager_form.html" %}
+  </div>
+{% endblock %}
