@@ -1,16 +1,22 @@
 <!-- <div> -->
-<div class="dice col-md-6">
+<div class="dice">
   <h3>Dice</h3>
-  <form role="form" class="dice-form" method="POST" action="{{ url_for('dice_func') }}">
-    <label>Tag</label>
-    <select class="selectpicker" id="filter-tag-picker" name="tag_id" data-live-search="true"
-    data-id="{{tag_id}}">
-    {% for tag in tags %}
-    <option data-tokens="{{ tag[0] }}" value="{{ tag[0] }}">{{ tag[1] }}</option>
-    {% endfor %}
-  </select>
-  <button class="btn btn-default" type="submit">
-   Submit
- </button>
-</form>
+    <form role="form" class="dice-form  col-md-12" method="POST" action="{{ url_for('dice_func') }}">
+      <div class="row row-label">
+        <label>Tag</label>
+      </div>
+      <div class="row">
+        <select class="selectpicker" id="filter-tag-picker" name="tag_id" data-live-search="true"
+        data-id="{{tag_id}}">
+        {% for tag in tags %}
+        <option data-tokens="{{ tag[0] }}" value="{{ tag[0] }}">{{ tag[1] }}</option>
+        {% endfor %}
+      </select>
+     </div>
+    <div class="row">
+      <button class="btn btn-default col-md-6" type="submit">
+       Submit
+     </button>
+   </div>
+  </form>
 </div>

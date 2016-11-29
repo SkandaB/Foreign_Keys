@@ -1,14 +1,20 @@
 <!-- <div> -->
-<div class="slice col-md-6">
+<div class="slice">
   <h3>Slice</h3>
-  <form role="form" class="slice-form" method="POST" action="{{ url_for('slice_func') }}">
-      <label>Year</label>
-      <select class="selectpicker" id="year-picker" name="year_id" data-live-search="true">
-          <option data-tokens="2015" value="2015">2015</option>
-          <option data-tokens="2016" value="2016">2016</option>
-      </select>
-      <button class="btn btn-default" type="submit">
-         Submit
-      </button>
+  <form role="form" class="slice-form col-md-12" method="POST" action="{{ url_for('slice_func') }}">
+      <div class="row row-label">
+        <label>Year</label>
+      </div>
+      <div class="row">
+        <select class="selectpicker" id="year-picker" name="year_id" data-live-search="true">
+            <option data-tokens="2015" value="2015">2015</option>
+            <option data-tokens="2016" value="2016">2016</option>
+        </select>
+      </div>
+      <div class="row">
+        <button class="btn btn-default col-md-6" type="submit">
+           Submit
+        </button>
+      </div>
   </form>
 </div>

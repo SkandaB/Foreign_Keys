@@ -199,6 +199,17 @@ h2 {
   margin: 0 auto;
 }
 
+.slice label{
+  display: block;
+}
+
+.slice .row, .dice .row{
+  margin-bottom: 15px;
+}
+.slice .row-label, .dice .row-label{
+  margin-bottom: 5px;
+}
+
 
 
 .flash          { background: #CEE5F5; padding: 0.5em;

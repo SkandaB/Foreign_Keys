@@ -7,7 +7,7 @@
   {% endif %}
   {% for entry in entries %}
     <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[2]) }}">
-      <div class="row question-row"> 
+      <div class="row question-row">
         <input type="submit" value="{{ entry[1] }}"></button>
       </div>
     </form>
@@ -17,7 +17,6 @@
   {% include "forms/pager_form.html" %}
   </div>
   <div class="col-md-12">
-  {% include "forms/slice_form.html" %}
-  {% include "forms/dice_form.html" %}
+
   </div>
 {% endblock %}
