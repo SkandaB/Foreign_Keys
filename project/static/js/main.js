@@ -38,4 +38,7 @@ $( document ).ready(function() {
       $(this).css('display', 'none');
     });
 
+    //Init datatables for dice page
+    $('#dice-table').DataTable();
+
 });
