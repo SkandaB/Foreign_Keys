@@ -25,10 +25,17 @@ $( document ).ready(function() {
     var filter_tag_id = $('#filter-tag-picker').data("id");
     $('#filter-tag-picker').selectpicker('val', filter_tag_id);
 
-    //Set sort filter value
-    // var $radios = $('input:radio[name=sort_type]');
-    // if($radios.is(':checked') === false) {
-    //     $radios.filter('[value=Male]').prop('checked', true);
-    // }
+    //Show/hide comments
+    $('#show-comments').click(function(){
+      $('.comment').css('display', 'block');
+      $('#hide-comments').css('display', 'block');
+      $(this).css('display', 'none');
+    });
+
+    $('#hide-comments').click(function(){
+      $('.comment').css('display', 'none');
+      $('#show-comments').css('display', 'block');
+      $(this).css('display', 'none');
+    });
 
 });

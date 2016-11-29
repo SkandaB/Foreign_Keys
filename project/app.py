@@ -89,15 +89,20 @@ def show_question_list(page):
 def show_question(question_id):
     db = get_db()
     cur = db.cursor()
-    cur.execute('''select answer.id, post.body from question, answer, post
+    cur.execute('''select answer.id, post.body, post.created_timestamp, user.username
+                   from question, answer, post, user
                    where question.id = %s and
                          question.id = answer.question_id and
+                          user.id = post.user_id and
                           post.id = answer.post_id''', (question_id))
     answers = cur.fetchall()
 
-    cur.execute('''select post.body, question.accepted_answer_id, question.id, question.post_id from question, post
+    cur.execute('''select post.body, question.accepted_answer_id, question.id, question.post_id,
+                          post.created_timestamp, user.username
+                  from question, post, user
                   where question.id = %s and
-                  post.id = question.post_id''', (question_id))
+                        post.id = question.post_id and
+                        user.id = post.user_id''', (question_id))
     question = cur.fetchone()
 
     cur.execute('''select tag.name from question_tag, question, tag
@@ -106,7 +111,21 @@ def show_question(question_id):
     tags = cur.fetchall()
     q_vote_count = get_vote_count(cur, question[3])
 
-    return render_template('question.html', answers = answers, question = question, tags = tags, q_vote_count = q_vote_count)
+    cur.execute('''select comment.body, comment.user_id, user.username
+                   from comment, user
+                   where comment.user_id = user.id and
+                         comment.post_id = %s
+                   ''', (question[3]))
+    comments = cur.fetchall()
+    # q_vote_count = get_vote_count(cur, question[3])
+
+    return render_template('question.html',
+                            answers = answers,
+                            question = question,
+                            tags = tags,
+                            q_vote_count = q_vote_count,
+                            comments = comments
+                           )
 
 
 @app.route('/add_question', methods=['POST'])
@@ -218,14 +237,14 @@ def admin_calendar():
             print 'by year'
             cur.execute('''select user.username, post.body, calendar.fulldate
                    from post, question, calendar, activity, user
-                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id 
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
                    and calendar.year=%s group by post.id order by post.created_timestamp''',(year))
             questions = cur.fetchall()
         elif(drill_type == 'quarter'):
             print 'by quarter', year, quarter
             cur.execute('''select user.username, post.body, calendar.fulldate, activity.post_id
                    from post, question, calendar, activity, user
-                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id 
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
                    and calendar.year=%s and calendar.quarter=%s group by post.id order by post.created_timestamp''', (year, quarter))
             questions = cur.fetchall()
             print len(questions)
@@ -233,7 +252,7 @@ def admin_calendar():
             print 'by month'
             cur.execute('''select user.username, post.body, calendar.fulldate
                    from post, question, calendar, activity, user
-                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id 
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
                    and calendar.year=%s and calendar.month=%s group by post.id order by post.created_timestamp'''
                    ,(year, month))
             questions = cur.fetchall()

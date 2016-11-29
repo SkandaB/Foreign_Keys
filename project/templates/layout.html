@@ -17,7 +17,7 @@
     <div class="row">
       <form role="form" method="POST" action="{{ url_for('search_text') }}">
         <input type="text" name="search" placeholder="Search text" class="form-control search_bar" id="search_bar">
-        <button class="btn btn-primary btn-md search_button" id="search_button" type="submit">Search</button>
+        <button class="btn btn-default btn-md search_button" id="search_button" type="submit">Search</button>
       </form>
     {% if not session.logged_in %}
       <a href="{{ url_for('login') }}">log in</a>
