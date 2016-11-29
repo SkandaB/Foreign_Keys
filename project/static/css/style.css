@@ -1,0 +1,130 @@
+body{
+  background-color: #f5f5f5;
+}
+
+a, h1, h2       { color: #377BA8; }
+h1, h2  {
+  font-family: 'HelveticaNeue', Helvetica, serif;
+  margin: 0;
+}
+
+h1  {
+  border-bottom: 2px solid #eee;
+}
+h2 {
+  font-size: 1.7em;
+}
+
+.page {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 0.8em;
+  background: white;
+  font-size: 1.4em;
+}
+/*.row.question-row{
+  height:50px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}*/
+.questions {
+  margin: 0;
+  padding: 0;
+}
+
+.questions .row, .answer, h2, .question, .tags, .button-row, .btn-pager{
+  margin: 8px;
+}
+.questions .question-row{
+  border-bottom: 1px solid gray;
+}
+.questions .row input{
+  background: white;
+  border: none;
+  /*text-decoration: underline;*/
+  color: #155674;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:none;
+  text-align: left;
+}
+
+.filter-form .row{
+  margin-bottom: 15px;
+}
+.filter-form label:not(.radio-inline){
+  display: block;
+}
+/*.questions .row div{
+  background: white;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:none;
+  text-align: left;
+}*/
+
+
+/*.question{
+  display: none;
+}*/
+
+.answer{
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.answer.correct{
+  color: green;
+}
+
+.tags .tag-header{
+  font-weight: bold;
+}
+
+.tags .tag-name{
+  display: inline-block;
+  border-radius: 3px;
+  background-color:#155674;
+  color: #fff;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.add-question      {
+  font-size: 0.9em;
+  border-bottom: 1px solid #ccc;
+}
+
+.add-answer, .add-question{
+  display: none;
+  float: none;
+}
+
+.form-pager {
+  display: inline-block;
+}
+
+.form-pager.next-page{
+  float:right;
+}
+
+.form-pager button{
+  width: 150px;
+}
+
+.dspNone{
+  display: none;
+}
+
+.add-entry dl   { font-weight: bold; }
+.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
+                  margin-bottom: 1em; background: #fafafa; }
+.flash          { background: #CEE5F5; padding: 0.5em;
+                  border: 1px solid #AACBE2; }
+.error          { background: #F0D6D6; padding: 0.5em; }

@@ -1,0 +1,28 @@
+<div class="filter col-md-4">
+  <h3>Filter</h3>
+  <form role="form" class="filter-form col-md-12" method="POST" action="{{ url_for('show_question_list',page=page) }}">
+    <div class="row">
+      <label>Tag</label>
+      <select class="selectpicker" id="filter-tag-picker" name="tag_id" data-live-search="true"
+      data-id="{{tag_id}}">
+        {% for tag in tags %}
+        <option data-tokens="{{ tag[0] }}" value="{{ tag[0] }}">{{ tag[1] }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="row">
+      <label>Sort</label>
+      <label class="radio-inline"><input type="radio" name="sort_type" value="DESC" data-sorttype="{{sort_type}}">
+        Descending
+      </label>
+      <label class="radio-inline"><input type="radio" name="sort_type" value="ASC" data-sorttype="{{sort_type}}">
+        Ascending
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn btn-default col-md-6" type="submit">
+         Filter
+      </button>
+    </div>
+  </form>
+</div>
