@@ -1,16 +1,27 @@
 {% extends "layout.html" %}
 {% block body %}
 {% include "forms/calendar_form.html" %}
-  <div class="questions">
-  {% for entry in entries %}
-    <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[2]) }}">
-      <div class="row">
-        <input type="submit" value="{{ entry[1] }}"></button>
-        <p>{{ entry[4] }}</p>
-      </div>
-    </form>
-  {% else %}
-    <div><em>Unbelievable. No entries here so far</em></div>
-  {% endfor %}
+  <div class="question-table">
+  <table class="table table-striped">
+    <thead>
+      <th>User</th>
+      <th>Question</th>
+      <th>Date</th>
+    </thead>
+    <tbody>
+      {% for entry in entries %}
+      <tr>
+        <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[2]) }}">
+            <td>user</td>
+            <td class="question_body_row"><input type="submit" value="{{ entry[1] }}"></input></td>
+            <td>{{ entry[4] }}</td>
+        </form>
+      </tr>
+      {% else %}
+        <div><em>Unbelievable. No entries here so far</em></div>
+      {% endfor %}
+    </tbody>
+  </table>
+
   </div>
 {% endblock %}

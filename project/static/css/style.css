@@ -52,6 +52,23 @@ h2 {
   display:none;
   text-align: left;
 }
+.question-table{
+  width: 99%;
+}
+.question-table tr td{
+  max-width:800px;
+}
+
+.question-table .question_body_row input{
+  background: inherit;
+  border: none;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #155674;
+  display: none;
+}
 
 .search_bar
 {
