@@ -1,5 +1,17 @@
 <div class="filter col-md-12">
   <form role="form" class="filter-form col-md-12" method="POST" action="{{ url_for('admin_calendar') }}">
+    <h3>Drill By</h3>
+    <div class="row">
+      <label class="radio-inline">
+        <input type="radio" name="drill_option" id="inlineRadio1" value="year"> Year
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="drill_option" id="inlineRadio2" value="quarter"> Quarter
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="drill_option" id="inlineRadio3" value="month"> Month
+      </label>
+    </div>
     <div class="row calendar-inputs">
     <div class="col-md-3">
       <label>Year</label>
@@ -44,19 +56,5 @@
       </button>
     </div>
   </div>
-    <!-- <div class="row">
-      <label>Sort</label>
-      <label class="radio-inline"><input type="radio" name="sort_type" value="DESC" data-sorttype="{{sort_type}}">
-        Descending
-      </label>
-      <label class="radio-inline"><input type="radio" name="sort_type" value="ASC" data-sorttype="{{sort_type}}">
-        Ascending
-      </label>
-    </div>
-    <div class="row">
-      <button class="btn btn-default col-md-6" type="submit">
-         Filter
-      </button>
-    </div> -->
   </form>
 </div>
