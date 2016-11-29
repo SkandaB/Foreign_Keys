@@ -7,24 +7,6 @@
 
 <div class="page col-md-8 col-md-offset-2">
   <h1>CMPE 226 Final Project</h1>
-  <div class="metanav">
-    <form role="form" method="POST" action="{{ url_for('search_text') }}">
-      <input type="text" name="search" placeholder="Search text" class="search_bar" id="search_bar">
-      <button class="search_button" id="search_button" type="submit">Search</button>
-    </form>
-  {% if not session.logged_in %}
-    <a href="{{ url_for('login') }}">log in</a>
-  {% else %}
-    <a href="{{ url_for('logout') }}">log out</a>
-  {% endif %}
-  </div>
-  {% for message in get_flashed_messages() %}
-    <!-- <div class="flash"></div> -->
-    <div class="alert alert-success" role="alert">
-      <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-      {{ message }}
-    </div>
-  {% endfor %}
   {% block body %}{% endblock %}
   <script type=text/javascript src="{{url_for('static', filename='js/jquery-3.1.1.min.js') }}"></script>
   <script type=text/javascript src="{{url_for('static', filename='js/bootstrap.min.js') }}"></script>

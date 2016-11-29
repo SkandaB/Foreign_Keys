@@ -8,10 +8,6 @@
 <div class="page col-md-8 col-md-offset-2">
   <h1>CMPE 226 Final Project</h1>
   <div class="metanav">
-    <form role="form" method="POST" action="{{ url_for('search_text') }}">
-      <input type="text" name="search" placeholder="Search text" class="search_bar" id="search_bar">
-      <button class="search_button" id="search_button" type="submit">Search</button>
-    </form>
   {% if not session.logged_in %}
     <a href="{{ url_for('login') }}">log in</a>
   {% else %}

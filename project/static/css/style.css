@@ -42,6 +42,17 @@ h2 {
   text-align: left;
 }
 
+.search_bar
+{
+  float: left;
+}
+
+.search_button
+{
+  float: left;
+  margin-left: 10px;
+}
+
 /*.question{
   display: none;
 }*/
