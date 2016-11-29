@@ -40,6 +40,10 @@ def get_tags(cursor):
     cursor.execute('select tag.id, tag.name from tag order by tag.name')
     return cursor.fetchall()
 
+def get_vote_count(cursor, post_id):
+    cursor.execute('SELECT COUNT(*) FROM vote where post_id = %s ', (post_id))
+    return cursor.fetchone()[0]
+
 def get_questions(cursor, tag, limit, sort_type):
     if(tag is None):
         cursor.execute('''select post.user_id, post.body, question.id, post.id
@@ -91,7 +95,7 @@ def show_question(question_id):
                           post.id = answer.post_id''', (question_id))
     answers = cur.fetchall()
 
-    cur.execute('''select post.body, question.accepted_answer_id, question.id from question, post
+    cur.execute('''select post.body, question.accepted_answer_id, question.id, question.post_id from question, post
                   where question.id = %s and
                   post.id = question.post_id''', (question_id))
     question = cur.fetchone()
@@ -100,8 +104,9 @@ def show_question(question_id):
                    where question.id = %s and
                    question.id = question_tag.question_id and tag.id = question_tag.tag_id''', (question_id))
     tags = cur.fetchall()
+    q_vote_count = get_vote_count(cur, question[3])
 
-    return render_template('question.html', answers = answers, question = question, tags = tags)
+    return render_template('question.html', answers = answers, question = question, tags = tags, q_vote_count = q_vote_count)
 
 
 @app.route('/add_question', methods=['POST'])
