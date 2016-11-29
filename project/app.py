@@ -210,20 +210,16 @@ def logout():
     return redirect(url_for('show_question_list'))
 
 
-@app.route('/admin', methods=['GET','POST'])
+@app.route('/drill', methods=['GET','POST'])
 def admin_calendar():
 
     questions = {}
 
-    year = '2014'
+    year = '2015'
     month = 'January'
     quarter = 'Q1'
 
     if request.method == 'POST':
-        print(request.form['drill_option'])
-        print(request.form['year'])
-        print(request.form['month'])
-        print(request.form['quarter'])
 
         drill_type = request.form['drill_option']
         year = request.form['year']
@@ -234,22 +230,18 @@ def admin_calendar():
         cur = db.cursor()
 
         if(drill_type == 'year'):
-            print 'by year'
             cur.execute('''select user.username, post.body, calendar.fulldate
                    from post, question, calendar, activity, user
                    where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
                    and calendar.year=%s group by post.id order by post.created_timestamp''',(year))
             questions = cur.fetchall()
         elif(drill_type == 'quarter'):
-            print 'by quarter', year, quarter
             cur.execute('''select user.username, post.body, calendar.fulldate, activity.post_id
                    from post, question, calendar, activity, user
                    where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
                    and calendar.year=%s and calendar.quarter=%s group by post.id order by post.created_timestamp''', (year, quarter))
             questions = cur.fetchall()
-            print len(questions)
         elif(drill_type == 'month'):
-            print 'by month'
             cur.execute('''select user.username, post.body, calendar.fulldate
                    from post, question, calendar, activity, user
                    where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
@@ -280,19 +272,32 @@ def search():
 
 @app.route('/slice', methods=['GET','POST'])
 def slice_func():
-    db=get_db()
-    cur=db.cursor()
-    cur.execute('''SELECT tag.name as tagname,user.username ,calendar.year,count(*)
-        from activity,tag,user,calendar
-        WHERE activity.tag_id=tag.id
-        AND activity.user_id=user.id
-        AND activity.calendar_id=calendar.id
-        and calendar.year=%s
-        GROUP BY user.username,tag.id
-        ORDER BY count(*) DESC''',(request.form['year_id']))
-    questions = cur.fetchall()
+    questions = {}
 
-    return render_template('show_slice_entries.html', entries=questions,year_num=request.form['year_id'])
+    if request.method == 'POST':
+      db=get_db()
+      cur=db.cursor()
+      cur.execute('''select tag.name as tagname,user.username ,calendar.year,count(*)
+                   from activity,tag,user,calendar
+                   where activity.tag_id=tag.id
+                   and activity.user_id=user.id
+                   and activity.calendar_id=calendar.id
+                   and calendar.year=%s
+                   group by user.username,tag.id
+                   ORDER BY count(*) DESC''',(request.form['year_id']))
+      questions = cur.fetchall()
+    # cur.execute('''SELECT tag.name as tagname,user.username ,calendar.year,count(*)
+    #     from activity,tag,user,calendar
+    #     WHERE activity.tag_id=tag.id
+    #     AND activity.user_id=user.id
+    #     AND activity.calendar_id=calendar.id
+    #     and calendar.year=%s
+    #     GROUP BY user.username,tag.id
+    #     ORDER BY count(*) DESC''',(request.form['year_id']))
+    # questions = cur.fetchall()
+
+    return render_template('show_slice_entries.html', entries=questions,year_num='2014')
+    # return render_template('show_slice_entries.html', entries=questions,year_num=request.form['year_id'])
 
 @app.route('/dice', methods=['GET','POST'])
 def dice_func():
