@@ -111,20 +111,14 @@ def add_question():
 
     db = get_db()
     cur = db.cursor()
-    cur.execute('''SELECT * FROM post ORDER BY id DESC LIMIT 0, 1''')
-    post = cur.fetchone()
-    new_post_id = post[0] + 1
 
-    cur.execute('insert into post (id, user_id, body) values (%s, %s, %s)',
-               (new_post_id, session['user_id'], request.form['question']))
-
+    db.begin()
+    cur.execute('insert into post (user_id, body) values (%s, %s)',
+               (session['user_id'], request.form['question']))
+    new_post_id = cur.lastrowid
     cur.execute('insert into question (post_id) values (%s)',
                (new_post_id))
-
-
-    cur.execute('''SELECT * FROM question ORDER BY id DESC LIMIT 0, 1''')
-    question = cur.fetchone()
-    inserted_question_id = question[0]
+    inserted_question_id = cur.lastrowid
 
     cur.execute('insert into question_tag (question_id, tag_id) values (%s, %s)',
                (inserted_question_id, request.form['tag']))
@@ -141,17 +135,16 @@ def add_answer():
 
     db = get_db()
     cur = db.cursor()
-    cur.execute('''SELECT * FROM post ORDER BY id DESC LIMIT 0, 1''')
-    post = cur.fetchone()
-    new_post_id = post[0] + 1
     question_id = request.form['question_id']
 
-    cur.execute('insert into post (id, user_id, body) values (%s, %s, %s)',
-               (new_post_id, session['user_id'], request.form['answer']))
+    db.begin()
+    cur.execute('insert into post (user_id, body) values (%s, %s)',
+               (session['user_id'], request.form['answer']))
+
+    new_post_id = cur.lastrowid
 
     cur.execute('insert into answer (post_id, question_id) values (%s, %s)',
                (new_post_id, question_id))
-
     db.commit()
 
     flash('New answer was successfully posted')
@@ -165,7 +158,7 @@ def login():
     error = None
 
     if request.method == 'POST':
-        cur.execute('''select * from user where username = %s and password = %s''',
+        cur.execute('''select * from user where username = %s and password = MD5(%s)''',
                     (request.form['username'], request.form['password']))
         user = cur.fetchone()
         if cur.rowcount is 0:
