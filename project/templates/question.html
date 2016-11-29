@@ -3,8 +3,11 @@
 {% if session.logged_in %}
   {% include "forms/answer_form.html" %}
 {% endif %}
-  <h2> Question </h2>
+  <div class="row question-header">
+    <h2 class="col-md-11"> Question </h2>
+    <div class="col-md-1 vote-div"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{q_vote_count}}</div>
 
+  </div>
   <div class="row question">
     {{ question[0] | safe}}
   </div>

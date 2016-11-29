@@ -6,6 +6,12 @@ $( document ).ready(function() {
       $(this)[0].style.display = 'block';
     });
 
+    //Remove html tags from the question table
+    $('.question-table td input').each(function(){
+      $(this)[0].value = removeHTMLTags($(this)[0].value);
+      $(this)[0].style.display = 'inherit';
+    });
+
     //Toggle text area for question and answer
     $('#toggle-answer-area').click(function(){
       $('.add-answer').toggle();

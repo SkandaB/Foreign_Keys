@@ -1,0 +1,6 @@
+.questions .row.question-row:hover{
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+
+#div3 {transition-timing-function: ease-in;}

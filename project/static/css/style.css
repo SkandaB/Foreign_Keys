@@ -34,8 +34,17 @@ h2 {
   padding: 0;
 }
 
-.questions .row, .answer, h2, .question, .tags, .button-row, .btn-pager{
+.questions .row, .question-header, .answer, h2, .question, .tags, .button-row, .btn-pager{
   margin: 8px;
+}
+.question-header h2{
+  margin: 0;
+  padding-left: 0;
+}
+.question-header .vote-div{
+  font-size:1.05em;
+  margin-top:5px;
+  color: #155674;
 }
 .questions .question-row{
   border-bottom: 1px solid gray;
@@ -67,12 +76,13 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   color: #155674;
-  display: none;
+  /*display: none;*/
 }
 
 .search_bar
 {
   float: left;
+  width: inherit;
 }
 
 .search_button
@@ -154,9 +164,23 @@ h2 {
   display: inline-block;
 }
 
-.add-entry dl   { font-weight: bold; }
-.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
-                  margin-bottom: 1em; background: #fafafa; }
+.add-entry dl   {
+  font-weight: bold;
+}
+
+.metanav        {
+  text-align: right;
+  font-size: 0.8em;
+  padding: 0.3em;
+  margin-bottom: 1em;
+  background: #fafafa;
+}
+
+.metanav .row{
+  width: 96%;
+  margin: 0 auto;
+}
+
 .flash          { background: #CEE5F5; padding: 0.5em;
                   border: 1px solid #AACBE2; }
 .error          { background: #F0D6D6; padding: 0.5em; }
