@@ -11,10 +11,12 @@
     <tbody>
       {% for entry in entries %}
       <tr>
-        <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[2]) }}">
-            <td>user</td>
+        <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[3]) }}">
+            <td>{{ entry[0] }}</td>
+            <!-- <td class="question_body_row col-md-4"><input type="submit" value="{{ entry[1] }}"></input></td> -->
             <td class="question_body_row"><input type="submit" value="{{ entry[1] }}"></input></td>
-            <td>{{ entry[4] }}</td>
+            <!-- <td class="question_body_row col-md-4">{{ entry[1] }}</td> -->
+            <td class="col-md-2">{{ entry[2] }}</td>
         </form>
       </tr>
       {% else %}

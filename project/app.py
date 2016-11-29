@@ -188,20 +188,52 @@ def logout():
 
 @app.route('/admin', methods=['GET','POST'])
 def admin_calendar():
+
+    questions = {}
+
+    year = '2014'
+    month = 'January'
+    quarter = 'Q1'
+
     if request.method == 'POST':
+        print(request.form['drill_option'])
         print(request.form['year'])
         print(request.form['month'])
         print(request.form['quarter'])
 
-    db = get_db()
-    cur = db.cursor()
-    cur.execute('''select post.user_id, post.body, question.id, post.id, post.created_timestamp
-                   from post, question
-                   where question.post_id = post.id and post.created_timestamp >= "2014-01-01"
-                   and post.created_timestamp < "2015-01-01" order by post.created_timestamp''')
-    questions = cur.fetchall()
+        drill_type = request.form['drill_option']
+        year = request.form['year']
+        month = request.form['month']
+        quarter = request.form['quarter']
 
-    return render_template('show_admin_entries.html', entries=questions)
+        db = get_db()
+        cur = db.cursor()
+
+        if(drill_type == 'year'):
+            print 'by year'
+            cur.execute('''select user.username, post.body, calendar.fulldate
+                   from post, question, calendar, activity, user
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id 
+                   and calendar.year=%s group by post.id order by post.created_timestamp''',(year))
+            questions = cur.fetchall()
+        elif(drill_type == 'quarter'):
+            print 'by quarter', year, quarter
+            cur.execute('''select user.username, post.body, calendar.fulldate, activity.post_id
+                   from post, question, calendar, activity, user
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id 
+                   and calendar.year=%s and calendar.quarter=%s group by post.id order by post.created_timestamp''', (year, quarter))
+            questions = cur.fetchall()
+            print len(questions)
+        elif(drill_type == 'month'):
+            print 'by month'
+            cur.execute('''select user.username, post.body, calendar.fulldate
+                   from post, question, calendar, activity, user
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id 
+                   and calendar.year=%s and calendar.month=%s group by post.id order by post.created_timestamp'''
+                   ,(year, month))
+            questions = cur.fetchall()
+
+    return render_template('show_admin_entries.html', entries=questions, year=year, quarter=quarter, month=month)
 
 @app.route('/search', methods=['POST'])
 def search_text():
