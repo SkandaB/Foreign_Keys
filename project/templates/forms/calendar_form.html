@@ -23,7 +23,7 @@
         </select>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3" id="quarter-div">
       <label>Quarter</label>
       <select class="selectpicker" id="quarter-picker" name="quarter" data-live-search="true">
         <option data-tokens="Q1" value="Q1">Q1</option>
@@ -32,7 +32,7 @@
         <option data-tokens="Q4" value="Q4">Q4</option>
       </select>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3" id="month-div">
       <label>Month</label>
       <select class="selectpicker" id="month-picker" name="month" data-live-search="true">
         <option data-tokens="January" value="January">January</option>
@@ -58,3 +58,28 @@
   </div>
   </form>
 </div>
+<script type=text/javascript src="{{url_for('static', filename='js/jquery-3.1.1.min.js') }}"></script>
+<script type="text/javascript">
+  console.log("{{ year }}");
+  console.log("{{ month }}");
+  console.log("{{ quarter }}");
+  $("#year-picker").val("{{ year }}");
+  $("#quarter-picker").val("{{ quarter }}");
+  $("#month-picker").val("{{ month }}");
+
+  $('input[type=radio][name=drill_option]').change(function() {
+        if (this.value == 'year') {
+            $("#quarter-div").css("visibility", "hidden");
+            $("#month-div").css("visibility", "hidden");
+        }
+        else if (this.value == 'quarter') {
+            $("#quarter-div").css("visibility", "visible");
+            $("#month-div").css("visibility", "hidden");
+        }
+        else if (this.value == 'month') {
+            $("#quarter-div").css("visibility", "hidden");
+            $("#month-div").css("visibility", "visible");
+        }
+    });
+
+</script>

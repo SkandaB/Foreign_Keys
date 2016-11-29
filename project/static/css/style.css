@@ -76,7 +76,7 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   color: #155674;
-  display: none;
+  /*display: none;*/
 }
 
 .search_bar
