@@ -34,7 +34,8 @@ h2 {
   padding: 0;
 }
 
-.questions .row, .question-header, .answer, h2, .question, .tags, .button-row, .btn-pager{
+.questions .row, .question-header, .answer, h2, .question,
+.tags, .button-row, .btn-pager, .row.date, .show-comment{
   margin: 8px;
 }
 .question-header h2{
@@ -112,7 +113,24 @@ h2 {
   display: none;
 }*/
 
-.answer{
+.row.date{
+  text-align: right;
+  font-size: 0.85em;
+  color: gray;
+}
+
+.comment{
+  font-size: 0.7em;
+  margin-left: 90px;
+  border-bottom: 1px solid silver;
+  margin-bottom: 10px;
+  display: none;
+}
+
+#hide-comments{
+  display: none;
+}
+.answer ~ .row.date{
   border-bottom: 2px solid #f3f3f3;
 }
 
@@ -180,6 +198,8 @@ h2 {
   width: 96%;
   margin: 0 auto;
 }
+
+
 
 .flash          { background: #CEE5F5; padding: 0.5em;
                   border: 1px solid #AACBE2; }

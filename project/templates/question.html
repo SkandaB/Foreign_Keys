@@ -11,6 +11,9 @@
   <div class="row question">
     {{ question[0] | safe}}
   </div>
+  <div class="row date">
+      {{question[5]}} - {{question[4]}}
+  </div>
   <div class="row tags">
     <span class="tag-header"> Tags: </span>
     {% for tag in tags %}
@@ -19,6 +22,25 @@
       </span>
     {% endfor %}
   </div>
+  <div class="row show-comment">
+    <button class="btn btn-default btn-sm" id="show-comments">
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      Show Comments
+    </button>
+    <button class="btn btn-default btn-sm" id="hide-comments">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+      Hide Comments
+    </button>
+    <!-- <a href="#" id="show-comments "class="btn btn-primary" role="button">Show Comments</a> -->
+  </div>
+  <div class="row comments">
+      {% for comment in comments %}
+      <div class="comment">
+          <b> {{comment[2]}}</b> {{comment[0]}}
+      </div>
+      {% endfor %}
+  </div>
+
   <h2> Answers </h2>
   {% for a in answers %}
     <div class="row answer
@@ -28,6 +50,9 @@
     ">
 
       {{ a[1] | safe }}
+    </div>
+    <div class="row date">
+        {{a[3]}} - {{a[2]}}
     </div>
   {% endfor %}
 {% endblock %}
