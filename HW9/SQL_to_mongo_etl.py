@@ -10,7 +10,7 @@ users_coll = mongodb.users
 
 from pprint import pprint
 
-conn = MySQLdb.connect('127.0.0.1', 'root', cursorclass=MySQLdb.cursors.DictCursor)
+conn = MySQLdb.connect('127.0.0.1', 'root','password', cursorclass=MySQLdb.cursors.DictCursor)
 conn.select_db('filedb')
 conn.autocommit(True)
 

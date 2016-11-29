@@ -53,6 +53,17 @@ h2 {
   text-align: left;
 }
 
+.search_bar
+{
+  float: left;
+}
+
+.search_button
+{
+  float: left;
+  margin-left: 10px;
+}
+
 .filter-form .row{
   margin-bottom: 15px;
 }
@@ -69,7 +80,6 @@ h2 {
   display:none;
   text-align: left;
 }*/
-
 
 /*.question{
   display: none;
@@ -120,6 +130,11 @@ h2 {
 
 .dspNone{
   display: none;
+}
+
+/*calendar*/
+.calendar-inputs > div{
+  display: inline-block;
 }
 
 .add-entry dl   { font-weight: bold; }

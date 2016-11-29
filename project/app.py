@@ -186,5 +186,43 @@ def logout():
     return redirect(url_for('show_question_list'))
 
 
+@app.route('/admin', methods=['GET','POST'])
+def admin_calendar():
+    if request.method == 'POST':
+        print(request.form['year'])
+        print(request.form['month'])
+        print(request.form['quarter'])
+
+    db = get_db()
+    cur = db.cursor()
+    cur.execute('''select post.user_id, post.body, question.id, post.id, post.created_timestamp
+                   from post, question
+                   where question.post_id = post.id and post.created_timestamp >= "2014-01-01"
+                   and post.created_timestamp < "2015-01-01" order by post.created_timestamp''')
+    questions = cur.fetchall()
+
+    return render_template('show_admin_entries.html', entries=questions)
+
+@app.route('/search', methods=['POST'])
+def search_text():
+    print(request.form['search']);
+    search_text = '%' + request.form['search'] + '%';
+    page = int(page)
+    limit = page * 15
+    db = get_db()
+    cur = db.cursor()
+    cur.execute('''select post.user_id, post.body, question.id, post.id
+                   from post, question
+                   where question.post_id = post.id and post.body like %s order by question.id DESC LIMIT %s, 15''', (search_text, (int(limit))))
+    questions = cur.fetchall()
+
+    return render_template('show_search_entries.html', entries=questions, page=page)
+    # return render_template('question.html', answers = answers, question = question, tags = tags)
+
+# @app.route('/drill', methods=['POST'])
+# def drill():
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
