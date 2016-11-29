@@ -282,13 +282,13 @@ def search():
 def slice_func():
     db=get_db()
     cur=db.cursor()
-    cur.execute('''SELECT tag.name as tagname,user.username ,calendar.year,count(*) 
-        from activity,tag,user,calendar 
-        WHERE activity.tag_id=tag.id 
-        AND activity.user_id=user.id 
-        AND activity.calendar_id=calendar.id 
+    cur.execute('''SELECT tag.name as tagname,user.username ,calendar.year,count(*)
+        from activity,tag,user,calendar
+        WHERE activity.tag_id=tag.id
+        AND activity.user_id=user.id
+        AND activity.calendar_id=calendar.id
         and calendar.year=%s
-        GROUP BY user.username,tag.id 
+        GROUP BY user.username,tag.id
         ORDER BY count(*) DESC''',(request.form['year_id']))
     questions = cur.fetchall()
 
@@ -299,16 +299,16 @@ def dice_func():
     db=get_db()
     cur=db.cursor()
     print("Got tag value",request.form['tag_id'])
-    cur.execute('''SELECT calendar.month,count(*) 
-        from activity,calendar,tag 
-        where activity.calendar_id=calendar.id 
-        and activity.tag_id=tag.id 
-        and tag.id=%s 
+    cur.execute('''SELECT calendar.month,count(*)
+        from activity,calendar,tag
+        where activity.calendar_id=calendar.id
+        and activity.tag_id=tag.id
+        and tag.id=%s
         GROUP by calendar.month;''',(request.form['tag_id']))
     questions = cur.fetchall()
 
-    cur.execute('''SELECT tag.name 
-        from tag 
+    cur.execute('''SELECT tag.name
+        from tag
         where tag.id=%s ;''',(request.form['tag_id']))
     tagname = cur.fetchone()
 
