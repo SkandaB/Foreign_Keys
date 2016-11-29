@@ -260,19 +260,19 @@ def admin_calendar():
     return render_template('show_admin_entries.html', entries=questions, year=year, quarter=quarter, month=month)
 
 @app.route('/search', methods=['POST'])
-def search_text():
+def search():
     print(request.form['search']);
     search_text = '%' + request.form['search'] + '%';
-    page = int(page)
-    limit = page * 15
+    # page = int(page)
+    # limit = page * 15
     db = get_db()
     cur = db.cursor()
     cur.execute('''select post.user_id, post.body, question.id, post.id
                    from post, question
-                   where question.post_id = post.id and post.body like %s order by question.id DESC LIMIT %s, 15''', (search_text, (int(limit))))
+                   where question.post_id = post.id and post.body like %s order by question.id DESC''', (search_text))
     questions = cur.fetchall()
 
-    return render_template('show_search_entries.html', entries=questions, page=page)
+    return render_template('show_search_entries.html', entries=questions)
     # return render_template('question.html', answers = answers, question = question, tags = tags)
 
 # @app.route('/drill', methods=['POST'])

@@ -1,4 +1,4 @@
-<form role="form" class="form-pager" method="POST" action="{{ url_for('search',page=page-1) }}">
+<form role="form" class="form-pager" method="POST" action="{{ url_for('search') }}">
     <button type="submit" class="btn btn-default btn-pager
     {% if  page == 0 %}
       dspNone
@@ -8,7 +8,7 @@
      Previous Page
   </button>
 </form>
-<form role="form" class="form-pager next-page" method="POST" action="{{ url_for('search',page=page+1) }}">
+<form role="form" class="form-pager next-page" method="POST" action="{{ url_for('search') }}">
   <button class="btn btn-default" type="submit">
      Next Page
      <span class="glyphicon glyphicon-chevron-right"></span>
