@@ -222,11 +222,8 @@ def search_text():
 # @app.route('/drill', methods=['POST'])
 # def drill():
 
-@app.route('/slice', methods = ['POST'])
-def slice_func():
-    print(request.form['year'])
-    year_req = '%' + request.form['year_id'] + '%';
-
+@app.route('/slice', methods=['GET','POST'])
+def slice():
     db=get_db()
     cur=db.cursor()
     cur.execute('''SELECT tag.name,user.username ,calendar.year,count(*) 
@@ -234,12 +231,31 @@ def slice_func():
         WHERE activity.tag_id=tag.id 
         AND activity.user_id=user.id 
         AND activity.calendar_id=calendar.id 
-        and calendar.year=%s 
+        and calendar.year=2015
         GROUP BY user.username,tag.id 
-        ORDER BY count(*) DESC,(year_req)''')
+        ORDER BY count(*) DESC''')
     slices = cur.fetchall()
 
-    return render_template('show_slices.html', entries=slices)
+    return render_template('show_slice_entries.html', entries=slices)
+
+# @app.route('/slice1', methods = ['GET'])
+# def slice_func():
+#     print(request.form['year'])
+    # year_req = '%' + request.form['year_id'] + '%';
+
+    # db=get_db()
+    # cur=db.cursor()
+    # cur.execute('''SELECT tag.name,user.username ,calendar.year,count(*) 
+    #     from activity,tag,user,calendar 
+    #     WHERE activity.tag_id=tag.id 
+    #     AND activity.user_id=user.id 
+    #     AND activity.calendar_id=calendar.id 
+    #     and calendar.year=%s 
+    #     GROUP BY user.username,tag.id 
+    #     ORDER BY count(*) DESC,(year_req)''')
+    # slices = cur.fetchall()
+
+    # return render_template('show_slices.html', entries=slices)
 
 if __name__ == '__main__':
     app.run(debug=True)
