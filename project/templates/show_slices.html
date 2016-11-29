@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+{% include "forms/calendar_form.html" %}
+  <div class="questions">
+  {% for entry in entries %}
+    <form role="form" method="GET" action="{{ url_for('show_question',question_id=entry[2]) }}">
+      <div class="row">
+        <input type="submit" value="{{ entry[1] }}"></button>
+        <p>{{ entry[4] }}</p>
+      </div>
+    </form>
+  {% else %}
+    <div><em>Unbelievable. No entries here so far</em></div>
+  {% endfor %}
+  </div>
+{% endblock %}
