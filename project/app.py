@@ -187,12 +187,17 @@ def logout():
 
 
 @app.route('/admin', methods=['GET','POST'])
-def admin():
+def admin_calendar():
+    if request.method == 'POST':
+        print(request.form['year'])
+        print(request.form['month'])
+        print(request.form['quarter'])
+
     db = get_db()
     cur = db.cursor()
     cur.execute('''select post.user_id, post.body, question.id, post.id, post.created_timestamp
                    from post, question
-                   where question.post_id = post.id and post.created_timestamp >= "2014-01-01" 
+                   where question.post_id = post.id and post.created_timestamp >= "2014-01-01"
                    and post.created_timestamp < "2015-01-01" order by post.created_timestamp''')
     questions = cur.fetchall()
 

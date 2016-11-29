@@ -1,0 +1,62 @@
+<div class="filter col-md-12">
+  <form role="form" class="filter-form col-md-12" method="POST" action="{{ url_for('admin_calendar') }}">
+    <div class="row calendar-inputs">
+    <div class="col-md-3">
+      <label>Year</label>
+      <div class="col-md-10">
+        <select class="selectpicker" id="year-picker" name="year" data-live-search="true">
+          <option data-tokens="2014" value="2014">2014</option>
+          <option data-tokens="2015" value="2015">2015</option>
+          <option data-tokens="2016" value="2016">2016</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label>Quarter</label>
+      <select class="selectpicker" id="quarter-picker" name="quarter" data-live-search="true">
+        <option data-tokens="Q1" value="Q1">Q1</option>
+        <option data-tokens="Q2" value="Q2">Q2</option>
+        <option data-tokens="Q3" value="Q3">Q3</option>
+        <option data-tokens="Q4" value="Q4">Q4</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label>Month</label>
+      <select class="selectpicker" id="month-picker" name="month" data-live-search="true">
+        <option data-tokens="January" value="January">January</option>
+        <option data-tokens="February" value="February">February</option>
+        <option data-tokens="March" value="March">March</option>
+        <option data-tokens="April" value="April">April</option>
+        <option data-tokens="May" value="May">May</option>
+        <option data-tokens="June" value="June">June</option>
+        <option data-tokens="July" value="July">July</option>
+        <option data-tokens="August" value="August">August</option>
+        <option data-tokens="September" value="September">September</option>
+        <option data-tokens="October" value="October">October</option>
+        <option data-tokens="November" value="November">November</option>
+        <option data-tokens="December" value="December">December</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label style="visibility:hidden;">Submit</label>
+      <button class="btn btn-default col-md-12" type="submit">
+         Submit
+      </button>
+    </div>
+  </div>
+    <!-- <div class="row">
+      <label>Sort</label>
+      <label class="radio-inline"><input type="radio" name="sort_type" value="DESC" data-sorttype="{{sort_type}}">
+        Descending
+      </label>
+      <label class="radio-inline"><input type="radio" name="sort_type" value="ASC" data-sorttype="{{sort_type}}">
+        Ascending
+      </label>
+    </div>
+    <div class="row">
+      <button class="btn btn-default col-md-6" type="submit">
+         Filter
+      </button>
+    </div> -->
+  </form>
+</div>
