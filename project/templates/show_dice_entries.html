@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="question-table">
+<h3> Number of times users talked about this beer type by month </h3>
+</br>
+  <table class="table table-striped">
+    <thead>
+      <th>Month</th>
+      <th>Count</th>
+    </thead>
+      <tbody>
+        {% for entry in entries %}
+        <tr>
+          <td>{{ entry[0] }}</td>
+          <td>{{ entry[1] }}</td>
+        </tr>
+        {% else %}
+        <div><em>Unbelievable. No entries here so far</em></div>
+        {% endfor %}
+      </tbody>
+  </table>
+
+</div>
+{% endblock %}

@@ -22,10 +22,10 @@
 	SELECT count(*),user.zip_code as zip_code,user.City FROM `activity`,user,question WHERE activity.user_id=user.id and activity.post_id=question.post_id and user.City='San Jose' GROUP BY user.zip_code;
 
 -- Slice
--- Number of questions posted in an year 2015 for each tag by city
-	SELECT count(*),calendar.year,tag.name,user.City as CITY from activity,tag,user,calendar WHERE activity.tag_id=tag.id AND activity.user_id=user.id AND activity.calendar_id=calendar.id and calendar.year=2015 GROUP BY user.City,tag.id ORDER BY count(*) DESC;
+-- Number of questions posted in an year for each user by location
+	SELECT tag.name,user.username ,calendar.year,count(*) from activity,tag,user,calendar WHERE activity.tag_id=tag.id AND activity.user_id=user.id AND activity.calendar_id=calendar.id and calendar.year=2015 GROUP BY user.username,tag.id ORDER BY count(*) DESC;
 
 -- Dice
--- Total number of correct answers for a particular tag android in each month of 2015
-	SELECT calendar.month,count(*) from activity,calendar,tag where activity.calendar_id=calendar.id and activity.tag_id=tag.id and tag.name='android' GROUP by calendar.month;
+-- Total number of correct answers for a particular tag in each month
+	SELECT calendar.month,count(*) from activity,calendar,tag where activity.calendar_id=calendar.id and activity.tag_id=tag.id and tag.name='ale' GROUP by calendar.month;
 
