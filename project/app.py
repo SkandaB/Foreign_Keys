@@ -223,21 +223,21 @@ def admin_calendar():
         cur = db.cursor()
 
         if(drill_type == 'year'):
-            cur.execute('''select user.username, post.body, calendar.fulldate
+            cur.execute('''select user.username, post.body, calendar.fulldate, question.id
                    from post, question, calendar, activity, user
-                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id and question.post_id=post.id
                    and calendar.year=%s group by post.id order by post.created_timestamp''',(year))
             questions = cur.fetchall()
         elif(drill_type == 'quarter'):
-            cur.execute('''select user.username, post.body, calendar.fulldate, activity.post_id
+            cur.execute('''select user.username, post.body, calendar.fulldate, question.id
                    from post, question, calendar, activity, user
-                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id and question.post_id=post.id
                    and calendar.year=%s and calendar.quarter=%s group by post.id order by post.created_timestamp''', (year, quarter))
             questions = cur.fetchall()
         elif(drill_type == 'month'):
-            cur.execute('''select user.username, post.body, calendar.fulldate
+            cur.execute('''select user.username, post.body, calendar.fulldate, question.id
                    from post, question, calendar, activity, user
-                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id
+                   where activity.calendar_id=calendar.id and activity.post_id=post.id and post.user_id = user.id and question.post_id=post.id
                    and calendar.year=%s and calendar.month=%s group by post.id order by post.created_timestamp'''
                    ,(year, month))
             questions = cur.fetchall()
