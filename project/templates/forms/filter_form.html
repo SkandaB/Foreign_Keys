@@ -27,4 +27,14 @@
   </form>
   {% include "forms/slice_form.html" %}
   {% include "forms/dice_form.html" %}
+   <form role="form" class="dice-form  col-md-12" method="GET" action="{{ url_for('admin_calendar') }}">
+      <div class="row row-label">
+        <label>Drill</label>
+      </div>
+    <div class="row">
+      <button class="btn btn-default col-md-6" type="submit">
+       Drill
+     </button>
+   </div>
+  </form>
 </div>
